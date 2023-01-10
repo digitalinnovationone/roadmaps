@@ -19,9 +19,7 @@ function createStep(content, justify) {
                 <span class="title">${content.name}</span>
             </div>
             <p>${content.description || ''}</p>
-            <div class="bottom">
-                <a href="${content.link || '#'}" target="_blank">Saiba Mais</a>
-            </div>
+            ${createLinkIfNecessary(content.link)}
             </section>
         </div>
     `;
@@ -38,4 +36,8 @@ function createStep(content, justify) {
             createStep(nextContent, justify == 'start' ? 'end' : 'start');
         });
     }
+}
+
+function createLinkIfNecessary(link) {
+    return link ? `<div class="bottom"><a href="${link}" target="_blank">Saiba Mais</a></div>` : '';
 }
