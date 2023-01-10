@@ -25,7 +25,7 @@ function createStep(content, justify) {
     template.innerHTML = htmlTemplate.trim();
     const step = template.content.firstChild;
 
-    document.getElementsByClassName("wrapper").appendChild(step);
+    document.querySelector(".wrapper").appendChild(step);
 
     if(content.nextSteps) {
         content.nextSteps.forEach(nextContent => {
