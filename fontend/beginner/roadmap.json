@@ -1,6 +1,6 @@
 {
     "name": "Roadmap Web Developer Beginner",
-    "description": "Roadmap DIO com os conteúdos educacionais essenciais para um Desenvolvedor Web. Contribua com a Comunidade Tech mais vibrante do mundo através do nosso repositório público: <a href='https://github.com/digitalinnovationone/roadmaps' target='_blank'>github.com/digitalinnovationone/roadmaps</a>.",
+    "description": "Roadmap DIO com os conteúdos educacionais essenciais para um Desenvolvedor Web. Contribua com a Comunidade Tech mais vibrante do mundo criando novos Roadmaps. Para isso, basta nos enviar um Pull Request (PR) nesse GitHub: <a href='https://github.com/digitalinnovationone/roadmaps' target='_blank'>digitalinnovationone/roadmaps</a> 😉",
     "type": "ROADMAP",
     "iconClasses": "fa-solid fa-house",
     "optional": false,
