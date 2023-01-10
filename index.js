@@ -1,10 +1,13 @@
 (async function render() {
-    await fetch("fontend/beginners/roadmap.json").then(resp => {
+    try {
+        const resp = await fetch("fontend/beginners/roadmap.json");
+        if (resp.ok) {
             const roadmap = await resp.json();
             createStep(roadmap, 'start');
-        }).catch(error => {
-            console.log(`Erro ao carregar o arquivo JSON de Roadmap: ${error}`);
-        });
+        }
+    } catch (erro) {
+        console.log(`Erro ao carregar o arquivo JSON de Roadmap: ${error}`);
+    }
 })();
 
 function createStep(content, justify) {
@@ -22,7 +25,7 @@ function createStep(content, justify) {
             </section>
         </div>
     `;
-    
+
     // https://stackoverflow.com/a/35385518
     var template = document.createElement('template');
     template.innerHTML = htmlTemplate.trim();
@@ -30,7 +33,7 @@ function createStep(content, justify) {
 
     document.querySelector(".wrapper").appendChild(step);
 
-    if(content.nextSteps) {
+    if (content.nextSteps) {
         content.nextSteps.forEach(nextContent => {
             createStep(nextContent, justify == 'start' ? 'end' : 'start');
         });
