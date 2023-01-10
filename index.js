@@ -1,6 +1,6 @@
 (async function render() {
     try {
-        const resp = await fetch("fontend/beginners/roadmap.json");
+        const resp = await fetch("fontend/beginner/roadmap.json");
         if (resp.ok) {
             const roadmap = await resp.json();
             createStep(roadmap, 'start');
