@@ -24,6 +24,7 @@
             "nextSteps": [
               {
                 "name": "JavaScript Developer",
+                "description": "Chegou a hora de dar dinamismo às suas páginas Web, bora dominar uma das linguagens de programação mais flexíveis e adoradas do mundo, o JavaScript (JS)!? Nesta Formação da DIO você terá uma dinâmica de ensino baseada em Pair Programming, onde dois desenvolvedores (um expert e um iniciante) te apresentarão tudo sobre JS.",
                 "type": "FORMACAO",
                 "link": "https://web.dio.me/track/formacao-javascript-developer",
                 "iconClasses": "fa-brands fa-square-js",
