@@ -1,10 +1,8 @@
 (async function render() {
-    fetch("fontend/beginners/roadmap.json")
-        .then(resp => {
+    await fetch("fontend/beginners/roadmap.json").then(resp => {
             const roadmap = await resp.json();
             createStep(roadmap, 'start');
-        })
-        .catch(error => {
+        }).catch(error => {
             console.log(`Erro ao carregar o arquivo JSON de Roadmap: ${error}`);
         });
 })();
