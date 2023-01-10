@@ -14,13 +14,13 @@ function createStep(content, justify) {
     const htmlTemplate = `
         <div class="row row-${justify == 'start' ? 1 : 2}">
             <section>
-            <i class="${content.iconClasses}"></i>
+            <i class="icon ${content.iconClasses}"></i>
             <div class="details">
                 <span class="title">${content.name}</span>
             </div>
-            <p>${content.description}</p>
+            <p>${content.description || ''}</p>
             <div class="bottom">
-                <a href="${content.link}">Saiba Mais</a>
+                <a href="${content.link || '#'}" target="_blank">Saiba Mais</a>
             </div>
             </section>
         </div>

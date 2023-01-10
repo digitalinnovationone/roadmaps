@@ -39,6 +39,7 @@ body {
 
 .wrapper .row {
   display: flex;
+  margin: 10px;
 }
 
 .wrapper .row-1 {
