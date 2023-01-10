@@ -1,0 +1,55 @@
+{
+    "name": "Roadmap Web Developer Fundamentals",
+    "description": "Roadmap DIO com os conteúdos educacionais essenciais para um Desenvolvedor Web.",
+    "type": "ROADMAP",
+    "iconClasses": "fa-solid fa-house",
+    "optional": false,
+    "nextSteps": [
+      {
+        "name": "HTML Web Developer",
+        "description": "Formação DIO com tudo o que você precisa saber sobre HTML para estruturar suas páginas Web. Para isso, você irá explorar as principais Tags e entender a importância semântica dos elementos HTML.",
+        "type": "FORMACAO",
+        "link": "https://web.dio.me/track/formacao-html-web-developer",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false,
+        "nextSteps": [
+          {
+            "name": "CSS Web Developer",
+            "description": "Agora que você já conhece o HTML, é hora de deixá-lo bonitão através do CSS! Para isso, nós da DIO preparamos uma Formação completa para que você possa criar páginas Web com visuais incríveis.",
+            "type": "FORMACAO",
+            "icon": "fa-home",
+            "link": "https://web.dio.me/track/formacao-css-web-developer",
+            "iconClasses": "fa-brands fa-css3-alt",
+            "optional": false,
+            "nextSteps": [
+              {
+                "name": "JavaScript Developer",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-javascript-developer",
+                "iconClasses": "fa-brands fa-square-js",
+                "optional": false,
+                "nextSteps": [
+                  {
+                    "name": "Construindo uma Landing Page no Mundo Invertido com HTML e CSS",
+                    "type": "LIVE",
+                    "link": "https://web.dio.me/lives/semana-front-end-dia-01-html-e-css",
+                    "iconClasses": "fa-brands fa-youtube",
+                    "optional": true,
+                    "nextSteps": []
+                  },
+                  {
+                    "name": "Integrando com o Firebase Para Inscrição no Clube de D&D com JavaScript",
+                    "type": "LIVE",
+                    "link": "https://web.dio.me/lives/semana-front-end-dia-02-javascript",
+                    "iconClasses": "fa-brands fa-youtube",
+                    "optional": true,
+                    "nextSteps": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  } 
