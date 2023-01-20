@@ -1,10 +1,10 @@
 (async function render() {
-    await loadRoadmapJson("carrers/frontend.json");
+    await loadRoadmapJson();
 })();
 
-async function loadRoadmapJson(jsonPath) {
+async function loadRoadmapJson() {
     try {
-        const resp = await fetch(jsonPath);
+        const resp = await fetch("index.json");
         if (resp.ok) {
             const roadmap = await resp.json();
             createStep(roadmap, 'start');
