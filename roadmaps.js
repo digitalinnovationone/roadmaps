@@ -1,6 +1,10 @@
 (async function render() {
+    await loadRoadmapJson("carrers/frontend.json");
+})();
+
+async function loadRoadmapJson(jsonPath) {
     try {
-        const resp = await fetch("fontend/beginner/roadmap.json");
+        const resp = await fetch(jsonPath);
         if (resp.ok) {
             const roadmap = await resp.json();
             createStep(roadmap, 'start');
@@ -8,7 +12,7 @@
     } catch (erro) {
         console.log(`Erro ao carregar o arquivo JSON de Roadmap: ${error}`);
     }
-})();
+}
 
 function createStep(content, justify) {
     const htmlTemplate = `
