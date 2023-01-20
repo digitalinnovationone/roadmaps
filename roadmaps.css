@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #3ea0e2;
+  background-image: linear-gradient(#180B1F, #02082A);
 }
 
 ::selection {
@@ -178,4 +178,5 @@ body {
 
 .roadmap {
   text-align: center;
+  color: #fff;
 }
