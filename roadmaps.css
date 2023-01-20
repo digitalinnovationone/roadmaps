@@ -12,12 +12,12 @@ html {
 }
 
 body {
-  background-image: linear-gradient(#180B1F, #02082A);
+  background-image: linear-gradient(#271321, #010932);
 }
 
 ::selection {
   color: #fff;
-  background: #02082A;
+  background: #9F3544;
 }
 
 .wrapper {
@@ -86,7 +86,7 @@ body {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #3ea0e2;
+  color: #E94D5F;
   font-size: 17px;
   box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
@@ -126,7 +126,7 @@ body {
 
 .row section .bottom a {
   text-decoration: none;
-  background: #02082A;
+  background: #E94D5F;
   color: #fff;
   padding: 7px 15px;
   border-radius: 5px;
