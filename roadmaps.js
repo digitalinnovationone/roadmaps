@@ -6,8 +6,8 @@ async function loadRoadmapJson() {
     try {
         const resp = await fetch("index.json");
         if (resp.ok) {
-            const roadmap = await resp.json();
-            createStep(roadmap, 'start');
+            const roadmaps = await resp.json();
+            roadmaps.forEach((roadmapStep, index) => createStep(roadmapStep, index % 2 == 0 ? 'start' : 'end'));
         }
     } catch (erro) {
         console.log(`Erro ao carregar o arquivo JSON de Roadmap: ${error}`);
@@ -35,9 +35,9 @@ function createStep(content, justify) {
 
     document.querySelector(".wrapper").appendChild(step);
 
-    if (content.nextSteps) {
-        content.nextSteps.forEach(nextContent => {
-            createStep(nextContent, justify == 'start' ? 'end' : 'start');
+    if (content.additionalContents) {
+        content.additionalContents.forEach(nextContent => {
+            createStep(nextContent, justify);
         });
     }
 }
