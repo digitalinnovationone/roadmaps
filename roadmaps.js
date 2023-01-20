@@ -33,7 +33,7 @@ function createStep(content, justify) {
     template.innerHTML = htmlTemplate.trim();
     const step = template.content.firstChild;
 
-    document.querySelector(".wrapper").appendChild(step);
+    document.querySelector(".roadmap-steps").appendChild(step);
 
     if (content.additionalContents) {
         content.additionalContents.forEach(nextContent => {
