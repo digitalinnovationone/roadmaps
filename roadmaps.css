@@ -17,7 +17,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #3ea0e2;
+  background: #02082A;
 }
 
 .wrapper {
@@ -126,7 +126,7 @@ body {
 
 .row section .bottom a {
   text-decoration: none;
-  background: #3ea0e2;
+  background: #02082A;
   color: #fff;
   padding: 7px 15px;
   border-radius: 5px;
