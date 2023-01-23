@@ -1,0 +1,21 @@
+@media only screen and (max-device-width: 800px) {
+
+  #question{
+    font-size: 14px;
+  }
+
+  .level-content{
+    margin-bottom: 20%;
+  }
+
+  .level-picture > img{
+    height: 150px;
+  }
+
+  .rate-point{
+    height: 80px;
+    width:  80px;
+    margin: 5px 5px;
+  }
+
+}
