@@ -28,14 +28,36 @@
         "name": "Construindo uma Landing Page no Mundo Invertido com HTML e CSS",
         "type": "LIVE",
         "link": "https://web.dio.me/lives/semana-front-end-dia-01-html-e-css",
-        "iconClasses": "fa-brands fa-youtube",
         "optional": true
       },
       {
         "name": "Integrando com o Firebase Para Inscrição no Clube de D&D com JavaScript",
         "type": "LIVE",
         "link": "https://web.dio.me/lives/semana-front-end-dia-02-javascript",
-        "iconClasses": "fa-brands fa-youtube",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "Escolha Um Framework!",
+    "description": "Agora que você já domina os 3 Pilares do Desenvolvimento Web (HTML, CSS e JS), começe a explorar os principais Frameworks de Front-end e descubra qual será o seu queridinho:",
+    "link": "https://web.dio.me/track/formacao-javascript-developer",
+    "optional": false,
+    "additionalContents": [
+      {
+        "name": "Formação React Developer",
+        "description": "Nesta Formação, você irá explorar o poder de trabalhar com páginas componentizadas, irá aprender como trabalhar com gerenciamento de estados e como criar roteamento, além de compor layouts ricos e bem estruturados com a principal biblioteca utilizada pelo time do Facebook.",
+        "type": "FORMACAO",
+        "link": "https://web.dio.me/track/formacao-react-developer",
+        "iconClasses": "fa-brands fa-react",
+        "optional": true
+      },
+      {
+        "name": "Formação Angular Developer",
+        "description": "Desenvolva-se em um dos frameworks mais requisitados no mercado quando o assunto é Single Page Application (SPA). Nesta formação, você irá criar projetos de grande escala com Angular, explorando o poder de se trabalhar com essa tecnologia incrível criada pelo Google.",
+        "type": "FORMACAO",
+        "link": "https://web.dio.me/track/formacao-angular-developer",
+        "iconClasses": "fa-brands fa-angular",
         "optional": true
       }
     ]
