@@ -63,6 +63,10 @@ const questionState = {
     {
       "question": "Você considera decisões gerenciais algo atrativo para trabalhar no dia-a-dia?",
       "order": 15
+    },
+    {
+      "question": "Você considera a carreira de desenvolvimento de games a mais motivadora para a área de TI?",
+      "order": 16
     }
   ]
 }
@@ -103,22 +107,11 @@ function isCompleted(){
     }
 }
 
-function checkCarrer(carrerID){
 
-  switch (carrerID) {
-    case value:
-      
-      break;
-  
-    default:
-      break;
-  }
-}
-
-function calculateResults(){
+async function calculateResults(){
   //send responses to api
   console.log(state.responses)
-  const result = requestAPI(state.responses)
+  const result = await requestAPI(state.responses)
 
   //recover result
   let pageResult = "/carrers/frontend" 
