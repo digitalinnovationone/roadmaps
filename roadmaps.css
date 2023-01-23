@@ -58,7 +58,7 @@ body {
   position: relative;
 }
 
-.wrapper .row section::before {
+.wrapper .row section:has(i)::before {
   position: absolute;
   content: "";
   height: 15px;

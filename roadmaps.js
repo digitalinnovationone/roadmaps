@@ -18,7 +18,7 @@ function createStep(content, justify) {
     const htmlTemplate = `
         <div class="row row-${justify == 'start' ? 1 : 2}">
             <section>
-            <i class="icon ${content.iconClasses}"></i>
+            ${createIconIfNecessary(content.iconClasses)}
             <div class="details">
                 <span class="title">${content.name}</span>
             </div>
@@ -40,6 +40,10 @@ function createStep(content, justify) {
             createStep(nextContent, justify);
         });
     }
+}
+
+function createIconIfNecessary(icons) {
+    return icons ? `<i class="icon ${icons}"></i>` : '';
 }
 
 function createLinkIfNecessary(link) {

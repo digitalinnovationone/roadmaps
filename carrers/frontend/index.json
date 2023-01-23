@@ -39,8 +39,8 @@
     ]
   },
   {
-    "name": "Escolha Um Framework!",
-    "description": "Agora que você já domina os 3 Pilares do Desenvolvimento Web (HTML, CSS e JS), começe a explorar os principais Frameworks de Front-end e descubra qual será o seu queridinho:",
+    "name": "Escolha Um Framework 🤔",
+    "description": "Agora que você já domina os 3 Pilares do Desenvolvimento Web (HTML, CSS e JavaScript), começe a explorar os principais Frameworks de Front-end e descubra qual será o seu queridinho:",
     "link": "https://web.dio.me/track/formacao-javascript-developer",
     "optional": false,
     "additionalContents": [
