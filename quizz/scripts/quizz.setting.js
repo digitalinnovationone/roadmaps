@@ -1,5 +1,7 @@
 const API_URL = "https://wpahzm6d6ufb764nzelq226dua0oiprt.lambda-url.us-west-2.on.aws"
 
+const CARRER_URL = "https://digitalinnovationone.github.io/roadmaps/"
+
 const questionState = {
   "questionsList":[
     {
@@ -119,10 +121,10 @@ function calculateResults(){
   const result = requestAPI(state.responses)
 
   //recover result
-  let pageResult 
+  let pageResult = "/carrers/frontend" 
 
   //change page
-  //window.location = "https://www.carrerjoias.com.br/"
+  window.location = `${CARRER_URL}${pageResult}`
 }
 
 function getCareerPath(careerId) {
