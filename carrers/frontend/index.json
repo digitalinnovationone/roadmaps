@@ -4,8 +4,7 @@
     "description": "Formação DIO com tudo o que você precisa saber sobre HTML para estruturar suas páginas Web. Para isso, você irá explorar as principais Tags e entender a importância semântica dos elementos HTML.",
     "type": "FORMACAO",
     "link": "https://web.dio.me/track/formacao-html-web-developer",
-    "iconClasses": "fa-brands fa-html5",
-    "optional": false
+    "iconClasses": "fa-brands fa-html5"
   },
   {
     "name": "CSS Web Developer",
@@ -13,8 +12,7 @@
     "type": "FORMACAO",
     "icon": "fa-home",
     "link": "https://web.dio.me/track/formacao-css-web-developer",
-    "iconClasses": "fa-brands fa-css3-alt",
-    "optional": false
+    "iconClasses": "fa-brands fa-css3-alt"
   },
   {
     "name": "JavaScript Developer",
@@ -22,7 +20,6 @@
     "type": "FORMACAO",
     "link": "https://web.dio.me/track/formacao-javascript-developer",
     "iconClasses": "fa-brands fa-square-js",
-    "optional": false,
     "additionalContents": [
       {
         "description": "Construindo uma Landing Page no Mundo Invertido com HTML e CSS: Uma live incrível mostrando na prática como criar uma página Web profissional usando apenas HTML e CSS.",
@@ -43,8 +40,7 @@
   {
     "name": "Escolha Um Framework 🤔",
     "description": "Agora que você já domina os 3 Pilares do Desenvolvimento Web (HTML, CSS e JavaScript), começe a explorar os principais Frameworks de Front-end e descubra qual será o seu queridinho:",
-    "link": "https://web.dio.me/track/formacao-javascript-developer",
-    "optional": false,
+    "optional": true,
     "additionalContents": [
       {
         "name": "Formação React Developer",
