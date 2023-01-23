@@ -19,8 +19,20 @@
     "description": "Chegou a hora de dar dinamismo às suas páginas Web, bora dominar uma das linguagens de programação mais flexíveis e adoradas do mundo, o JavaScript (JS)!? Nesta Formação da DIO você terá uma dinâmica de ensino baseada em Pair Programming, onde dois desenvolvedores (um expert e um iniciante) te apresentarão tudo sobre JS.",
     "type": "FORMACAO",
     "link": "https://web.dio.me/track/formacao-javascript-developer",
-    "iconClasses": "fa-brands fa-square-js",
+    "iconClasses": "fa-brands fa-square-js"
+  },
+  {
+    "name": "Lives Recomendadas",
+    "description": "Reforce o seu conhecimento em HTML, CSS e JavaScript com algumas lives incríveis que estão disponívels no YouTube da DIO (se increve lá 🤩).",
+    "optional": true,
     "additionalContents": [
+      {
+        "description": "<strong>Como Trabalhar com Box-Model Usando HTML e CSS Básicos</strong>: Crie na prática seu Cartão Dev, mostrando suas principais tecnologias em uma página HTML altamente compartilhável por meio do conceito de Box-Model!",
+        "type": "LIVE",
+        "link": "https://web.dio.me/lives/como-trabalhar-com-box-model-a-base-do-html5-getting-started-2",
+        "iconClasses": "fa-brands fa-youtube",
+        "optional": true
+      },
       {
         "description": "<strong>Construindo uma Landing Page no Mundo Invertido com HTML e CSS</strong>: Uma live incrível mostrando na prática como criar uma página Web profissional usando apenas HTML e CSS.",
         "type": "LIVE",
