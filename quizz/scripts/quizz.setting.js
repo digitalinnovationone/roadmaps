@@ -36,57 +36,151 @@ const questionState = {
     },
     {
       "question": "Desenvolver soluções de segurança para internet é algo que te motiva?",
-      "order": 8
-    },
-    {
-      "question": "Desenvolver soluções de armazenamento em nuvem é algo que seria interessante para você?",
       "order": 9
     },
     {
-      "question": "Trabalhar com a análise de grandes volumes de dados de forma inteligente é algo interessante para você?",
+      "question": "Desenvolver soluções de armazenamento em nuvem é algo que seria interessante para você?",
       "order": 10
     },
     {
-      "question": "Analisar a qualidade das coisas é uma boa característica sua?",
+      "question": "Trabalhar com a análise de grandes volumes de dados de forma inteligente é algo interessante para você?",
       "order": 11
     },
     {
-      "question": "Você trabalharia como desenvolvedor de soluções de internet para casas inteligentes, indústrias e carros autônomos?",
+      "question": "Analisar a qualidade das coisas é uma boa característica sua?",
       "order": 12
     },
     {
-      "question": "Você se considera um bom lider para agilizar os trabalhos em equipe?",
+      "question": "Você trabalharia como desenvolvedor de soluções de internet para casas inteligentes, indústrias e carros autônomos?",
       "order": 13
     },
     {
-      "question": "Você considera decisões gerenciais algo atrativo para trabalhar no dia-a-dia?",
+      "question": "Você se considera um bom lider para agilizar os trabalhos em equipe?",
       "order": 14
+    },
+    {
+      "question": "Você considera decisões gerenciais algo atrativo para trabalhar no dia-a-dia?",
+      "order": 15
     }
   ]
 }
 
-function drawQuestions(){
-  const quizz =  document.getElementById("quiz")
-  const questions = questionState.questionsList
-
-  for (let index = 0; index < questions.length; index++) {
-    quizz.innerHTML += 
-    getQuestionComponent(questions[index].question)
-  }
-
+const state = {
+  "questionIndex": 0,
+  "responses":"1"
 }
 
-function getQuestionComponent(question){
-  const htmlBase = `<h2 class="quiz-question">${question}</h2>
-  <ul data-quiz-question="1">
-    <li class="quiz-answer" data-quiz-answer="1">1</li>
-    <li class="quiz-answer" data-quiz-answer="2">2</li>
-    <li class="quiz-answer" data-quiz-answer="3">3</li>
-    <li class="quiz-answer" data-quiz-answer="4">4</li>
-    <li class="quiz-answer" data-quiz-answer="5">5</li>
-  </ul>`
 
-  return htmlBase
+function drawQuestion(){
+  const quizz =  document.getElementById("question")
+  const questions = questionState.questionsList
+
+  let questionPicker = questions[state.questionIndex].question
+  quizz.innerHTML = questionPicker
+}
+
+function drawCounter(){
+  const counterDisplay = document.getElementById("counter")
+
+  let actualIndex = state.questionIndex +1
+  let maxItem = questionState.questionsList.length
+
+  counterDisplay.innerHTML = `${actualIndex} / ${maxItem}`
+}
+
+
+function isCompleted(){
+  if (
+    state.questionIndex == 
+    (questionState.questionsList.length -1)
+    ){
+      return true
+    }
+  else{
+      return false
+    }
+}
+
+function checkCarrer(carrerID){
+
+  switch (carrerID) {
+    case value:
+      
+      break;
+  
+    default:
+      break;
+  }
+}
+
+function calculateResults(){
+  //send responses to api
+  console.log(state.responses)
+  const result = requestAPI(state.responses)
+
+  //recover result
+  let pageResult 
+
+  //change page
+  //window.location = "https://www.carrerjoias.com.br/"
+}
+
+function getCareerPath(careerId) {
+  switch (careerId) {
+    case 1:
+      return '/carrers/backend';
+    case 2:
+      return '/carrers/frontend';
+    case 3:
+      return '/carrers/mobile';
+    case 4:
+      return '/carrers/infra-devops-security';
+    case 5:
+      return '/carrers/cloud';
+    case 6:
+      return '/carrers/data-analytics';
+    case 7:
+      return '/carrers/games';
+    case 8:
+      return '/carrers/qa';
+    case 9:
+      return '/carrers/web3-ia';
+    case 10:
+      return '/carrers/lideranca-softskills';
+    case 11:
+      return '/carrers/crm';
+    default:
+      return 'Invalid careerId';
+  }
+}
+
+
+
+function bindButtons(){
+  let buttons = [...document
+    .getElementsByClassName("rating")
+  ]
+  
+  state.responses = ""
+
+  buttons.forEach(element => {
+    element.addEventListener('click', ()=>{
+
+      state.responses += element.innerHTML
+      state.questionIndex += 1
+
+      console.log(state.responses)
+
+      if(isCompleted()){
+        calculateResults()
+      }
+
+      drawQuestion()
+      drawCounter()
+    })
+  });
+
+  console.log("buttons started...")
 }
 
 async function requestAPI(answer){
@@ -111,15 +205,13 @@ async function requestAPI(answer){
   
 }
 
-
-function bindEvents(){
-  let btnResult = document.getElementById("btn-result")
-
-  btnResult.addEventListener('click', ()=>{
-    console.log("ola")
-    requestAPI("1234567891234577")
-  })
+function init(){
+  bindButtons()
+  drawQuestion()
+  drawCounter()
 }
 
-drawQuestions()
-bindEvents()
+
+
+
+init()
