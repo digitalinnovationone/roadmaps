@@ -110,7 +110,6 @@ function isCompleted(){
 
 async function calculateResults(){
   //send responses to api
-
   const result = await requestAPI(state.responses)
 
   console.log(state.responses)
@@ -163,7 +162,7 @@ function bindButtons(){
   state.responses = ""
 
   buttons.forEach(element => {
-    element.addEventListener('click', ()=>{
+    element.addEventListener('click', async ()=>{
 
       state.responses += element.innerHTML
       state.questionIndex += 1
@@ -171,7 +170,7 @@ function bindButtons(){
       console.log(state.responses)
 
       if(isCompleted()){
-        calculateResults()
+        await calculateResults()
       }else{
         drawQuestion()
         drawCounter()
@@ -202,6 +201,7 @@ async function requestAPI(answer){
     .then(result => responseJSON = result)
     .catch(error => console.log('error', error));
   
+  console.log(responseJSON)
   return responseJSON
 }
 
