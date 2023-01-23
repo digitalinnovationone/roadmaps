@@ -1,0 +1,7 @@
+@media only screen and (min-device-width: 896px) {
+  .label-box{
+    width: 600px;
+    height: 60%;
+    margin-right: 0px;
+  }
+}
