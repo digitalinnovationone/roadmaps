@@ -1,13 +1,13 @@
 [
   {
-    "name": "HTML Web Developer",
+    "name": "Formação HTML Web Developer",
     "description": "Formação DIO com tudo o que você precisa saber sobre HTML para estruturar suas páginas Web. Para isso, você irá explorar as principais Tags e entender a importância semântica dos elementos HTML.",
     "type": "FORMACAO",
     "link": "https://web.dio.me/track/formacao-html-web-developer",
     "iconClasses": "fa-brands fa-html5"
   },
   {
-    "name": "CSS Web Developer",
+    "name": "Formação CSS Web Developer",
     "description": "Agora que você já conhece o HTML, é hora de deixá-lo bonitão através do CSS! Para isso, nós da DIO preparamos uma Formação completa para que você possa criar páginas Web com visuais incríveis.",
     "type": "FORMACAO",
     "icon": "fa-home",
@@ -15,7 +15,7 @@
     "iconClasses": "fa-brands fa-css3-alt"
   },
   {
-    "name": "JavaScript Developer",
+    "name": "Formação JavaScript Developer",
     "description": "Chegou a hora de dar dinamismo às suas páginas Web, bora dominar uma das linguagens de programação mais flexíveis e adoradas do mundo, o JavaScript (JS)!? Nesta Formação da DIO você terá uma dinâmica de ensino baseada em Pair Programming, onde dois desenvolvedores (um expert e um iniciante) te apresentarão tudo sobre JS.",
     "type": "FORMACAO",
     "link": "https://web.dio.me/track/formacao-javascript-developer",
