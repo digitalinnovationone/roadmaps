@@ -19,10 +19,8 @@ function createStep(content, justify) {
         <div class="row row-${justify == 'start' ? 1 : 2}">
             <section>
             ${createIconIfNecessary(content.iconClasses)}
-            <div class="details">
-                <span class="title">${content.name}</span>
-            </div>
-            <p>${content.description || ''}</p>
+            ${createTitleIfNecessary(content.name)}
+            ${createDescriptionIfNecessary(content.description)}
             ${createLinkIfNecessary(content.link)}
             </section>
         </div>
@@ -44,6 +42,14 @@ function createStep(content, justify) {
 
 function createIconIfNecessary(icons) {
     return icons ? `<i class="icon ${icons}"></i>` : '';
+}
+
+function createTitleIfNecessary(title) {
+    return title ? `<div class="details"><span class="title">${title}</span></div>` : '';
+}
+
+function createDescriptionIfNecessary(description) {
+    return description ? `<p>${description}</p>` : '';
 }
 
 function createLinkIfNecessary(link) {
