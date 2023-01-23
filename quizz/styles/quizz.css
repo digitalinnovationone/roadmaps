@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap');
+
+
 body{
     background:#000000;    
     color: white;
     box-sizing:border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -73,7 +77,6 @@ body{
   justify-content: center;
   margin-top: 4px;
 }
-
 
 .level-header > h1{
   font-size: 40px;

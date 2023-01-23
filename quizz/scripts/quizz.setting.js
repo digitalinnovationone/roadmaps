@@ -76,6 +76,11 @@ const state = {
   "responses":""
 }
 
+const httpStatus = {
+  OK: 200,
+  BadRequest: 400
+}
+
 
 function drawQuestion(){
   const quizz =  document.getElementById("question")
@@ -108,50 +113,60 @@ function isCompleted(){
 }
 
 
-async function calculateResults(){
+async function redirectToCarrer(){
+
   //send responses to api
-  const result = await requestAPI(state.responses)
+  let carrerPath = ""
 
-  console.log(state.responses)
-  console.log(result)
-  console.log(result)
+  //let resultJSON = await requestAPI("4553212311221211")
+  let resultJSON = await requestAPI(state.responses)
+  console.log(resultJSON)
 
-  //recover result
-  let pageResult = "/carrers/frontend" 
+  if(resultJSON.status == httpStatus.OK){
 
-  //change page
-  //window.location.href = `${CARRER_URL}${pageResult}`
+    carrerPath = await getCareerPath(resultJSON.carrer.id)
+    window.location.href = `${CARRER_URL}${carrerPath}`
+
+  }
+  
+  if(resultJSON.status == httpStatus.BadRequest){
+
+    alert("nenhum modelo foi conclusivo pro seu perfil, escolha as respostas novamente de maneira mais objetiva")
+    
+    location.reload(true)
+  }
+
+
 }
 
-function getCareerPath(careerId) {
+async function getCareerPath(careerId) {
   switch (careerId) {
     case 1:
-      return '/carrers/backend';
+      return 'carrers/backend';
     case 2:
-      return '/carrers/frontend';
+      return 'carrers/frontend';
     case 3:
-      return '/carrers/mobile';
+      return 'carrers/mobile';
     case 4:
-      return '/carrers/infra-devops-security';
+      return 'carrers/infra-devops-security';
     case 5:
-      return '/carrers/cloud';
+      return 'carrers/cloud';
     case 6:
-      return '/carrers/data-analytics';
+      return 'carrers/data-analytics';
     case 7:
-      return '/carrers/games';
+      return 'carrers/games';
     case 8:
-      return '/carrers/qa';
+      return 'carrers/qa';
     case 9:
-      return '/carrers/web3-ia';
+      return 'carrers/web3-ia';
     case 10:
-      return '/carrers/lideranca-softskills';
+      return 'carrers/lideranca-softskills';
     case 11:
-      return '/carrers/crm';
+      return 'carrers/crm';
     default:
       return 'Invalid careerId';
   }
 }
-
 
 
 function bindButtons(){
@@ -170,7 +185,7 @@ function bindButtons(){
       console.log(state.responses)
 
       if(isCompleted()){
-        await calculateResults()
+        await redirectToCarrer()
       }else{
         drawQuestion()
         drawCounter()
@@ -182,7 +197,7 @@ function bindButtons(){
 }
 
 async function requestAPI(answer){
-  let responseJSON = {}
+
   let myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
   
@@ -195,15 +210,17 @@ async function requestAPI(answer){
     body: raw,
     redirect: 'follow'
   };
-  
-  fetch(API_URL, requestOptions)
-    .then(response =>  response.text())
-    .then(result => responseJSON = result)
-    .catch(error => console.log('error', error));
-  
-  console.log(responseJSON)
-  return responseJSON
+
+  try {
+    const response = await fetch(API_URL, requestOptions);
+    return response.json();
+  } catch (error) {
+    console.log(error)
+  }
+
 }
+
+
 
 function init(){
   bindButtons()
