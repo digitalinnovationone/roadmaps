@@ -2,10 +2,12 @@
 
   #question{
     font-size: 14px;
+    border: 1px solid white;
+    padding: 5px 10px;
   }
 
   .level-content{
-    margin-bottom: 35%;
+    margin-bottom: 40%;
   }
 
   .level-picture > img{
