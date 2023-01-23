@@ -73,7 +73,7 @@ const questionState = {
 
 const state = {
   "questionIndex": 0,
-  "responses":"1"
+  "responses":""
 }
 
 
@@ -97,7 +97,7 @@ function drawCounter(){
 
 function isCompleted(){
   if (
-    state.questionIndex == 
+    state.questionIndex > 
     (questionState.questionsList.length -1)
     ){
       return true
@@ -110,14 +110,18 @@ function isCompleted(){
 
 async function calculateResults(){
   //send responses to api
-  console.log(state.responses)
+
   const result = await requestAPI(state.responses)
+
+  console.log(state.responses)
+  console.log(result)
+  console.log(result)
 
   //recover result
   let pageResult = "/carrers/frontend" 
 
   //change page
-  window.location.href = `${CARRER_URL}${pageResult}`
+  //window.location.href = `${CARRER_URL}${pageResult}`
 }
 
 function getCareerPath(careerId) {
@@ -168,10 +172,10 @@ function bindButtons(){
 
       if(isCompleted()){
         calculateResults()
+      }else{
+        drawQuestion()
+        drawCounter()
       }
-
-      drawQuestion()
-      drawCounter()
     })
   });
 
@@ -179,7 +183,7 @@ function bindButtons(){
 }
 
 async function requestAPI(answer){
-
+  let responseJSON = {}
   let myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
   
@@ -194,10 +198,11 @@ async function requestAPI(answer){
   };
   
   fetch(API_URL, requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
+    .then(response =>  response.text())
+    .then(result => responseJSON = result)
     .catch(error => console.log('error', error));
   
+  return responseJSON
 }
 
 function init(){

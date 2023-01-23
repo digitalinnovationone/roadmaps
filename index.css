@@ -34,9 +34,8 @@ body {
 
 
 #tag{
-  
   background-color: #E44C5D;
-  padding: 15px 10px;
+  padding: 8px 30px;
   color: #fff;
   width: 100px;
   font-size: 55px;
@@ -80,7 +79,7 @@ body {
 .label-box{
   width: 600px;
   height: 60%;
-  margin-right: 120px;
+  margin-right: 30px;
 }
 
 .label__tag, 
