@@ -124,7 +124,7 @@ function calculateResults(){
   let pageResult = "/carrers/frontend" 
 
   //change page
-  window.location = `${CARRER_URL}${pageResult}`
+  window.location.href = `${CARRER_URL}${pageResult}`
 }
 
 function getCareerPath(careerId) {
