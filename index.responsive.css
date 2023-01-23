@@ -1,0 +1,23 @@
+@media only screen and (max-device-width: 800px) {
+  .label-box{
+    width: 350px;
+    height: 60%;
+    margin-right: 0px;
+  }
+
+  .label__text{
+    font-size: 14px;
+    width: 90%;
+    font-family: 'open sans';
+  }
+
+  #tag{
+    padding: 8px 30px;
+    font-size: 12px;
+  }
+
+  .label__nagivation{
+    margin-top: 30%;
+  }
+
+}
