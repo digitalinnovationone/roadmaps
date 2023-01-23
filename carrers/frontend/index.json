@@ -22,14 +22,14 @@
     "iconClasses": "fa-brands fa-square-js",
     "additionalContents": [
       {
-        "description": "Construindo uma Landing Page no Mundo Invertido com HTML e CSS: Uma live incrível mostrando na prática como criar uma página Web profissional usando apenas HTML e CSS.",
+        "description": "<strong>Construindo uma Landing Page no Mundo Invertido com HTML e CSS</strong>: Uma live incrível mostrando na prática como criar uma página Web profissional usando apenas HTML e CSS.",
         "type": "LIVE",
         "link": "https://web.dio.me/lives/semana-front-end-dia-01-html-e-css",
         "iconClasses": "fa-brands fa-youtube",
         "optional": true
       },
       {
-        "description": "Integrando com o Firebase Para Inscrição no Clube de D&D com JavaScript: Continuação da live anterior, que tem como foco o JavaScript e todo o dinamismo que ele pode dar a uma solução Web.",
+        "description": "<strong>Integrando com o Firebase Para Inscrição no Clube de D&D com JavaScript</strong>: Continuação da live anterior, que tem como foco o JavaScript e todo o dinamismo que ele pode dar a uma solução Web.",
         "type": "LIVE",
         "link": "https://web.dio.me/lives/semana-front-end-dia-02-javascript",
         "iconClasses": "fa-brands fa-youtube",
