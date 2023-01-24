@@ -9,18 +9,18 @@
         "description": "Sabendo das vantagens de utilizar a computação na nuvem (Cloud), podemos começar a dar os primeiros passos na área utilizando o GCP (Google Cloud Platform) plataforma da google para a computação na nuvem, crie e gerencie máquinas virtuais com o Compute Engine, domine a gestão de acessos com o Identity and Access Management (IAM), crie uma Infraestrutura totalmente Native Cloud, faça Deploys de aplicação utilizando container no Cloud Run e entenda boas práticas na hora de organizar e gerir projetos clouds a nível corporativo.",
         "type": "FORMACAO",
         "link": "https://web.dio.me/track/formacao-gcp-specialist",
-        "iconClasses": "fa-brands fa-google",
+        "iconClasses": "fa-brands fa-google"
     },
     {
         "name": "Microsoft Azure (Em Breve)",
         "description": "Outra plataforma que podemos utilizar e que consta em todas as listas de topo de mercado é o Microsoft Azure, plataforma da Microsoft, que também fornece acesso, gerenciamento e desenvolvimento de aplicativos ou serviços através de data centers distribuidos em todo mundo e também totalmente online na nuvem.",
         "type": "FORMACAO",
-        "iconClasses": "fa-brands fa-microsoft",
+        "iconClasses": "fa-brands fa-microsoft"
     },
     {
         "name": "Amazon Web Services (Em Breve)",
         "description": "Mais uma opção de plataforma de nuvem, dessa vez distrubida pela Amazon, a AWS é considerada a maior do plataforma de nuvem do mundo, onde também é possivel gerenciar e desenvolver aplicativos na nuvem, também tecnologias como armazenamento de banco de dados e até tecnologias emergentes como Machine Learning, Inteligencia Artificiais e Internet das Coisas (IoT). Essa plataforma também oferece inumeros de banco de dados criados para as mais diversas aplicações.",
         "type": "FORMACAO",
-        "iconClasses": "fa-brands fa-amazon",
+        "iconClasses": "fa-brands fa-amazon"
     }
 ]
