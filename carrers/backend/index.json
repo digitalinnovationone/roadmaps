@@ -69,11 +69,13 @@
     "additionalContents":[
         {
             "name": "Github documentation",
+            "description":"Documentação oficial",
             "type": "REFERENCIA",
             "link": "https://docs.github.com/en"
         },
         {
             "name": "Gitlab documentation",
+            "description":"Documentação oficial",
             "type": "REFERENCIA",
             "link": "https://docs.gitlab.com/"
         }
@@ -82,7 +84,7 @@
 },
 {
     "name": "Banco de Dados é fundamental!",
-    "description": "Embarque conosco no futuro da tecnologia e entenda por que a Blockchain é tão disruptiva. A base da Web 3.0 está concentrado neste novo paradigma que é a Blockchain.",
+    "description": "A grande maioria dos dados estão armazenados em SGBDs (SQL ou NoSQL). Saber trabalhar com banco de dados e realizar integrações com a linguagem de programação (de preferência) é fundamental.",
     "additionalContents": [
         {
             "name": "Formação SQL Database Specialist",
@@ -102,11 +104,13 @@
 },
 {
     "name":"APIs Programming Language",
-    "description":"Tópicos importantes como: HATEOAS, REST, JSON APIs, gROC e GraphQL"
+    "description":"APIs regem a comunicação entre diversos sistemas e aplicações por toda a internet. Sendo assim é um conhecimento extremamente valioso. Alguns tópicos de referência que podemos citar, são: HATEOAS, REST, JSON APIs, gROC e GraphQL. Para sair do zero neste tema podes começar com o curso DIO Introdução a APIs e métodos HTTP (link).",
+    "link":"https://web.dio.me/course/introducao-a-apis-e-metodos-http/learning/c88d3acb-fc58-416d-a4d0-deeb856cdaf1"
 },
 {
     "name":"Testing Programming Language",
-    "description":"Testes de integração, testes unitários, testes funcionais"
+    "description":"Conhecimento na execução de testes com sua aplicação são um diferencial. São diversos, tais como: Testes de integração, testes unitários, testes funcionais. Um bom começo está no curso Introdução a Testes de Software na plataforma DIO (link)!",
+    "link":"https://web.dio.me/course/introducao-a-testes-de-software/learning/0c6e3021-7351-4a64-8f69-3e8cebc221fa"
 },
 {
     "name": "Formação CI/CD Gitlab",
@@ -122,15 +126,16 @@
     "additionalContents":[
         {
             "name":"Formação Data flow (em breve)",
-            "description":"Sistemas bacth e stream"
+            "description":"Em breve mais uma formação DIO para você mergulhar nos sistemas bacth e stream."
         },
         {
             "name":"Elasticsearch",
-            "description":"Search engines",
+            "description":"Search engines - documentação oficial",
             "link":"https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html"
         },
         {
             "name":"Sistemas de Mensageria - RabbitMQ",
+            "description":"Documentação oficial",
             "link":"https://www.rabbitmq.com/documentation.html"
         },
         {
@@ -145,6 +150,7 @@
         },
         {
             "name":"Sistemas orientados a eventos - Kafka",
+            "description":"Documentação oficial",
             "link":"https://kafka.apache.org/documentation/"    
         },
         {
@@ -169,26 +175,22 @@
     [
         {
             "name": "Virtualização com Virtualbox",
+            "description":"Documentação oficial",
             "type": "REFERENCIA",
             "link":"https://www.virtualbox.org/wiki/Documentation",
-            "iconClasses": "fa-brands fa-html5",
-            "optional": true
+            "iconClasses": "fa-brands fa-html5"
         },
         {
             "name": "Containers com Docker",
+            "description":"Documentação oficial",
             "type": "REFERENCIA",
-            "link":"https://docs.docker.com/",
-            "iconClasses": "fa-brands fa-html5",
-            "optional": true
+            "link":"https://docs.docker.com/"
         },
         {
             "name": "Formação Docker Fundamentals",
             "type": "FORMAÇÃO",
             "description":" Você aprenderá Docker começando por entender o que é um contêiner e como é o seu funcionamento. Irá realizar atividades práticas em laboratórios virtuais para entender como os contêineres são criados e implementados em uma infraestrutura real.",
-            "link":"https://web.dio.me/track/formacao-docker-fundamentals",
-            "iconClasses": "fa-brands fa-html5",
-            "optional": true
-            
+            "link":"https://web.dio.me/track/formacao-docker-fundamentals"            
         }
     ]
 },
@@ -203,7 +205,7 @@
 },
 {
     "name":"Padrões de arquitetura",
-    "description":"Sistemas Monilitícos, microsserviços",
+    "description":"Sistemas Monilitícos, microsserviços e outros sistemas modernos fazem parte do path de todo programador backend.",
     "additionalContents":[
         {
             "name":"Fundamentos de Sistemas Operacionais",
@@ -212,12 +214,12 @@
         },
         {
             "name":"Criando Microsserviços",
-            "description":"Sistemas Monilitícos, microsserviços",
+            "description":"Livro sobre a criação de microsserviços",
             "link":"https://www.amazon.com.br/Criando-Microsservi%C3%A7os-Projetando-Componentes-Especializados/dp/6586057884/ref=pd_lpo_1?pd_rd_w=BG9rP&content-id=amzn1.sym.036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_p=036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_r=1YV2SCB7460B1F50B42F&pd_rd_wg=2pCrv&pd_rd_r=f548d683-fb43-4c8e-b845-6e82ac8ad50e&pd_rd_i=6586057884&psc=1"
         },
         {
             "name":"Migração de Sistemas Monolíticos para Microsserviços",
-            "description":"Sistemas Monilitícos, microsserviços",
+            "description":" No mundo real muitas vezes precisamos migrar sistemas Monilitícos para microsserviços. Na maioria das vezes não é uma tarefa trivial.",
             "link":"https://www.amazon.com.br/Migrando-Sistemas-Monol%C3%ADticos-Para-Microsservi%C3%A7os/dp/6586057043"
         },
         {
@@ -235,11 +237,13 @@
 {
     "name":"Programe melhor",
     "description":"Um dos maiores desafios para as empresas que adotaram a arquitetura de microsserviços é a falta de padronização de arquitetura. Depois de dividir uma aplicação monolítica ou construir um ecossistema de microsserviços a partir do zero, muitos engenheiros se perguntam o que vem a seguir. ",
-    "link":"https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
-},
-{
-    "name":"Arquitetura Limpa",
-    "description":"As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software",
-    "link":"https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+    "link":"https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "additionalContents":[
+        {
+            "name":"Arquitetura Limpa",
+            "description":"As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software",
+            "link":"https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+        }
+    ]
 }
 ]
