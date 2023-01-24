@@ -1,7 +1,7 @@
 [
   {
     "name": "Excel",
-      "description": "Excel é a porta de entrada para maioria dos analistas de BI. Sendo assim, um conhecimento básico é o mínimo requerido para um analista de bi. Explore as referências da documentação oficial da Microsoft para se aprofundar no assunto.•",
+      "description": "Excel é a porta de entrada para maioria dos analistas de BI. Sendo assim, um conhecimento básico é o mínimo requerido para um analista de BI. Explore as referências da documentação oficial da Microsoft para se aprofundar no assunto.",
       "type": "DOCUMENTACAO",
       "link": "https://support.microsoft.com/en-us/excel",
       "iconClasses": "fa-brands fa-html5",
@@ -52,7 +52,7 @@
     "additionalContents": [
       {
         "name": "Série Hands ON - Power BI ",
-        "description": "Venha criar um dashboard interativo no Power BI explorando e detectando os fatores de impacto nas vendas  de Skateboards de uma empresa fictícia. Vamos explorar os dados através de diferentes perspectivas e fatores. Além disso, iremos criar uma estilização objetiva e elegante para impressionar seus clientes. ",
+        "description": "Venha criar um dashboard interativo no Power BI explorando e detectando os fatores de impacto nas vendas de Skateboards de uma empresa fictícia. Vamos explorar os dados através de diferentes perspectivas e fatores. Além disso, iremos criar uma estilização objetiva e elegante para impressionar seus clientes. ",
         "type": "SERIE",
         "link": "https://web.dio.me/lives/criando-um-dashboard-de-vendas-com-power-bi",
         "iconClasses": "fa-brands fa-html5",
@@ -165,7 +165,7 @@
   },
   {
     "name": "Formação Machine Learning Specialist",
-    "description": "Análises mais complexas e aprofundadas (preditivas e prescitvas) frequentemente estão sendo criadas com IA e machine learning. Além disso, temas como: NPL, Visão computacional, Sistemas de recomendação, Machine Learning são frequentemente associados ao aspecto avançado dentro de Data Scientist. Tenha esse diferencial em seu currículo.",
+    "description": "Análises mais complexas e aprofundadas (preditivas e prescritivas) frequentemente estão sendo criadas com IA e machine learning. Além disso, temas como: NPL, Visão computacional, Sistemas de recomendação, Machine Learning são frequentemente associados ao aspecto avançado dentro de Data Scientist. Tenha esse diferencial em seu currículo.",
     "type": "FORMACAO",
     "link": "https://web.dio.me/track/formacao-machine-learning-specialist",
     "iconClasses": "fa-brands fa-html5",
@@ -189,9 +189,9 @@
     "additionalContents":[
       {
         "name": "Fundamentos de Big data",
-        "description": "O que é Big data? Um dos tópicos cada fez mais frequentes e falados na atualidade em ti. O livro Big data para leigos pode ser um bom começo para quem não tem conhecimento prévio do assunto.",
+        "description": "O que é Big data? Um dos tópicos cada fez mais frequentes e falados na atualidade em TI. O livro Big Data para leigos pode ser um bom começo para quem não tem conhecimento prévio do assunto.",
         "type": "FORMACAO",
-        "link": "https://www.amazon.com.br/Big-Data-Now-Current-Perspectives-ebook/dp/B00BELZE46"
+        "link": "https://www.amazon.com.br/data-para-leigos-Alan-Nugent/dp/8576089556"
       },
       {
         "name": "Big Data Now - Livro Gratuito Orrely",
