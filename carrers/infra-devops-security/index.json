@@ -12,24 +12,16 @@
         "description": "Aprenda a trabalhar com o principal sistema operacional utilizado em servidores de aplicações, da Instalação ao passo a passo de como gerenciar usuários para ter mais segurança, manipular arquivos de maneira segura e os principais comandos Linux que são essenciais para a sua jornada como desenvolvedor.",
         "type": "BOOK",
         "link": "https://web.dio.me/track/formacao-linux-fundamentals",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
-    },
-    {
-        "name": "Administração de sistemas Linux",
-        "description": "Um ótimo livro de referência para esse tema: Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
-        "type": "BOOK",
-        "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
-    },
-    {
-        "name": "Treinamento/Certificação CCNA",
-        "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
-        "type": "BOOK",
-        "link": "https://www.cisco.com/c/pt_br/training-events/training.html",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
+        "additionalContents":[
+            {
+                "name": "Administração de sistemas Linux",
+                "description": "Um ótimo livro de referência para esse tema: Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
+                "type": "BOOK",
+                "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            }
+        ]
     },
     {
         "name": "Gerenciamento de Servidores",
@@ -88,6 +80,14 @@
                 "optional": true
             }
         ]
+    },
+    {
+        "name": "Treinamento/Certificação CCNA",
+        "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
+        "type": "BOOK",
+        "link": "https://www.cisco.com/c/pt_br/training-events/training.html",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
     },
     {
         "name": "Virtualização e Containers",
@@ -164,17 +164,16 @@
         "description": "Manter organização e controle de versões das aplicações facilita o rastreamento de problemas e verificação de atualizações. Utilize a documentação oficial do Git ou ainda o livro gratuito Git PRO.",
         "type": "REFERENCIA",
         "link":"https://git-scm.com/book/en/v2",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
-
-    },
-    {
-        "name": "Formação CI/CD Gitlab",
-        "description": "No Continuos Integration (CI) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código.",
-        "type": "FORMAÇÃO",
-        "link": "https://web.dio.me/track/formacao-gitlab-cicd",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
+        "additionalContents":[
+            {
+                "name": "Formação CI/CD Gitlab",
+                "description": "No Continuos Integration (CI) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código.",
+                "type": "FORMAÇÃO",
+                "link": "https://web.dio.me/track/formacao-gitlab-cicd",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            }
+        ]
     },
     {
         "name": "Cloud Specialist",
@@ -201,7 +200,7 @@
         ]
     },
     {
-        "name": "Monitoramento e observaldiade",
+        "name": "Monitoramento e observalidade",
         "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
         "type": "PATH",
         "iconClasses": "fa-brands fa-html5",
@@ -209,7 +208,7 @@
         "additionalContents": [
             {
                 "name": "Zabbix - Monitor IT Infrastructure",
-                "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a partir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
+                "description": "Documentação oficial",
                 "type": "PATH",
                 "link":"https://www.zabbix.com/manuals",
                 "iconClasses": "fa-brands fa-html5",
@@ -219,9 +218,7 @@
                 "name": "Sematext - End-to-end Obsersability",
                 "description": "Documentação oficial",
                 "type": "PATH",
-                "link":"https://sematext.com/docs/",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": false
+                "link":"https://sematext.com/docs/"
             }
         ]
     },
@@ -230,48 +227,38 @@
         "description": "Criptografia e Segurança de Redes: Princípios e Práticas é um livro muito interessante para aqueles que querem ingressar no mundo da cibersegurança.",
         "type": "BOOK",
         "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
-    },
-    {
-        "name": "Formação Cybersecurity Specialist",
-        "description": "Aprenda na prática a utilizar ferramentas e técnicas voltadas para a área de Cibersegurança, abrindo grandes possibilidades de carreira nesse mercado que vem crescendo exponencialmente.",
-        "type": "FORMAÇÃO",
-        "link": "https://web.dio.me/track/formacao-cybersecurity",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
+        "additionalContents":[
+            {
+                "name": "Formação Cybersecurity Specialist",
+                "description": "Aprenda na prática a utilizar ferramentas e técnicas voltadas para a área de Cibersegurança, abrindo grandes possibilidades de carreira nesse mercado que vem crescendo exponencialmente.",
+                "type": "FORMAÇÃO",
+                "link": "https://web.dio.me/track/formacao-cybersecurity"
+            }
+        ]
     },
     {
         "name": "Aprofunde seus conhecimentos em Segurança",
         "description": "IPS/IDS, VPN, Firewall e ferramentas e monitoramento de pacotes são pontos fundamentais de segurança.  Aqui estamos listando alguns dos principais pontos para você continuar sua jornada. Além disso, você poderá explorar outros assuntos como: Proxy, DMZ, pfBloquer, Segurança em redes sem fio... Seja protagonista da sua história!",
         "type": "BOOK",
         "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false,
         "additionalContents":[
             {
                 "name": "PFsense - Muito além de um SO",
                 "description": "Sendo Firewall, router, VPN, dentre tantos outros recursos. Este é um dos principais SOs utilizados na área de segurança.",
                 "type": "REFERENCIA",
-                "link": "https://docs.netgate.com/pfsense/en/latest/",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": false
+                "link": "https://docs.netgate.com/pfsense/en/latest/"
             },
             {
                 "name": "Snort - IDS Intrusion Detection System",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": false
+                "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/"                
             },
             {
                 "name": "OpenVPN - Virtual Private Network",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": false
+                "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/"
             }           
             
         ]
