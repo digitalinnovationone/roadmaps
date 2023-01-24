@@ -27,7 +27,8 @@
         "additionalContents":[
             {
                 "name": "Google Analytics",
-                "description": ""
+                "description": "Oferecido pelo google para rastrear as informações do website da sua empresa. Insights e informações relevantes podem ser coletadas a partir desse sistema. Ainda é possível integra-lo com outras ferramentas, como o Power BI.",
+                "link":"https://developers.google.com/analytics"
             },          
             {
                 "name": "Formação Power BI Analyst",
