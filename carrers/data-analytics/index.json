@@ -213,15 +213,15 @@
     "description": "O deploy de um modelo de ML é mais desafiador do que parece. Livro que aborda processos interativos para produção de aplicações.",
     "type": "BOOK",
     "link": "https://www.amazon.com.br/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969/ref=asc_df_1098107969/?tag=googleshopp00-20&linkCode=df0&hvadid=379726160779&hvpos=&hvnetw=g&hvrand=16010001501719124189&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-1688018801992&psc=1",
-    "iconClasses": "fa-brands fa-html5",
-    "optional": false
-  },
-  {
-    "name": "Design Patterns Machine Learning",
-    "description": "Soluções para desfafios comuns dentro da preparação de dados, construção de modelos e Mlops.",
-    "type": "BOOK",
-    "link": "https://www.amazon.com.br/Machine-Learning-Design-Patterns-Preparation/dp/1098115783/ref=asc_df_1098115783/?tag=googleshopp00-20&linkCode=df0&hvadid=379726160779&hvpos=&hvnetw=g&hvrand=16010001501719124189&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-943743647161&psc=1",
-    "iconClasses": "fa-brands fa-html5",
-    "optional": false
+    "additionalContents":[
+      {
+        "name": "Design Patterns Machine Learning",
+        "description": "Soluções para desfafios comuns dentro da preparação de dados, construção de modelos e Mlops.",
+        "type": "BOOK",
+        "link": "https://www.amazon.com.br/Machine-Learning-Design-Patterns-Preparation/dp/1098115783/ref=asc_df_1098115783/?tag=googleshopp00-20&linkCode=df0&hvadid=379726160779&hvpos=&hvnetw=g&hvrand=16010001501719124189&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-943743647161&psc=1",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+      }
+    ]
   }
 ]
