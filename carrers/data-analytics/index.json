@@ -195,7 +195,7 @@
       },
       {
         "name": "Big Data Now - Livro Gratuito Orrely",
-        "description": "Processamento de grande volumes de dados são cada vez mais frequentes em diversos cenários do mercado. Sendo assim, um DS precisa estar familiarizado com esse conceito. Ainda é preciso ser capaz de consumir e gerenciar dados dentro deste ambiente moderno. O sistema mais utilizado e frequentemente associado ao paradigma do Big Data é sem dúvida o Apache Spark ",
+        "description": "Uma maneira de compreender a abrangência do tema Big Data e ainda aprimorar os conhecimentos está na leitura deste livro. Nele a o'reilly fornece diversas visões e espectros de todas as publicações (ano anterior ao lançamento do livro) sobre a temática Big Data.",
         "type": "FORMACAO",
         "link": "https://www.amazon.com.br/Big-Data-Now-Current-Perspectives-ebook/dp/B00BELZE46"
       }      
