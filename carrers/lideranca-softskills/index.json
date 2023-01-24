@@ -1,7 +1,34 @@
 [
     {
-        "name": "Em Construção (Liberação 25/01/2023)",
-        "description": "TODO",
-        "iconClasses": "fa-solid fa-home"
+        "name": "Trabalhando em Equipes Ágeis",
+        "description": "Se você já está ou pretende estar imerso no mundo da tecnologia, cedo ou tarde você terá contato com os princípios do Desenvolvimento Ágil de Software. Como um bom líder e gestor, entender como funciona e o que um time ágil valoriza, certamente fará diferença na sua jornada.",
+        "link": "https://web.dio.me/course/trabalhando-em-equipes-ageis/learning/477c95b5-a83f-48e9-80ed-bb0364878f8b",
+        "iconClasses": "fa-solid fa-home",
+        "additionalContents": [
+            {
+                "name": "Liderança de Negócios com Cultura Ágil",
+                "description": "Que tal se inspirar com líderes de grandes empresas? Para um líder em formação, ter uma rede sólida de networking e boas referências são fundamentais. Um bom líder deve ter em mente a importância de definir metas SMART, de criar uma cultura ágil e sadia dentro do time e também a como estimular as pessoas na dose certa para que os resultados sejam entregues.",
+                "link": "https://web.dio.me/course/lideranca-de-negocios-com-cultura-agil/learning/a0f100e4-7847-41db-9bd2-f288a92a9d44"
+            }
+        ]
+    },
+    {
+        "name": "Formação Scrum Master Certification",
+        "description": "Quando o assunto é Tecnologia, Metodologias ágeis e Gestão, não tem como não falar sobre Scrum, o framework ágil mais utilizado no mundo que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos. Uma das possibilidades de carreira para quem quer liderar times ágeis é a de Scrum Master (SM). Os SMs são verdadeiros líderes que servem ao Scrum Team e à organização como um todo. Além de dominar os fundamentos do framework Scrum, ao final da Formação você estará preparado para a Certificação Internacional Professional Scrum Master I (PSM I) da Scrum.org. Vem com a gente nessa jornada e potencialize a sua carreira!",
+        "type": "FORMACAO",
+        "link": "https://web.dio.me/track/formacao-scrum-master",
+        "iconClasses": "fa-brands fa-scrum"
+    },
+    {
+        "name": "Formação Carreiras Tech (Em Breve)",
+        "description": "EM BREVE a DIO irá lançar uma Formação que promete impactar ainda mais as vidas das pessoas que estão iniciando a carreira em tecnologia. Com conteúdos diversos e atualizados, a Formação irá te ajudar a criar o passo a passo para você trilhar uma carreira de sucesso no mundo de tecnologia. Serão mapeadas as principais possibilidades de carreira, salários, dicas de como se destacar em uma entrevista e muito mais. Além disso, teremos conteúdos sobre quais são as habilidades e atitudes comportamentais de um profissional de tecnologia que se destaca no mercado de trabalho e, principalmente, você será incentivado a mergulhar numa jornada contínua de autoconhecimento.",
+        "type": "FORMACAO",
+        "iconClasses": "fa-brands fa-scrum"
+    },
+    {
+        "name": "Formação Liderança e Soft Skills (Em Breve)",
+        "description": "EM BREVE iremos lançar essa incrível Formação que promete mapear quais são as principais características e atitudes de um líder de sucesso baseado em diversos estudos sobre liderança, habilidades comportamentais e inteligência emocional, além de trazer entrevistas exclusivas com diversos líderes, pesquisadores e recrutadores.",
+        "type": "FORMACAO",
+        "iconClasses": "fa-brands fa-scrum"
     }
 ]
