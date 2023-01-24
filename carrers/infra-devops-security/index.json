@@ -12,24 +12,16 @@
         "description": "Aprenda a trabalhar com o principal sistema operacional utilizado em servidores de aplicações, da Instalação ao passo a passo de como gerenciar usuários para ter mais segurança, manipular arquivos de maneira segura e os principais comandos Linux que são essenciais para a sua jornada como desenvolvedor.",
         "type": "BOOK",
         "link": "https://web.dio.me/track/formacao-linux-fundamentals",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
-    },
-    {
-        "name": "Administração de sistemas Linux",
-        "description": "Um ótimo livro de referência para esse tema: Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
-        "type": "BOOK",
-        "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
-    },
-    {
-        "name": "Treinamento/Certificação CCNA",
-        "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
-        "type": "BOOK",
-        "link": "https://www.cisco.com/c/pt_br/training-events/training.html",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
+        "additionalContents":[
+            {
+                "name": "Administração de sistemas Linux",
+                "description": "Um ótimo livro de referência para esse tema: Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
+                "type": "BOOK",
+                "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            }
+        ]
     },
     {
         "name": "Gerenciamento de Servidores",
@@ -88,6 +80,14 @@
                 "optional": true
             }
         ]
+    },
+    {
+        "name": "Treinamento/Certificação CCNA",
+        "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
+        "type": "BOOK",
+        "link": "https://www.cisco.com/c/pt_br/training-events/training.html",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
     },
     {
         "name": "Virtualização e Containers",
