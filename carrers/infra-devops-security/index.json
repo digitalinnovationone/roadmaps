@@ -209,14 +209,14 @@
         "additionalContents": [
             {
                 "name": "Zabbix - Monitor IT Infrastructure",
-                "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
+                "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a partir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
                 "type": "PATH",
                 "link":"https://www.zabbix.com/manuals",
                 "iconClasses": "fa-brands fa-html5",
                 "optional": false
             },
             {
-                "name": "Sematext - End-to-end Obersability",
+                "name": "Sematext - End-to-end Obsersability",
                 "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
                 "type": "PATH",
                 "link":"https://sematext.com/docs/",
