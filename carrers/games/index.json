@@ -34,7 +34,7 @@
     },
     {
         "name": "Plataforma Unreal Engine",
-        "description": "Em 2023 na DIO! O Unreal Engine, é a ferramenta de criação 3D em tempo real opensource, com avanços incriveis para ter experiencias visuais fotorrealistas e imersivas. Criada pela Epic Games, apesar de ter sido criado para uma série de jogos de tiro em primeira pessoa, tem sido utilizada para uma grande variedade de gêneros desde então. Baseada também em C++, é possivel haver a portabilidade e suporta multiplas plataformas incluindo Microsoft Windows, Mac OS e Linux em PCs e consoles como a seria Playstation, Xbox e Nintendo Switch.",
+        "description": "Em 2023 na DIO! O Unreal Engine, é a ferramenta de criação 3D em tempo real opensource, com avanços incriveis para ter experiencias visuais fotorrealistas e imersivas. Criada pela Epic Games, apesar de ter sido criado para uma série de jogos de tiro em primeira pessoa, tem sido utilizada para uma grande variedade de gêneros desde então. Baseada também em C++, é possivel haver a portabilidade e suporta multiplas plataformas incluindo Microsoft Windows, macOS e Linux em PCs e consoles como PlayStation, Xbox e Nintendo Switch.",
         "type": "EM_BREVE",
         "iconClasses": "fa-solid fa-biohazard"
     }
