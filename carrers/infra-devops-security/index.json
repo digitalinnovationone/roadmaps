@@ -17,7 +17,7 @@
     },
     {
         "name": "Administração de sistemas Linux",
-        "description": "Livro - Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
+        "description": "Um ótimo livro de referência para esse tema: Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
         "type": "BOOK",
         "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
         "iconClasses": "fa-brands fa-html5",
@@ -25,9 +25,9 @@
     },
     {
         "name": "Treinamento/Certificação CCNA",
-        "description": "Livro - Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
+        "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
         "type": "BOOK",
-        "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
+        "link": "https://www.cisco.com/c/pt_br/training-events/training.html",
         "iconClasses": "fa-brands fa-html5",
         "optional": false
     },
@@ -41,6 +41,7 @@
         [
             {
                 "name": "Tranferência de arquivos FTP - JSCAPE",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",  
                 "link":"https://www.jscape.com/support/documentation",
                 "iconClasses": "fa-brands fa-html5",
@@ -48,6 +49,7 @@
             },
             {
                 "name": "Conexão e transferência segura de arquivos SSH - OpenSSH",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link":"https://www.openssh.com/manual.html",
                 "iconClasses": "fa-brands fa-html5",
@@ -55,6 +57,7 @@
             },
             {
                 "name": "Servidor HTTP - Apache",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link":"https://httpd.apache.org/docs/",
                 "iconClasses": "fa-brands fa-html5",
@@ -62,6 +65,7 @@
             },            
             {
                 "name": "Configurando um servidor de arquivos - Samba",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link":"https://www.samba.org/samba/docs/",
                 "iconClasses": "fa-brands fa-html5",
@@ -69,6 +73,7 @@
             },
             {
                 "name": "Configurando um Servidor de Dominío DNS - BIND",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link":"https://bind9.readthedocs.io/en/v9_18_10/",
                 "iconClasses": "fa-brands fa-html5",
@@ -76,6 +81,7 @@
             },
             {
                 "name": "Configurando um Servidor de Email (SMTP e IMAP) - Postfix",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link":"https://www.postfix.org/documentation.html",
                 "iconClasses": "fa-brands fa-html5",
@@ -85,7 +91,7 @@
     },
     {
         "name": "Virtualização e Containers",
-        "description": "",
+        "description": "Um profissional de infra, deve saber manipular recursos de máquinas físicas e ainda lidar com virtualização. A virtualização permite utilizar de maneira otimizada os recurso de uma mesma máquina para diversas finalidades. Podemos criar diversos servidores virtualizados distintos. O limite esta relacionado a capacidade da máquina. Lembre-se containers também são caracterizados como virtualização, contudo são diferentes de máquinas virtuais (VMs) ",
         "type": "REFERENCIA",
         "iconClasses": "fa-brands fa-html5",
         "optional": false,
@@ -93,6 +99,7 @@
         [
             {
                 "name": "Virtualização com Virtualbox",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link":"https://www.virtualbox.org/wiki/Documentation",
                 "iconClasses": "fa-brands fa-html5",
@@ -100,6 +107,7 @@
             },
             {
                 "name": "Containers com Docker",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link":"https://docs.docker.com/",
                 "iconClasses": "fa-brands fa-html5",
@@ -169,7 +177,7 @@
     },
     {
         "name": "Cloud Specialist",
-        "description": "Sistemas e processos de pipeline de dados estão sendo migrados para Cloud. Sendo assim, um cientista de dados precisa estar familiarizado com esse contexto. Você provavelmente irá realizar suas análises coletando dados de data lake hospedado na nuvem. Então esteja preparado! Você pode optar pela especialização em uma ou mais provedores de cloud. As principais são: AWS, Azure e GCP.",
+        "description": "Sistemas e servidores estão sendo migrados para Cloud. Sendo assim, um profissional de infra-devops precisa estar familiarizado com esse contexto. As principais são: AWS, Azure e GCP.",
         "type": "PATH",
         "iconClasses": "fa-brands fa-html5",
         "optional": false,
