@@ -10,7 +10,6 @@
     "name": "Formação CSS Web Developer",
     "description": "Agora que você já conhece o HTML, é hora de deixá-lo bonitão através do CSS! Para isso, nós da DIO preparamos uma Formação completa para que você possa criar páginas Web com visuais incríveis.",
     "type": "FORMACAO",
-    "icon": "fa-home",
     "link": "https://web.dio.me/track/formacao-css-web-developer",
     "iconClasses": "fa-brands fa-css3-alt"
   },

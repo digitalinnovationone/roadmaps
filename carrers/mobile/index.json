@@ -1,3 +1,75 @@
 [
-  
+    {
+        "name": "Escolha Entre Android e iOS... Ou Não 😁",
+        "description": "No universo do Desenvolvimento Mobile existem essencialmente dois possíveis caminhos: <strong>Nativo (Android ou iOS) ou Multiplataforma (Android e iOS)</strong>. Neste Roadmap DIO apresentaremos uma linha do tempo com as alternativas mais relevantes para sua jornada de estudos."
+    },
+    {
+        "name": "Android Nativo",
+        "description": "O desenvolvimento nativo de Apps Android é uma das demandas mais latentes do mercado mobile. Nesse contexto, para criar seus primeiros Apps você deverá escolher sua linguagem de programação preferida:",
+        "iconClasses": "fa-brands fa-android",
+        "additionalContents": [
+            {
+                "name": "<strong>Kotlin</strong> ou Java?",
+                "description": "Apesar do Kotlin ser a recomendação oficial do Google, o Java ainda tem o seu espaço nesse mercado, principalmente em projetos legados. O que não é um problema, já que ambas linguagens são suportadas pela SDK Android, além do Kotlin ser totalmente interoperável com Java. Sendo assim, você pode desenvolver em ambas linguagens e fazer sua transição aos poucos, no seu tempo..."
+            },
+            {
+                "name": "Formação Android Developer",
+                "description": "Aprenda na prática a linguagem de programação Kotlin e suas possibilidades de carreira no mercado de trabalho atualmente. Depois disso, vamos dominar desde os fundamentos para criação de Apps Android até o uso de bibliotecas e abstrações poderosas como o Android Jetpack.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-android-developer"
+            },
+            {
+                "description": "<strong>App Nativo Sobre Futebol Feminino com Android Jetpack e Java</strong>: App Android Nativo em Java, explorando os componentes nativos mais atuais oferecidos pelo Android Jetpack.",
+                "type": "LAB",
+                "link": "https://web.dio.me/lab/app-nativo-sobre-futebol-feminino-com-android-jetpack-e-java/learning/0ef48c73-9c8d-4e1d-b4c1-d552bea1a856"
+            },
+            {
+                "description": "<strong>App Android de Extrato Bancário em Kotlin com Coroutines e LiveData</strong>: Aprenda na prática desde a configuração do ambiente de desenvolvimento até o criação de um App previamente prototipado. Para isso, vamos explorar tendências do desenvolvimento mobile nativo para Android, como Kotlin, Coroutines, LiveData, Jetpack e Material Design 3.",
+                "type": "LAB",
+                "link": "https://web.dio.me/lab/app-android-de-extrato-bancario-em-kotlin-com-coroutines-e-livedata/learning/0c313369-603c-4c7e-a9b6-5f319afe0a24"
+            }
+        ]
+    },
+    {
+        "name": "iOS Nativo",
+        "description": "TODO",
+        "iconClasses": "fa-brands fa-ios",
+        "additionalContents": [
+            {
+                "name": "<strong>Swift</strong> ou Objective-C?",
+                "description": "A Apple recomenda fortemente o uso do Swift, mas os apaixonados pela verbosidade charmosa do Objective-C ainda podem usá-lo. Além disso, o Swift também é interoperável com o Objective-C, tornando essa transição bem tranquila."
+            },
+            {
+                "name": "Formação iOS Developer",
+                "description": "TODO",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-ios-developer"
+            },
+            {
+                "name": "Formação iOS Experience",
+                "description": "TODO",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-ios-experience"
+            }
+        ]
+    },
+    {
+        "name": "Multiplataforma (ou Híbridos)",
+        "description": "TODO",
+        "additionalContents": [
+            {
+                "name": "Formação Flutter Developer",
+                "description": "TODO",
+                "type": "FORMACAO",
+                "iconClasses": "fa-brands fa-flutter",
+                "link": "https://web.dio.me/track/formacao-flutter-specialist"
+            },
+            {
+                "name": "Formação React Native Developer (Em 2023)",
+                "description": "TODO",
+                "type": "FORMACAO",
+                "iconClasses": "fa-brands fa-react-native"
+            }
+        ]
+    }
 ]
