@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Excel",
+      "description": "Excel é a porta de entrada para maioria dos analistas de BI. Sendo assim, um conhecimento básico é o mínimo requerido para um analista de bi. Explore as referências da documentação oficial da Microsoft para se aprofundar no assunto.•",
+      "type": "DOCUMENTACAO",
+      "link": "https://support.microsoft.com/en-us/excel",
+      "iconClasses": "fa-brands fa-html5",
+      "optional": false
+  },
+  {
+    "name": "Estatística e Matemática Básica",
+    "description": "Estatística, probabilidade, matemática básica são temas necessários para qualquer analista ou cientista dentro da área de dados. Livro: Estatística: O que é, para que serve, como funciona.",
+    "type": "BOOK",
+    "link": "https://www.amazon.com.br/gp/product/8537815128/ref=ox_sc_saved_image_2?smid=A1ZZFT5FULY4LN&psc=1",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Formação SQL Database Specialist",
+    "description": "Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de dados de acordo com necessidades de negócios, aprenda a trabalhar com comandos Data Manipulation Language (DML) e Data Definition Language (DDL) para consultar e manipular seus dados. Crie projetos de soluções baseadas nas boas práticas das regras formais e explore técnicas de Recuperação e Controle de Concorrência em Banco de dados.",
+    "type": "FORMACAO",
+    "icon": "fa-home",
+    "link": "https://web.dio.me/track/formacao-sql-db-specialist",
+    "iconClasses": "fa-brands fa-css3-alt",
+    "optional": false,
+    "additionalContents": [
+      {
+        "name": "Live Banco de Dados: Quando e qual usar?",
+        "description": "Fundamentos adquiridos, agora você precisa entender qual o papel de cada modelo dentro da área de banco de dados.",
+        "type": "SERIE",
+        "link": "https://web.dio.me/lives/banco-de-dados-qual-e-quando-usar-getting-started-25",
+        "iconClasses": "fa-brands fa-square-js",
+        "optional": false
+      }
+    ]
+  },
+  {
+    "name": "Formação NoSQL Specialist (em breve)",
+    "description": "Você passou por uma etapa fundamental: Banco de Dados relacional. Agora está na hora de evoluir e conhecer o mundo OLAP. Sistemas voltados para análise de dados geralmente estão atrelados a modelagem dimensional e NoSQL. Começar pelo MongoDB é uma escolha assertiva devido a sua curva de aprendizagem. Formação NoSQL (em breve)",
+    "type": "FORMACAO",
+    "link": "",
+    "iconClasses": "fa-brands fa-square-js",
+    "optional": false
+  },
+  {
+    "name": "Formação Power BI Analyst",
+    "description": "Através dos recursos visuais conseguimos absorver 80% de informação. Com outros recursos nossa assimilação do conteúdo reduz. Sendo assim, para ser assertivo precisamos criar relatórios e dashboards interativos considerando nosso público-alvo. Mergulhe na formação Power BI Analyst para impressionar clientes e colaboradores.", 
+    "type": "FORMACAO",
+    "link": "https://web.dio.me/track/formacao-power-bi-analyst",
+    "iconClasses": "fa-brands fa-youtube",
+    "optional": true,
+    "additionalContents": [
+      {
+        "name": "Série Hands ON - Power BI ",
+        "description": "Venha criar um dashboard interativo no Power BI explorando e detectando os fatores de impacto nas vendas  de Skateboards de uma empresa fictícia. Vamos explorar os dados através de diferentes perspectivas e fatores. Além disso, iremos criar uma estilização objetiva e elegante para impressionar seus clientes. ",
+        "type": "SERIE",
+        "link": "https://web.dio.me/lives/criando-um-dashboard-de-vendas-com-power-bi",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "Roadmap Data Analyst",
+      "description": "Continue neste caminho para se tornar um analista de dados",
+      "type": "ROADMAP",
+      "iconClasses": "fa-solid fa-house",
+      "optional": false
+  },
+  {
+      "name": "Formação Python Developer",
+      "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
+      "type": "FORMACAO",
+      "link": "https://web.dio.me/track/formacao-python-developer",
+      "iconClasses": "fa-brands fa-html5",
+      "optional": false,
+      "additionalContents": [
+        {
+          "name": "Serie - Como aprender Python do Zero",
+          "description": "Você já ouviu falar de Python? Ela é simplesmente uma das linguagens mais utilizadas na atualidade! Python é uma linguagem de programação de alto nível, isso significa que ela possui uma sintaxe mais simplificada e próxima da linguagem humana, utilizada nas mais diversas aplicações, como desktop, web, servidores e até mesmo ciência de dados! ",
+          "type": "SERIE",
+          "link": "https://web.dio.me/lives/como-aprender-a-programar-python-do-zero-getting-started-26",
+          "iconClasses": "fa-brands fa-html5",
+          "optional": false
+        }
+      ] 
+  },
+  {
+    "name": "Roadmap Data Scientist",
+    "description": "Mais um pouco você pode se tornar um Cientista de Dados.",
+    "type": "ROADMAP",
+    "iconClasses": "fa-solid fa-house",
+    "optional": false
+  },
+  {
+    "name": "Curso Introdução a Ciência de Dados",
+    "description": "Entenda o mundo da ciência de dados. De os primeiros passos e entenda o que de fato faz um ciêntista de dados",
+    "type": "CURSO",
+    "link": "https://web.dio.me/course/introducao-a-ciencia-de-dados/learning/0e6023ed-5981-4da1-98ae-8da5ca8b32cf",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Estatística para Cientista de Dados",
+    "description": "Aprofunde seus conhecimentos em estatística para elaborar análises mais complexas.",
+    "type": "PATH",
+    "link":"https://www.amazon.com.br/Estat%C3%ADstica-Pr%C3%A1tica-Para-Cientistas-Dados/dp/855080603X/ref=sr_1_1_sspa?keywords=estat%C3%ADstica+e+ci%C3%AAncia+de+dados&qid=1674485407&sprefix=estat%C3%ADst%2Caps%2C207&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOVNaN0FWUjFPOVc0JmVuY3J5cHRlZElkPUEwODk0Mzc1MzVSVU5WN0hSU0gzMSZlbmNyeXB0ZWRBZElkPUEwNDA5ODAwS0xTSFdKR0k5V1oxJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "optional": false
+  },
+  {
+    "name": "Formação R Developer (em breve)",
+    "description": "Sendo desenvolvida para analises estatísticas, R possui uma série de vantagens que complementam o uso do Python. Essas duas linguaguens são as principais quando falamos em Data Science.",
+    "type": "CURSO",
+    "link": "",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Python e R para Cientista de Dados",
+    "description": "Aprofunde seus conhecimentos com o livro: Python e R Para o Cientista de Dados Moderno: o Melhor de Dois Mundos",
+    "type": "PATH",
+    "link":"https://www.amazon.com.br/Python-Para-Cientista-Dados-Moderno/dp/6586057957/ref=asc_df_6586057957/?tag=googleshopp00-20&linkCode=df0&hvadid=379725984121&hvpos=&hvnetw=g&hvrand=14278808105634293403&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-1808263672966&psc=1",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Projeto Análise de Dados com Python e Machine Learning",
+    "description": "Criando Modelos com Python e Machine Learning para Prever a Evolução do COVID-19 no Brasil",
+    "type": "LAB",
+    "link":"https://web.dio.me/lab/criando-modelos-com-python-e-machine-learning-para-prever-a-evolucao-do-covid-19-no-brasil/learning/14fba55d-a017-4f74-bc4f-e3b43b87d2bb",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Cloud Specialist",
+    "description": "Sistemas e processos de pipeline de dados estão sendo migrados para Cloud. Sendo assim, um cientista de dados precisa estar familiarizado com esse contexto. Você provavelmente irá realizar suas análises coletando dados de data lake hospedado na nuvem. Então esteja preparado! Você pode optar pela especialização em uma ou mais provedores de cloud. As principais são: AWS, Azure e GCP.",
+    "type": "PATH",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false,
+    "additionalContents": [
+      {
+        "name": "Formação Google Cloud Platform (GCP) Specialist",
+        "description": "Aprenda do zero a dar seus primeiros passos na Google Cloud Platform até a gestão de projetos complexos, crie e gerencie máquinas virtuais com o Compute Engine, domine a gestão de acessos com o Identity and Access Management (IAM), crie uma Infraestrutura totalmente Native Cloud, faça Deploys de aplicação utilizando container no Cloud Run e entenda boas práticas na hora de organizar e gerir projetos clouds a nível corporativo.",
+        "type": "FORMACAO",
+        "link": "https://web.dio.me/course/introducao-a-ciencia-de-dados/learning/0e6023ed-5981-4da1-98ae-8da5ca8b32cf",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": true
+      },
+      {
+        "name": "Formação Azure Specialist (Em breve)",
+        "description": "Azure é a segunda plataforma Cloud mais utilizada do mercado. Sendo assim, ter skills relacionadas é um grande diferencial para área de dados.",
+         "type": "FORMACAO",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": true
+      }
+    ]
+  },
+  {
+    "name": "Formação Machine Learning Specialist",
+    "description": "Análises mais complexas e aprofundadas (preditivas e prescitvas) frequentemente estão sendo criadas com IA e machine learning. Além disso, temas como: NPL, Visão computacional, Sistemas de recomendação, Machine Learning são frequentemente associados ao aspecto avançado dentro de Data Scientist. Tenha esse diferencial em seu currículo.",
+    "type": "FORMACAO",
+    "link": "https://web.dio.me/track/formacao-machine-learning-specialist",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Análises Temporais com estatística e Machine Learning",
+    "description": "Livro: Análise Prática de Séries Temporais: Predição com Estatística e Aprendizado de Máquina ",
+    "type": "BOOK",
+    "link": "https://www.amazon.com.br/gp/product/8550815624/ref=ox_sc_saved_image_5?smid=A1ZZFT5FULY4LN&psc=1",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Formação Spark Big Data Specialist (Em breve)",
+    "description": "Processamento de grande volumes de dados são cada vez mais frequentes em diversos cenários do mercado. Sendo assim, um DS precisa estar familiarizado com esse conceito. Ainda é preciso ser capaz de consumir e gerenciar dados dentro deste ambiente moderno. O sistema mais utilizado e frequentemente associado ao paradigma do Big Data é sem dúvida o Apache Spark ",
+    "type": "FORMACAO",
+    "link": "",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Engenheiro de Machine Learning",
+    "description": "O engenheiro de Machine Learning trabalha apenas em IA/ML focando em otimização e deploy de modelos de ML.",
+    "type": "ROADMAP",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Desenvolvimento e Deploy de modelos de machine Learning",
+    "description": "O deploy de um modelo de ML é mais desafiador do que parece. Livro que aborda processos interativos para produção de aplicações.",
+    "type": "BOOK",
+    "link": "https://www.amazon.com.br/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969/ref=asc_df_1098107969/?tag=googleshopp00-20&linkCode=df0&hvadid=379726160779&hvpos=&hvnetw=g&hvrand=16010001501719124189&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-1688018801992&psc=1",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  },
+  {
+    "name": "Design Patterns Machine Learning",
+    "description": "Soluções para desfafios comuns dentro da preparação de dados, construção de modelos e Mlops.",
+    "type": "BOOK",
+    "link": "https://www.amazon.com.br/Machine-Learning-Design-Patterns-Preparation/dp/1098115783/ref=asc_df_1098115783/?tag=googleshopp00-20&linkCode=df0&hvadid=379726160779&hvpos=&hvnetw=g&hvrand=16010001501719124189&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-943743647161&psc=1",
+    "iconClasses": "fa-brands fa-html5",
+    "optional": false
+  }
+]
