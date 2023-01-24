@@ -37,5 +37,29 @@
                 "link":"https://web.dio.me/track/formacao-power-bi-analyst"
             }
         ]
-    }
+    },
+    {
+        "name": "Low-code e automação",
+        "description": "Existem diversas plataformas CRM no mercado, assim como diferentes sistemas para analisar e gerenciar comportamento e relcionamento com o cliente. Aqui estão listadas algumas ferramentas que podem fazer a diferença para um profissional de CRM.",
+        "additionalContents":[
+            {
+                "name": "Formação Outsystems Developer (Em 2023)",
+                "description": "Com Outsystems é possível criar aplicações com low-code. Assim, você foca na estratégia do negócio. Além disso, conseguimos diminuir a demanda para TI e consequentemente o gargalo.",
+                "type": "FORMACAO"
+            },
+            {
+                "name": "Power Apps",
+                "description": "Ferramenta low-code proprietária da Microsoft. Por ser um produto Microsoft se integra facilmente aos demais tools.",
+                "type": "REFERENCIA",
+                "link":"https://learn.microsoft.com/pt-br/training/modules/get-started-flows/"
+            },
+            {
+                "name": "Power Automate",
+                "description": "Com Power automate é possível criar fluxo e automatizar processos sem escrever uma linha de código. O CRM Dynamics, por ser Microsoft, se integra perfeitamente com o Power Automate",
+                "type": "REFERENCIA",
+                "link":"https://learn.microsoft.com/pt-br/training/modules/get-started-flows/"
+            }
+        ]
+    }        
+    
 ]
