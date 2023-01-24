@@ -1,7 +1,7 @@
 [
     {
         "name": "Android ou iOS? Talvez Ambos 😁",
-        "description": "No universo do Desenvolvimento Mobile existem essencialmente dois possíveis caminhos: <ul><li><strong>Nativo (Android ou iOS);</strong><li><li><strong>Multiplataforma (Android e iOS).</strong></li></ul>. Neste Roadmap DIO apresentaremos uma linha do tempo com as alternativas mais relevantes para sua jornada de estudos."
+        "description": "No universo do Desenvolvimento Mobile existem essencialmente dois possíveis caminhos: <em>1. Nativo (Android ou iOS); 2. Multiplataforma (Android e iOS).</em>. Neste Roadmap DIO apresentaremos uma linha do tempo com as alternativas mais relevantes para sua jornada de estudos."
     },
     {
         "name": "Android Nativo",
@@ -65,7 +65,7 @@
                 "link": "https://web.dio.me/track/formacao-flutter-specialist"
             },
             {
-                "name": "Formação <strong>React Native</strong> Developer (Em 2023)",
+                "name": "Formação <strong>React Native</strong> Developer",
                 "description": "Está saindo do forno... Em 2023 lançaremos uma nova formação incrível, com tudo o que você precisa saber para se posicionar no mercado de desenvolvimento mobile usando React Native.",
                 "type": "FORMACAO",
                 "iconClasses": "fa-brands fa-react"
