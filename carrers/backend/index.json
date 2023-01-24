@@ -151,7 +151,7 @@
         "iconClasses": "fa-solid fa-book",
         "additionalContents": [
             {
-                "description": "<strong>Fundamentos de Sistemas Operacionais</strong>: SOs são a base que fundamenta todo o conhecimento para que você possa implementar desde sistemas monolíticos até microsserviços.",
+                "description": "<strong>Fundamentos de Sistemas Operacionais</strong>: SOs são a base que fundamental de conhecimento para que você possa implementar desde sistemas monolíticos até microsserviços.",
                 "link": "https://www.amazon.com.br/Sistemas-operacionais-modernos-Andrew-Tanenbaum/dp/8543005671/ref=asc_df_8543005671/?tag=googleshopp00-20&linkCode=df0&hvadid=379728844501&hvpos=&hvnetw=g&hvrand=9233094379115809317&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-810610120079&psc=1"
             },
             {
@@ -171,7 +171,7 @@
                 "link": "https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651/ref=sr_1_10?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527581&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-10"
             },
             {
-                "description": "<strong>Programe Melhor</strong>: Um dos maiores desafios para as empresas que adotaram a arquitetura de microsserviços é a falta de padronização de arquitetura. Depois de dividir uma aplicação monolítica ou construir um ecossistema de microsserviços a partir do zero, muitos engenheiros se perguntam o que vem a seguir. ",
+                "description": "<strong>Código Limpo</strong>: Um dos maiores desafios para as empresas que adotaram a arquitetura de microsserviços é a falta de padronização de arquitetura. Depois de dividir uma aplicação monolítica ou construir um ecossistema de microsserviços a partir do zero, muitos engenheiros se perguntam o que vem a seguir. ",
                 "link": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
             },
             {
