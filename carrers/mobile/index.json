@@ -1,7 +1,8 @@
 [
     {
         "name": "Android ou iOS? Talvez Ambos 😁",
-        "description": "No universo do Desenvolvimento Mobile existem essencialmente dois possíveis caminhos: <em>1. Nativo (Android ou iOS); 2. Multiplataforma (Android e iOS).</em> Neste Roadmap DIO apresentaremos uma linha do tempo com as alternativas mais relevantes para sua jornada de estudos."
+        "description": "No universo do Desenvolvimento Mobile existem essencialmente dois possíveis caminhos: <em>1. Nativo (Android ou iOS); 2. Multiplataforma (Android e iOS).</em> Neste Roadmap DIO apresentaremos uma linha do tempo com as alternativas mais relevantes para sua jornada de estudos.",
+        "iconClasses": "fa-solid fa-block-question"
     },
     {
         "name": "Android Nativo",

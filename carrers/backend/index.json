@@ -2,6 +2,7 @@
     {
         "name": "Escolha uma Linguagem de Programação",
         "description": "Quando falamos de backend encontramos diversas opções no mercado, tais como: Java, GO, C/C++, C#, Rusty, Ruby, PHP, JavaScript e Python. Dentre estas as mais utilizadas historicamente tem sido Javascript, Java e Python. Contudo, esse não deve ser seu único ponto de comparação entre elas. A muito mais para conhecer de cada linguagem.",
+        "iconClasses": "fa-solid fa-block-question",
         "additionalContents": [
             {
                 "name": "Formação Java Developer",
