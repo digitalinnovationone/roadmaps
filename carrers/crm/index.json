@@ -2,10 +2,39 @@
     {
         "name": "Escolha uma plataforma CRM",
         "description": "Existem diversas plataformas CRM no mercado. Cada uma tens suas particularidades e podem ser aplicadas a cenários distintos. Sendo assim, temos algumas opções para você escolher e mergulhar no mundo do gerenciamento de relacionamento com cliente.",
-        "type": "DOCUMENTACAO",
-        "link": "https://support.microsoft.com/en-us/excel"
+        "additionalContents":[
+            {
+                "name": "Formação CRM Dynamics 365 Developer",
+                "description": " Para explorar esse universo de oportunidades, preparamos esta Formação incrível, onde você aprenderá desde os primeiros passos com o Dynamics 365 CE, passando pela Power Platform e concluindo com aspectos de desenvolvimento usando a linguagem C#. ",
+                "type": "FORMACAO",
+                "link":"https://web.dio.me/track/formacao-dynamics-365"
+            },
+            {
+                "name": "Formação Salesforce Developer (Em 2023)",
+                "description": "Salesforce é uma ferramente CRM cloud-based focada em sales, costumer service, integração com marketing, analytics, entre outros.",
+                "type": "FORMACAO"
+            },
+            {
+                "name": "Activecampaing",
+                "description": "Essa ferramenta está inserida no contexto de relacionamento com cliente voltada para pequenos negócios. Além disso, o activecampaing foca em gerar deals. Por esse motivo, muitas vezes é chamado de deals CRM.",
+                "type": "FORMACAO"
+            }
+        ]
     },
     {
-
+        "name": "Sistemas e Ferramentas que agregam ao ambiente CRM",
+        "description": "Existem diversas plataformas CRM no mercado, assim como diferentes sistemas para analisar e gerenciar comportamento e relcionamento com o cliente. Aqui estão listadas algumas ferramentas que podem fazer a diferença para um profissional de CRM.",
+        "additionalContents":[
+            {
+                "name": "Google Analytics",
+                "description": ""
+            },          
+            {
+                "name": "Formação Power BI Analyst",
+                "description": "As CRMs tools possuem um sistema de análises embutido. Contudo, há restrições quando ao número de dados retornados. Além disso, conseguimos integrar o Power BI com diferentes sistemas relacionados ao relacionamento com cliente, marketing e outros. Além disso, o Power BI tem sido um diferencial para diversos profissionais!",
+                "type": "FORMACAO",
+                "link":"https://web.dio.me/track/formacao-power-bi-analyst"
+            }
+        ]
     }
 ]
