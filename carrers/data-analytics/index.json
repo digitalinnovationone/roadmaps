@@ -97,8 +97,14 @@
     "description": "Entenda o mundo da ciência de dados. De os primeiros passos e entenda o que de fato faz um ciêntista de dados",
     "type": "CURSO",
     "link": "https://web.dio.me/course/introducao-a-ciencia-de-dados/learning/0e6023ed-5981-4da1-98ae-8da5ca8b32cf",
-    "iconClasses": "fa-brands fa-html5",
-    "optional": false
+    "additionalContents":[
+      {
+        "name": "Data Science do Zero",
+        "description": "Livro de primeiros passos em DS mesclando abordagem teórica e prática.",
+        "type": "BOOK",
+        "link": "https://www.oreilly.com/library/view/data-science-do/9788576089988/"
+      }
+    ]
   },
   {
     "name": "Estatística para Cientista de Dados",
@@ -121,16 +127,18 @@
     "type": "PATH",
     "link":"https://www.amazon.com.br/Python-Para-Cientista-Dados-Moderno/dp/6586057957/ref=asc_df_6586057957/?tag=googleshopp00-20&linkCode=df0&hvadid=379725984121&hvpos=&hvnetw=g&hvrand=14278808105634293403&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-1808263672966&psc=1",
     "iconClasses": "fa-brands fa-html5",
-    "optional": false
-  },
-  {
-    "name": "Projeto Análise de Dados com Python e Machine Learning",
-    "description": "Criando Modelos com Python e Machine Learning para Prever a Evolução do COVID-19 no Brasil",
-    "type": "LAB",
-    "link":"https://web.dio.me/lab/criando-modelos-com-python-e-machine-learning-para-prever-a-evolucao-do-covid-19-no-brasil/learning/14fba55d-a017-4f74-bc4f-e3b43b87d2bb",
-    "iconClasses": "fa-brands fa-html5",
-    "optional": false
-  },
+    "optional": false,
+    "additionalContents":[
+      {
+        "name": "Projeto Análise de Dados com Python e Machine Learning",
+        "description": "Criando Modelos com Python e Machine Learning para Prever a Evolução do COVID-19 no Brasil",
+        "type": "LAB",
+        "link":"https://web.dio.me/lab/criando-modelos-com-python-e-machine-learning-para-prever-a-evolucao-do-covid-19-no-brasil/learning/14fba55d-a017-4f74-bc4f-e3b43b87d2bb",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+      }
+    ]
+  },  
   {
     "name": "Cloud Specialist",
     "description": "Sistemas e processos de pipeline de dados estão sendo migrados para Cloud. Sendo assim, um cientista de dados precisa estar familiarizado com esse contexto. Você provavelmente irá realizar suas análises coletando dados de data lake hospedado na nuvem. Então esteja preparado! Você pode optar pela especialização em uma ou mais provedores de cloud. As principais são: AWS, Azure e GCP.",
@@ -161,23 +169,37 @@
     "type": "FORMACAO",
     "link": "https://web.dio.me/track/formacao-machine-learning-specialist",
     "iconClasses": "fa-brands fa-html5",
-    "optional": false
-  },
-  {
-    "name": "Análises Temporais com estatística e Machine Learning",
-    "description": "Livro: Análise Prática de Séries Temporais: Predição com Estatística e Aprendizado de Máquina ",
-    "type": "BOOK",
-    "link": "https://www.amazon.com.br/gp/product/8550815624/ref=ox_sc_saved_image_5?smid=A1ZZFT5FULY4LN&psc=1",
-    "iconClasses": "fa-brands fa-html5",
-    "optional": false
+    "optional": false,
+    "additionalContents":[
+      {
+        "name": "Análises Temporais com estatística e Machine Learning",
+        "description": "Livro: Análise Prática de Séries Temporais: Predição com Estatística e Aprendizado de Máquina ",
+        "type": "BOOK",
+        "link": "https://www.amazon.com.br/gp/product/8550815624/ref=ox_sc_saved_image_5?smid=A1ZZFT5FULY4LN&psc=1",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+      }
+    ]
   },
   {
     "name": "Formação Spark Big Data Specialist (Em breve)",
     "description": "Processamento de grande volumes de dados são cada vez mais frequentes em diversos cenários do mercado. Sendo assim, um DS precisa estar familiarizado com esse conceito. Ainda é preciso ser capaz de consumir e gerenciar dados dentro deste ambiente moderno. O sistema mais utilizado e frequentemente associado ao paradigma do Big Data é sem dúvida o Apache Spark ",
     "type": "FORMACAO",
-    "link": "",
-    "iconClasses": "fa-brands fa-html5",
-    "optional": false
+    "link":"",
+    "additionalContents":[
+      {
+        "name": "Fundamentos de Big data",
+        "description": "O que é Big data? Um dos tópicos cada fez mais frequentes e falados na atualidade em ti. O livro Big data para leigos pode ser um bom começo para quem não tem conhecimento prévio do assunto.",
+        "type": "FORMACAO",
+        "link": "https://www.amazon.com.br/Big-Data-Now-Current-Perspectives-ebook/dp/B00BELZE46"
+      },
+      {
+        "name": "Big Data Now - Livro Gratuito Orrely",
+        "description": "Processamento de grande volumes de dados são cada vez mais frequentes em diversos cenários do mercado. Sendo assim, um DS precisa estar familiarizado com esse conceito. Ainda é preciso ser capaz de consumir e gerenciar dados dentro deste ambiente moderno. O sistema mais utilizado e frequentemente associado ao paradigma do Big Data é sem dúvida o Apache Spark ",
+        "type": "FORMACAO",
+        "link": "https://www.amazon.com.br/Big-Data-Now-Current-Perspectives-ebook/dp/B00BELZE46"
+      }      
+    ]
   },
   {
     "name": "Engenheiro de Machine Learning",
