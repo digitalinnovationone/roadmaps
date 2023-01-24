@@ -15,7 +15,7 @@
                 "description": "O que acha de aprender Java do zero e com os melhores experts da DIO? Bora! Nesta formação você aprenderá desde os fundamentos dessa linguagem de programação até o uso de abstrações poderosas como o Spring Framework.",
                 "type": "FORMACAO",
                 "link": "https://web.dio.me/track/formacao-javascript-developer",
-                "iconClasses": "fa-brands fa-javascript"
+                "iconClasses": "fa-brands fa-js"
             },
             {
                 "name": "Formação Python Developer",
@@ -43,7 +43,7 @@
                 "description": "Comece agora mesmo a aprender sobre Go (Golang), uma linguagem moderna, legível e com capacidade de alta para multiplos acessos, além de ser extremamente rápida.",
                 "type": "FORMACAO",
                 "link": "https://web.dio.me/track/formacao-go-developer",
-                "iconClasses": "fa-brands fa-go"
+                "iconClasses": "fa-brands fa-golang"
             },
             {
                 "name": "Formação Rusty Developer (Em 2023)"
@@ -66,7 +66,6 @@
                 "link": "https://docs.github.com/en"
             },
             {
-                "name": "GitLab",
                 "description": "Documentação Oficial do <strong>GitLab</strong>:",
                 "type": "REFERENCIA",
                 "link": "https://docs.gitlab.com/"
@@ -142,10 +141,6 @@
             {
                 "description": "Curso <strong>Introdução à Mensageria na Nuvem Com Kafka e Python</strong>",
                 "link": "https://web.dio.me/course/introducao-mensageria-na-nuvem-com-kafka-e-python/learning/07402ee4-c99b-45b8-bdd4-808ad457a778"
-            },
-            {
-                "name": "Formação Data Flow (Em 2023)",
-                "description": "Em breve mais uma formação DIO para você mergulhar nos sistemas bacth e stream."
             }
         ]
     },
