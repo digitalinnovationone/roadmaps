@@ -145,6 +145,7 @@
                 "name": "Formação GO Developer",
                 "description": "Comece agora mesmo a aprender sobre Go (Golang), uma linguagem moderna, legível e com capacidade de alta para multiplos acessos, além de ser extremamente rápida.",
                 "type": "REFERENCIA",
+                "link":"https://web.dio.me/track/formacao-go-developer",
                 "iconClasses": "fa-brands fa-html5",
                 "optional": true
             },
@@ -210,13 +211,15 @@
                 "name": "Zabbix - Monitor IT Infrastructure",
                 "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
                 "type": "PATH",
+                "link":"https://www.zabbix.com/manuals",
                 "iconClasses": "fa-brands fa-html5",
                 "optional": false
             },
             {
-                "name": "Semantext - End-to-end Obersability",
+                "name": "Sematext - End-to-end Obersability",
                 "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
                 "type": "PATH",
+                "link":"https://sematext.com/docs/",
                 "iconClasses": "fa-brands fa-html5",
                 "optional": false
             }
@@ -256,6 +259,7 @@
             },
             {
                 "name": "Snort - IDS Intrusion Detection System",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/",
                 "iconClasses": "fa-brands fa-html5",
@@ -263,6 +267,7 @@
             },
             {
                 "name": "OpenVPN - Virtual Private Network",
+                "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/",
                 "iconClasses": "fa-brands fa-html5",
