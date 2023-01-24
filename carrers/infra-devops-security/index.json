@@ -1,0 +1,267 @@
+[
+    {
+        "name": "Fundamentos de Infraestrutura",
+        "description": "Duas das grandes referências de Livros que podemos citar dentro da área de Infraestrutura (redes de computadores) estão relacionadas aos autores Kurose e Tanebaum. Aqui nossa dica fica a cargo do livro Redes de Computadores e a Internet - Kurose.",
+        "type": "BOOK",
+        "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+    },
+    {
+        "name": "Formação Linux Fundamentals",
+        "description": "Aprenda a trabalhar com o principal sistema operacional utilizado em servidores de aplicações, da Instalação ao passo a passo de como gerenciar usuários para ter mais segurança, manipular arquivos de maneira segura e os principais comandos Linux que são essenciais para a sua jornada como desenvolvedor.",
+        "type": "BOOK",
+        "link": "https://web.dio.me/track/formacao-linux-fundamentals",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+    },
+    {
+        "name": "Administração de sistemas Linux",
+        "description": "Livro - Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
+        "type": "BOOK",
+        "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+    },
+    {
+        "name": "Treinamento/Certificação CCNA",
+        "description": "Livro - Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
+        "type": "BOOK",
+        "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+    },
+    {
+        "name": "Gerenciamento de Servidores",
+        "description": "Seja localmente ou utilizando virtualização, o gerenciamento de servidores é uma parte importante dentro de infraestrutura. Além disso, você precisa estar atento para aplicar as principais técnicas de criptografia aos seus servidores. Aqui você encontrará alguns servers relevantes e suas respectivas referências. Contudo, não se limite as aqui exemplificadas. Seja protagonista de sua carreira!",
+        "type": "REFERENCIA",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false,
+        "additionalContents":
+        [
+            {
+                "name": "Tranferência de arquivos FTP - JSCAPE",
+                "type": "REFERENCIA",  
+                "link":"https://www.jscape.com/support/documentation",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            },
+            {
+                "name": "Conexão e transferência segura de arquivos SSH - OpenSSH",
+                "type": "REFERENCIA",
+                "link":"https://www.openssh.com/manual.html",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            },
+            {
+                "name": "Servidor HTTP - Apache",
+                "type": "REFERENCIA",
+                "link":"https://httpd.apache.org/docs/",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            },            
+            {
+                "name": "Configurando um servidor de arquivos - Samba",
+                "type": "REFERENCIA",
+                "link":"https://www.samba.org/samba/docs/",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            },
+            {
+                "name": "Configurando um Servidor de Dominío DNS - BIND",
+                "type": "REFERENCIA",
+                "link":"https://bind9.readthedocs.io/en/v9_18_10/",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            },
+            {
+                "name": "Configurando um Servidor de Email (SMTP e IMAP) - Postfix",
+                "type": "REFERENCIA",
+                "link":"https://www.postfix.org/documentation.html",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            }
+        ]
+    },
+    {
+        "name": "Virtualização e Containers",
+        "description": "",
+        "type": "REFERENCIA",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false,
+        "additionalContents":
+        [
+            {
+                "name": "Virtualização com Virtualbox",
+                "type": "REFERENCIA",
+                "link":"https://www.virtualbox.org/wiki/Documentation",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            },
+            {
+                "name": "Containers com Docker",
+                "type": "REFERENCIA",
+                "link":"https://docs.docker.com/",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            },
+            {
+                "name": "Formação Docker Fundamentals",
+                "type": "FORMAÇÃO",
+                "description":" Você aprenderá Docker começando por entender o que é um contêiner e como é o seu funcionamento. Irá realizar atividades práticas em laboratórios virtuais para entender como os contêineres são criados e implementados em uma infraestrutura real.",
+                "link":"https://web.dio.me/track/formacao-docker-fundamentals",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+                
+            }
+        ]
+    },
+    {
+        "name": "Formação Kubernetes Fundamentals",
+        "type": "FORMAÇÃO",
+        "description":"  Em um mundo onde aplicações estão migrando de arquiteturas monolíticas para microsserviços, o entendimento de como os microsserviços devem ser publicados e principalmente escalados é de vital importância para desenvolvedores e demais profissionais envolvidos em um projeto.",
+        "link":"https://web.dio.me/track/formacao-kubernetes",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": true
+        
+    },
+    {
+        "name": "Escolha uma linguagem de programação",
+        "description": "Para que você seja capaz de ingressar em Devops (vindo de infra) será necessário adquirir conhecimento relacionados a linguagem de programação. Aqui estão algumas opções para você escolher qual caminho seguir!",
+        "type": "REFERENCIA",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false,
+        "additionalContents":
+        [
+            {
+                "name": "Formação GO Developer",
+                "description": "Comece agora mesmo a aprender sobre Go (Golang), uma linguagem moderna, legível e com capacidade de alta para multiplos acessos, além de ser extremamente rápida.",
+                "type": "REFERENCIA",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": true
+            },
+            {
+                "name": "Formação Python Developer",
+                "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-python-developer",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            }
+        ]
+    },
+    {
+        "name": "Versionamento de Software com Git",
+        "description": "Manter organização e controle de versões das aplicações facilita o rastreamento de problemas e verificação de atualizações. Utilize a documentação oficial do Git ou ainda o livro gratuito Git PRO.",
+        "type": "REFERENCIA",
+        "link":"https://git-scm.com/book/en/v2",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+
+    },
+    {
+        "name": "Formação CI/CD Gitlab",
+        "description": "No Continuos Integration (CI) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código.",
+        "type": "FORMAÇÃO",
+        "link": "https://web.dio.me/track/formacao-gitlab-cicd",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+    },
+    {
+        "name": "Cloud Specialist",
+        "description": "Sistemas e processos de pipeline de dados estão sendo migrados para Cloud. Sendo assim, um cientista de dados precisa estar familiarizado com esse contexto. Você provavelmente irá realizar suas análises coletando dados de data lake hospedado na nuvem. Então esteja preparado! Você pode optar pela especialização em uma ou mais provedores de cloud. As principais são: AWS, Azure e GCP.",
+        "type": "PATH",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false,
+        "additionalContents": [
+          {
+            "name": "Formação Google Cloud Platform (GCP) Specialist",
+            "description": "Aprenda do zero a dar seus primeiros passos na Google Cloud Platform até a gestão de projetos complexos, crie e gerencie máquinas virtuais com o Compute Engine, domine a gestão de acessos com o Identity and Access Management (IAM), crie uma Infraestrutura totalmente Native Cloud, faça Deploys de aplicação utilizando container no Cloud Run e entenda boas práticas na hora de organizar e gerir projetos clouds a nível corporativo.",
+            "type": "FORMACAO",
+            "link": "https://web.dio.me/course/introducao-a-ciencia-de-dados/learning/0e6023ed-5981-4da1-98ae-8da5ca8b32cf",
+            "iconClasses": "fa-brands fa-html5",
+            "optional": true
+          },
+          {
+            "name": "Formação Azure Specialist (Em breve)",
+            "description": "Azure é a segunda plataforma Cloud mais utilizada do mercado. Sendo assim, ter skills relacionadas é um grande diferencial para área de dados.",
+             "type": "FORMACAO",
+            "iconClasses": "fa-brands fa-html5",
+            "optional": true
+          }
+        ]
+    },
+    {
+        "name": "Monitoramento e observaldiade",
+        "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
+        "type": "PATH",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false,
+        "additionalContents": [
+            {
+                "name": "Zabbix - Monitor IT Infrastructure",
+                "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
+                "type": "PATH",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            },
+            {
+                "name": "Semantext - End-to-end Obersability",
+                "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
+                "type": "PATH",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            }
+        ]
+    },
+    {
+        "name": "Criptografia e Segurança",
+        "description": "Criptografia e Segurança de Redes: Princípios e Práticas é um livro muito interessante para aqueles que querem ingressar no mundo da cibersegurança.",
+        "type": "BOOK",
+        "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+    },
+    {
+        "name": "Formação Cybersecurity Specialist",
+        "description": "Aprenda na prática a utilizar ferramentas e técnicas voltadas para a área de Cibersegurança, abrindo grandes possibilidades de carreira nesse mercado que vem crescendo exponencialmente.",
+        "type": "FORMAÇÃO",
+        "link": "https://web.dio.me/track/formacao-cybersecurity",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false
+    },
+    {
+        "name": "Aprofunde seus conhecimentos em Segurança",
+        "description": "IPS/IDS, VPN, Firewall e ferramentas e monitoramento de pacotes são pontos fundamentais de segurança.  Aqui estamos listando alguns dos principais pontos para você continuar sua jornada. Além disso, você poderá explorar outros assuntos como: Proxy, DMZ, pfBloquer, Segurança em redes sem fio... Seja protagonista da sua história!.",
+        "type": "BOOK",
+        "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
+        "iconClasses": "fa-brands fa-html5",
+        "optional": false,
+        "additionalContents":[
+            {
+                "name": "PFsense - Muito além de um SO",
+                "description": "Sendo Firewall, router, VPN, dentre tantos outros recursos. Este é um dos principais SOs utilizados na área de segurança.",
+                "type": "REFERENCIA",
+                "link": "https://docs.netgate.com/pfsense/en/latest/",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            },
+            {
+                "name": "Snort - IDS Intrusion Detection System",
+                "type": "REFERENCIA",
+                "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            },
+            {
+                "name": "OpenVPN - Virtual Private Network",
+                "type": "REFERENCIA",
+                "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/",
+                "iconClasses": "fa-brands fa-html5",
+                "optional": false
+            }           
+            
+        ]
+    }
+    
+]
