@@ -87,7 +87,7 @@
         "name": "Virtualização e Containers",
         "description": "Um profissional de infra, deve saber manipular recursos de máquinas físicas e ainda lidar com virtualização. A virtualização permite utilizar de maneira otimizada os recurso de uma mesma máquina para diversas finalidades. Podemos criar diversos servidores virtualizados distintos. O limite esta relacionado a capacidade da máquina. Lembre-se containers também são caracterizados como virtualização, contudo são diferentes de máquinas virtuais (VMs) ",
         "type": "REFERENCIA",
-        "iconClasses": "fa-brands fa-terminal",
+        "iconClasses": "fa-solid fa-terminal",
         "optional": false,
         "additionalContents":
         [
@@ -117,7 +117,23 @@
         "type": "FORMAÇÃO",
         "description":"  Em um mundo onde aplicações estão migrando de arquiteturas monolíticas para microsserviços, o entendimento de como os microsserviços devem ser publicados e principalmente escalados é de vital importância para desenvolvedores e demais profissionais envolvidos em um projeto.",
         "link":"https://web.dio.me/track/formacao-kubernetes",
-        "iconClasses": "fa-brands fa-kubernetes"
+        "iconClasses": "fa-brands fa-kubernetes",
+        "additionalContents":[
+            {
+                "name": "Kubernetes <i>Documentation</i>",
+                "type": "REFERENCIA",
+                "description":"Documentação oficial",
+                "link":"https://kubernetes.io/docs/home/",
+                "iconClasses": "fa-brands fa-kubernetes"
+            },
+            {
+                "name": "Docker Swarm <i>Documentation</i>",
+                "type": "REFERENCIA",
+                "description":"Documentação oficial",
+                "link":"https://docs.docker.com/engine/swarm/swarm-tutorial/",
+                "iconClasses": "fa-brands fa-docker"
+            }
+        ]
         
     },
     {
@@ -132,12 +148,14 @@
                 "name": "Formação GO Developer",
                 "description": "Comece agora mesmo a aprender sobre Go (Golang), uma linguagem moderna, legível e com capacidade de alta para multiplos acessos, além de ser extremamente rápida.",
                 "type": "REFERENCIA",
-                "link":"https://web.dio.me/track/formacao-go-developer"
+                "link":"https://web.dio.me/track/formacao-go-developer",
+                "iconClasses": "fa-brand fa-golang"
             },
             {
                 "name": "Formação Python Developer",
                 "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
                 "type": "FORMACAO",
+                "iconClasses": "fa-brand fa-python",
                 "link": "https://web.dio.me/track/formacao-python-developer"
             }
         ]
@@ -153,50 +171,35 @@
                 "name": "Formação CI/CD Gitlab",
                 "description": "No Continuos Integration (CI) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código.",
                 "type": "FORMAÇÃO",
-                "link": "https://web.dio.me/track/formacao-gitlab-cicd",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": false
+                "link": "https://web.dio.me/track/formacao-gitlab-cicd"
             }
         ]
     },
     {
         "name": "Cloud Specialist",
-        "description": "Sistemas e servidores estão sendo migrados para Cloud. Sendo assim, um profissional de infra-devops precisa estar familiarizado com esse contexto. As principais são: AWS, Azure e GCP.",
+        "description": "Sistemas e processos de pipeline de dados estão sendo migrados para Cloud. Sendo assim, um cientista de dados precisa estar familiarizado com esse contexto. Você provavelmente irá realizar suas análises coletando dados de data lake hospedado na nuvem. Então esteja preparado! Você pode optar pela especialização em uma ou mais provedores de cloud. As principais são: AWS, Azure e GCP.",
         "type": "PATH",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false,
+        "iconClasses": "fa-solid fa-cloud",
         "additionalContents": [
           {
-            "name": "Formação Google Cloud Platform (GCP) Specialist",
-            "description": "Aprenda do zero a dar seus primeiros passos na Google Cloud Platform até a gestão de projetos complexos, crie e gerencie máquinas virtuais com o Compute Engine, domine a gestão de acessos com o Identity and Access Management (IAM), crie uma Infraestrutura totalmente Native Cloud, faça Deploys de aplicação utilizando container no Cloud Run e entenda boas práticas na hora de organizar e gerir projetos clouds a nível corporativo.",
-            "type": "FORMACAO",
-            "link": "https://web.dio.me/course/introducao-a-ciencia-de-dados/learning/0e6023ed-5981-4da1-98ae-8da5ca8b32cf",
-            "iconClasses": "fa-brands fa-html5",
-            "optional": true
-          },
-          {
-            "name": "Formação Azure Specialist (Em breve)",
-            "description": "Azure é a segunda plataforma Cloud mais utilizada do mercado. Sendo assim, ter skills relacionadas é um grande diferencial para área de dados.",
-             "type": "FORMACAO",
-            "iconClasses": "fa-brands fa-html5",
-            "optional": true
+            "name": "Roadmap DIO: Cloud",
+            "description": "Acesse o nosso Roadmap específico sobre a Carreira de Cloud e tenha uma visão do seu caminho para as nuvens 😶‍🌫️",
+            "type": "ROADMAP",
+            "link": "https://digitalinnovationone.github.io/roadmaps/carrers/cloud"
           }
         ]
-    },
+      },
     {
-        "name": "Monitoramento e observalidade",
+        "name": "Monitoramento e Observalidade",
         "description": "Sistemas de monitoramento são uma parte fundamental do constante gerenciameto de rede e aplicações. Por monitoramento entende-se que é possível idenficiar o problema e sua causa. Somos capazes de realizar esse diagnóstico a patir do uso de métricas e logs do sistema. Ok, e a observalidade? Está relacionado ao quão bem você pode gerenciar e entender o estado de seus servidores e aplicações. Fornecendo insights que auxiliam no monitoramento. Aqui estão alguns exemplos de sistemas voltados para essa temática.",
         "type": "PATH",
         "iconClasses": "fa-brands fa-html5",
-        "optional": false,
         "additionalContents": [
             {
                 "name": "Zabbix - Monitor IT Infrastructure",
                 "description": "Documentação oficial",
                 "type": "PATH",
-                "link":"https://www.zabbix.com/manuals",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": false
+                "link":"https://www.zabbix.com/manuals"
             },
             {
                 "name": "Sematext - End-to-end Obsersability",
