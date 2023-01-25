@@ -87,7 +87,7 @@
         "name": "Virtualização e Containers",
         "description": "Um profissional de infra, deve saber manipular recursos de máquinas físicas e ainda lidar com virtualização. A virtualização permite utilizar de maneira otimizada os recurso de uma mesma máquina para diversas finalidades. Podemos criar diversos servidores virtualizados distintos. O limite esta relacionado a capacidade da máquina. Lembre-se containers também são caracterizados como virtualização, contudo são diferentes de máquinas virtuais (VMs) ",
         "type": "REFERENCIA",
-        "iconClasses": "fa-brands fa-sitemap",
+        "iconClasses": "fa-brands fa-terminal",
         "optional": false,
         "additionalContents":
         [
@@ -124,7 +124,7 @@
         "name": "Escolha uma linguagem de programação",
         "description": "Para que você seja capaz de ingressar em Devops (vindo de infra) será necessário adquirir conhecimento relacionados a linguagem de programação. Aqui estão algumas opções para você escolher qual caminho seguir!",
         "type": "REFERENCIA",
-        "iconClasses": "fa-brands fa-html5",
+        "iconClasses": "fa-solid fa-code",
         "optional": false,
         "additionalContents":
         [
@@ -132,17 +132,13 @@
                 "name": "Formação GO Developer",
                 "description": "Comece agora mesmo a aprender sobre Go (Golang), uma linguagem moderna, legível e com capacidade de alta para multiplos acessos, além de ser extremamente rápida.",
                 "type": "REFERENCIA",
-                "link":"https://web.dio.me/track/formacao-go-developer",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://web.dio.me/track/formacao-go-developer"
             },
             {
                 "name": "Formação Python Developer",
                 "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-python-developer",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": false
+                "link": "https://web.dio.me/track/formacao-python-developer"
             }
         ]
     },
@@ -150,6 +146,7 @@
         "name": "Versionamento de Software com Git",
         "description": "Manter organização e controle de versões das aplicações facilita o rastreamento de problemas e verificação de atualizações. Utilize a documentação oficial do Git ou ainda o livro gratuito Git PRO.",
         "type": "REFERENCIA",
+        "iconClasses":"fa-solid fa-code-branch",
         "link":"https://git-scm.com/book/en/v2",
         "additionalContents":[
             {
