@@ -47,7 +47,8 @@ body {
 }
 
 .rate-point:hover {
-  background-color: #fff;
+  background: white;
+  color: #E94D5F;
   border-color: transparent;
   cursor: pointer;
   transform: scale(1.075);
