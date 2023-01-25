@@ -47,16 +47,16 @@
                 "iconClasses": "fa-brands fa-golang"
             },
             {
-                "name": "Formação Rusty Developer (Em 2023)"
+                "name": "Formação Rusty Developer (Em Breve)"
             },
             {
-                "name": "Formação C/C++ Developer (em 2023)"
+                "name": "Formação C/C++ Developer (em Breve)"
             }
         ]
     },
     {
-        "name": "Versionamento de Código com Git",
-        "description": "Manter organização e controle de versões das aplicações facilita o rastreamento de problemas e verificação de atualizações. Utilize a documentação oficial do Git ou ainda o <em>Git Pro Book</em> (link abaixo). A seguir incluímos também a documentação oficial dos principais hosts dessa tecnologia: GitHub e GitLab.",
+        "name": "Controle de Versão com Git",
+        "description": "Manter organização e o versionamento do código-fonte facilita o rastreamento de problemas, além do acompanhamento de atualizações. Utilize a documentação oficial do Git ou ainda o <em>Git Pro Book</em> (link abaixo). A seguir incluímos também a documentação oficial dos principais hosts dessa tecnologia: GitHub e GitLab.",
         "type": "REFERENCIA",
         "link": "https://git-scm.com/book/en/v2",
         "iconClasses": "fa-brands fa-git",
@@ -64,12 +64,12 @@
             {
                 "description": "Documentação Oficial do <strong>GitHub</strong>:",
                 "type": "REFERENCIA",
-                "link": "https://docs.github.com/en"
+                "link": "https://docs.github.com"
             },
             {
                 "description": "Documentação Oficial do <strong>GitLab</strong>:",
                 "type": "REFERENCIA",
-                "link": "https://docs.gitlab.com/"
+                "link": "https://docs.gitlab.com"
             }
         ]
     },
@@ -85,7 +85,7 @@
                 "link": "https://web.dio.me/track/formacao-sql-db-specialist"
             },
             {
-                "name": "Formação NoSQL Specialist (Em 2023)",
+                "name": "Formação NoSQL Specialist (Em Breve)",
                 "description": "Você passou por uma etapa fundamental: Banco de Dados relacional. Agora está na hora de evoluir e conhecer o mundo OLAP. Sistemas voltados para análise de dados geralmente estão atrelados a modelagem dimensional e NoSQL. Começar pelo MongoDB é uma escolha assertiva devido a sua curva de aprendizagem.",
                 "type": "FORMACAO"
             }

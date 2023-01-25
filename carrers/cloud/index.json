@@ -12,25 +12,19 @@
         "iconClasses": "fa-brands fa-google",
         "additionalContents":[
             {
-                "name": "Core da infraestrutura Google Cloud Platform (GCP)",
-                "description": "Documentação oficial",
-                "type": "FORMACAO",
-                "link": "https://www.cloudskillsboost.google/course_templates/60",
-                "iconClasses": "fa-brands fa-google"
+                "description": "Curso Google - '<em>Google Cloud Fundamentals: Core Infrastructure</em>'",
+                "type": "CURSO",
+                "link": "https://www.cloudskillsboost.google/course_templates/60"
             },
             {
-                "name": "Core da infraestrutura Google Cloud Platform (GCP)",
-                "description": "Documentação oficial",
-                "type": "FORMACAO",
-                "link": "https://www.cloudskillsboost.google/course_templates/178",
-                "iconClasses": "fa-brands fa-google"
+                "description": "Curso Google - '<em>Elastic Google Cloud Infrastructure: Scaling and Automation</em>'",
+                "type": "CURSO",
+                "link": "https://www.cloudskillsboost.google/course_templates/178"
             },
             {
-                "name": "Log, Monitoramento e Observalidade - GCP",
-                "description": "Documentação oficial",
-                "type": "FORMACAO",
-                "link": "https://www.cloudskillsboost.google/course_templates/99",
-                "iconClasses": "fa-brands fa-google"
+                "description": "Curso Google - '<em>Logging, Monitoring and Observability in Google Cloud</em>'",
+                "type": "CURSO",
+                "link": "https://www.cloudskillsboost.google/course_templates/99"
             }
         ]
     },
@@ -41,24 +35,18 @@
         "iconClasses": "fa-brands fa-microsoft",
         "additionalContents":[
             {
-                "name":"Fundamentos do Azure",
-                "description": "Curso DIO",
-                "type": "FORMACAO",
-                "iconClasses": "fa-brands fa-microsoft",
+                "description": "Curso DIO - <strong>Fundamentos do Azure</strong>",
+                "type": "CURSO",
                 "link":"https://web.dio.me/course/fundamentos-do-azure/learning/14bfe457-2223-4baa-bb9e-9869149a732b"                
             },
             {
-                "name":"Conceitos e Arquitetura Cloud",
-                "description": "Documentação oficial",
-                "type": "FORMACAO",
-                "iconClasses": "fa-brands fa-microsoft",
+                "description": "Curso Azure - '<em>Azure Fundamentals: Describe Azure architecture and services</em>'",
+                "type": "CURSO",
                 "link":"https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/"                
             },
             {
-                "name":"Gerenciamento e Governaça - Azure",
-                "description": "Documentação oficial",
-                "type": "FORMACAO",
-                "iconClasses": "fa-brands fa-microsoft",
+                "description": "Curso Azure - '<em>Azure Fundamentals: Describe Azure management and governance</em>'",
+                "type": "CURSO",
                 "link":"https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/"                
             }
         ]
@@ -70,56 +58,48 @@
         "iconClasses": "fa-brands fa-amazon",
         "additionalContents":[
             {
-                "name": "Fundamentos da AWS",
-                "description": "Documentação oficial",
-                "type": "REFERENCIA",
-                "link":"https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-foundations-learning-plan?la=cta&cta=topbanner"
+                "description": "Curso AWS - '<em>Cloud Essentials Learning Plan</em>'",
+                "type": "CURSO",
+                "link":"https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-foundations-learning-plan?la=cta&cta=topbanner"                
             },
             {
-                "name": "Fundamentos da AWS",
-                "description": "Documentação oficial",
-                "type": "REFERENCIA",
-                "link":"https://explore.skillbuilder.aws/learn/public/learning_plan/view/1044/solutions-architect-learning-plan?la=cta&cta=topbanner"
+                "description": "Curso AWS - '<em>Solutions Architect Learning Plan</em>'",
+                "type": "CURSO",
+                "link":"https://explore.skillbuilder.aws/learn/public/learning_plan/view/1044/solutions-architect-learning-plan?la=cta&cta=topbanner"                
             }
         ]
     },
     {
-        "name": "Trabalhe com sistemas Cloud-based!",
-        "description": " Devido as grandes vantagens de computação em nuvem cada vez mais sistemas, pipelines e fluxo de dados vem sendo implementados em nuvem. Sendo assim, saber criar sistemas como banco de dados, VMs, monitoramento, aplicações, servidores web, armasenamento de dados e outros recursos é um ponto importantissímo. Logicamente, vai depender da sua função dentro da empresa. ",
-        "iconClasses": "fa-solid fa-home",
+        "name":"Sugestões de Cursos DIO",
+        "description":"Devido as grandes vantagens de computação em nuvem cada vez mais sistemas, pipelines e fluxo de dados vem sendo implementados em nuvem. Sendo assim, saber criar sistemas como banco de dados, VMs, monitoramento, aplicações, servidores web, armasenamento de dados e outros recursos é um ponto importantissímo. Logicamente, vai depender da sua função dentro da empresa. Criação de aplicações que possam interagir com a infraestrutura criada faz parte da vida de diversos profissionais de TI.",
+        "iconClasses": "fa-solid fa-play",
         "additionalContents":[
             {
-                "description": "Curso <strong>Introdução Prática a Computação em Nuvem Usando AWS</strong> ",
+                "description": "Curso DIO - <strong>Introdução Prática a Computação em Nuvem Usando AWS</strong> ",
                 "iconClasses": "fa-solid fa-home",
                 "link":"https://web.dio.me/course/Introducao-pratica-a-computacao-em-nuvem-usando-AWS/learning/e5310041-3a80-44d5-bd22-ebc4ff548c67"
             },
             {
-                "description": "Curso <strong>Introdução a engenharia de dados na AWS</strong> ",
+                "description": "Curso DIO - <strong>Introdução a Engenharia de Dados na AWS</strong> ",
                 "iconClasses": "fa-solid fa-home",
                 "link":"https://web.dio.me/course/introducao-engenharia-de-dados-na-aws/learning/55291f79-ab8f-4dfa-9ea9-4d64e03032d3"
-            }
-        ]
-    },
-    {
-        "name":"Cursos de Cloud com Java",
-        "description":" Criação de aplicações que possam interagir com a infraestrutura criada faz parte da vida de diversos profissionais de TI.",
-        "additionalContents":[
+            },
             {
-                "description": "Curso <strong>Criando uma API REST Conectada ao Amazon RDS com Java</strong> ",
+                "description": "Curso DIO - <strong>Criando uma API REST Conectada ao Amazon RDS com Java</strong> ",
                 "iconClasses": "fa-solid fa-home",
                 "link":"https://web.dio.me/course/criando-uma-api-rest-conectada-ao-amazon-rds-com-java/learning/16ea8b83-292e-4aec-b4ad-7c0429829770"
             },
             {
-                "description": "Curso <strong>Criando um Microsserviço de Upload de Imagens com o Amazon S3</strong> ",
+                "description": "Curso DIO - <strong>Criando um Microsserviço de Upload de Imagens com o Amazon S3</strong> ",
                 "iconClasses": "fa-solid fa-home",
                 "link":"https://web.dio.me/course/criando-um-microsservico-de-upload-de-imagens-com-o-amazon-s3/learning/8af1955a-ee36-4ec8-b14d-746ab8fb849e"
             }
         ]
     },
     {
-        "name": "Migração: livro A Practical Guide to Cloud Migration",
+        "name": "Livro <em>A Practical Guide to Cloud Migration</em>",
         "description": "Como conquistar as vagas para Computação na Nuvem, instalar e gerenciar soluções na nuvem sem precisar de um espaço físico e aprender gerenciar projetos totalmente online. Neste roadmap apresentaremos as melhores plataformas para voce conhecer e já começar a praticar a computação na nuvem e ficar livre da necessidade de um super software para desenvolver e gerenciar seus projetos",
-        "iconClasses": "fa-solid fa-home",
+        "iconClasses": "fa-solid fa-book",
         "link":"https://www.oreilly.com/library/view/a-practical-guide/9781492095187/"
     }
    
