@@ -15,7 +15,7 @@
                         "name": "Treinamento/Certificação <i>Entry level</i> CCST",
                         "description": "Certificação de nível de entrada da CISCO. Abordando assuntos, tais como: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
                         "type": "BOOK",
-                        "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics",
+                        "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics"
                     },
                     {
                         "name":"CCNA <i>certificaion</i>",
