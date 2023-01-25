@@ -5,7 +5,27 @@
         "type": "BOOK",
         "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
         "iconClasses": "fa-solid fa-book",
-        "optional": false
+        "additionalContents":[
+            {
+                "name": "Treinamento/Certificação CISCO",
+                "description": "Uma das empresas referências do mercado. Ela oferece certificações básicas relacionadas a infraestrutura. Existem outras focadas nos produtos, contudo as mencionadas abaixo são as duas principais para iniciantes.",
+                "iconClasses": "fas fa-bezier-curve",
+                "additionalContents":[
+                    {
+                        "name": "Treinamento/Certificação <i>Entry level</i> CCST",
+                        "description": "Certificação de nível de entrada da CISCO. Abordando assuntos, tais como: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
+                        "type": "BOOK",
+                        "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics",
+                    },
+                    {
+                        "name":"CCNA <i>certificaion</i>",
+                        "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
+                        "type": "BOOK",
+                        "link": "https://www.cisco.com/c/pt_br/training-events/training.html"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Formação Linux Fundamentals",
@@ -66,20 +86,6 @@
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
                 "link":"https://www.postfix.org/documentation.html"
-            }
-        ]
-    },
-    {
-        "name": "Treinamento/Certificação <i>Entry level</i> CCST",
-        "description": "Certificação de nível de entrada da CISCO. Abordando assuntos, tais como: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
-        "type": "BOOK",
-        "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics",
-        "iconClasses": "fas fa-bezier-curve",
-        "additionalContents":[
-            {
-                "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
-                "type": "BOOK",
-                "link": "https://www.cisco.com/c/pt_br/training-events/training.html"
             }
         ]
     },
