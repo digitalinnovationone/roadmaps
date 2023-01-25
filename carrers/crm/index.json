@@ -43,7 +43,7 @@
     {
         "name": "Low-code e Automação",
         "description": "Existem diversas plataformas CRM no mercado, assim como diferentes sistemas para analisar e gerenciar comportamento e relcionamento com o cliente. Aqui estão listadas algumas ferramentas que podem fazer a diferença para um profissional de CRM.",
-        "iconClasses": "fa-solid fa-message-code",
+        "iconClasses": "fa-solid fa-code",
         "additionalContents":[
             {
                 "name": "Formação Outsystems Developer (Em Breve)",
