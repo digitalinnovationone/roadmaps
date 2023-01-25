@@ -1,13 +1,13 @@
 [
     {
         "name": "Trabalhando em Equipes Ágeis",
-        "description": "Se você já está ou pretende estar imerso no mundo da tecnologia, cedo ou tarde você terá contato com os princípios do Desenvolvimento Ágil de Software. Como um bom líder e gestor, entender como funciona e o que um time ágil valoriza, certamente fará diferença na sua jornada.",
+        "description": "Se você já está ou pretende estar imerso no mundo da tecnologia, cedo ou tarde você terá contato com os princípios do Desenvolvimento Ágil de Software. Como um bom líder e gestor, entender como funciona e o que um time ágil valoriza, certamente fará diferença na sua jornada. Em um cenário com constantes mudanças é fundamental ser flexível e conseguir se adaptar bem às novas realidades. Neste curso, você irá compreender o que é ser ágil de fato, a importância da agilidade nos dias atuais e conhecer alguns dos principais métodos e ferramentas que existem e que você pode aplicar na gestão ágil em conjunto com o seu time.",
         "link": "https://web.dio.me/course/trabalhando-em-equipes-ageis/learning/477c95b5-a83f-48e9-80ed-bb0364878f8b",
-        "iconClasses": "fa-solid fa-road",
+        "iconClasses": "fa-solid fa-arrows-split-up-and-left",
         "additionalContents": [
             {
                 "name": "Liderança de Negócios com Cultura Ágil",
-                "description": "Que tal se inspirar com líderes de grandes empresas? Para um líder em formação, ter uma rede sólida de networking e boas referências são fundamentais. Um bom líder deve ter em mente a importância de definir metas SMART, de criar uma cultura ágil e sadia dentro do time e também a como estimular as pessoas na dose certa para que os resultados sejam entregues.",
+                "description": "Que tal se inspirar com líderes de grandes empresas? Para um líder em formação, ter uma rede sólida de networking e boas referências são fundamentais. Esse curso vai trazer insights de como empresas de sucesso como MaxMilhas, Méliuz e Raccoon criaram um ambiente empreendedor que envolve os colaboradores. Você entenderá o quão importante é a manutenção dessa cultura desde o processo de contratação do(a) colaborador(a), que precisa ter um mindset que corresponda com o da empresa e demais integrantes, até no dia a dia do time. Um bom líder deve ter em mente a importância de definir metas SMART, de criar uma cultura ágil e sadia dentro do time e também a como estimular as pessoas na dose certa para que os resultados sejam entregues.",
                 "link": "https://web.dio.me/course/lideranca-de-negocios-com-cultura-agil/learning/a0f100e4-7847-41db-9bd2-f288a92a9d44"
             }
         ]
@@ -17,18 +17,40 @@
         "description": "Quando o assunto é Tecnologia, Metodologias ágeis e Gestão, não tem como não falar sobre Scrum, o framework ágil mais utilizado no mundo que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos. Uma das possibilidades de carreira para quem quer liderar times ágeis é a de Scrum Master (SM). Os SMs são verdadeiros líderes que servem ao Scrum Team e à organização como um todo. Além de dominar os fundamentos do framework Scrum, ao final da Formação você estará preparado para a Certificação Internacional Professional Scrum Master I (PSM I) da Scrum.org. Vem com a gente nessa jornada e potencialize a sua carreira!",
         "type": "FORMACAO",
         "link": "https://web.dio.me/track/formacao-scrum-master",
-        "iconClasses": "fa-solid fa-rugby-ball"
+        "iconClasses": "fa-solid fa-football"
     },
     {
         "name": "Formação Carreiras Tech (Em Breve)",
         "description": "EM BREVE a DIO irá lançar uma Formação que promete impactar ainda mais as vidas das pessoas que estão iniciando a carreira em tecnologia. Com conteúdos diversos e atualizados, a Formação irá te ajudar a criar o passo a passo para você trilhar uma carreira de sucesso no mundo de tecnologia. Serão mapeadas as principais possibilidades de carreira, salários, dicas de como se destacar em uma entrevista e muito mais. Além disso, teremos conteúdos sobre quais são as habilidades e atitudes comportamentais de um profissional de tecnologia que se destaca no mercado de trabalho e, principalmente, você será incentivado a mergulhar numa jornada contínua de autoconhecimento.",
         "type": "FORMACAO",
-        "iconClasses": "fa-brands fa-scrum"
+        "iconClasses": "fa-solid fa-signs-post"
     },
     {
         "name": "Formação Liderança e Soft Skills (Em Breve)",
         "description": "EM BREVE iremos lançar essa incrível Formação que promete mapear quais são as principais características e atitudes de um líder de sucesso baseado em diversos estudos sobre liderança, habilidades comportamentais e inteligência emocional, além de trazer entrevistas exclusivas com diversos líderes, pesquisadores e recrutadores.",
         "type": "FORMACAO",
-        "iconClasses": "fa-brands fa-scrum"
+        "iconClasses": "fa-solid fa-face-smile-hearts"
+    },
+    {
+        "name": "Sugestões de Bons Livros 🤓",
+        "description": "Você já parou para refletir como a leitura de livros sobre liderança pode ajudar na sua atuação como líder? Listamos abaixo alguns livros que são referências quando o assunto é ser um líder de sucesso e que com certeza serão inspiração para você!",
+        "iconClasses": "fa-solid fa-book",
+        "additionalContents": [
+            {
+                "title": "<strong>A Essência do Líder</strong>, Warren G. Bennis",
+                "description": "Warren Bennis entrevistou dezenas de líderes que se destacavam em diferentes áreas de atuação para consolidar as características e atitudes que definem um verdadeiro líder. Com insights preciosos para quem está tentando aprimorar a sua liderança, este livro é um guia que ensina a lapidar as suas próprias habilidades. Ideal para quem está começando a jornada!"
+            },
+            {
+                "title": "<strong>Mindset</strong>, Carol S. Dweck",
+                "description": "Você sabia que a atitude mental, o 'mindset', pode ser determinante para o sucesso ou o fracasso de um profissional? A autora Carol S. Dweck mostra como a maneira de cada um encarar a vida, e principalmente o fracasso, pode ser determinante para que se obtenha sucesso, definindo então as diferenças entre mindset de crescimento e o mindset fixo. O livro apresenta exemplos reais que auxiliam no processo de identificação do perfil e atitudes das pessoas que tiveram, verdadeiramente, sucesso. Este livro promete mudar a sua maneira de entender o sucesso e como ele pode ser alcançado. "
+            },
+            {
+                "title": "<strong>Liderança - A Inteligência Emocional na Formação do Líder de Sucesso</strong>, Daniel Goleman.",
+                "description": "Este livro reúne reflexões e estudos do autor sobre a dinâmica dos relacionamentos e o real impacto da inteligência emocional nos resultados da empresa. É uma leitura essencial para líderes focados em inovação e excelência em gestão! "
+            },
+            {
+                "description": "LEU OUTRO LIVRO QUE NÃO ESTÁ NA LISTA? NÃO DEIXE DE COMPARTILHAR A SUA EXPERIÊNCIA NA <a href='https://web.dio.me/articles' target='_blank'>ÁREA DE ARTIGOS</a> DA DIO!"
+            }
+        ]
     }
 ]
