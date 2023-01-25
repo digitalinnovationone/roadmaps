@@ -161,3 +161,16 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+
+.rodape {    
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.rodape>a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
