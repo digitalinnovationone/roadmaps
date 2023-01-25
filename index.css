@@ -65,7 +65,7 @@ body {
   z-index: 99;
   color: white;
   height: 100vh;
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,6 +100,7 @@ body {
 
 .track-infos>ul {
   list-style-image: url('assets/bullet-dio.png');
+  margin-left: 25px;
 }
 
 .track-infos>ul>li>a {
