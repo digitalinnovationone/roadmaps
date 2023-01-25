@@ -2,7 +2,7 @@
     {
         "name": "Android ou iOS? Talvez Ambos 😁",
         "description": "No universo do Desenvolvimento Mobile existem essencialmente dois possíveis caminhos: <em>1. Nativo (Android ou iOS); 2. Multiplataforma (Android e iOS).</em> Neste Roadmap DIO apresentaremos uma linha do tempo com as alternativas mais relevantes para sua jornada de estudos.",
-        "iconClasses": "fa-solid fa-road"
+        "iconClasses": "fa-solid fa-sitemap"
     },
     {
         "name": "Android Nativo",
@@ -62,7 +62,7 @@
                 "name": "Formação <strong>Flutter</strong> Developer",
                 "description": "Aprenda a desenvolver Apps multiplataforma com Flutter, explorando desde a base da linguagem <strong>Dart</strong> até como o fluxo de pessistência de dados com Hive e SQLite. Além disso, você irá dominar como consumir APIs e conheçer os componentes/widgets para construção de uma solução rica e fluida.",
                 "type": "FORMACAO",
-                "iconClasses": "fa-solid fa-mobile-screen",
+                "iconClasses": "fa-solid fa-bullseye",
                 "link": "https://web.dio.me/track/formacao-flutter-specialist"
             },
             {

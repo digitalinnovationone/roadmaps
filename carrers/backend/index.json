@@ -95,6 +95,7 @@
         "name": "Tendências Arquiteturais de Software",
         "description": "A tecnologia evolui na velocidade da luz e, por isso, é fundamental que você esteja acompanhe tais mudanças. Nesse contexto, listamos alguns conteúdos/tecnologias interessantes que podem deixar a sua jornada ainda mais rica e desafiadora.",
         "link": "https://web.dio.me/track/formacao-gitlab-cicd",
+        "iconClasses": "fa-solid fa-layer-group",
         "additionalContents": [
             {
                 "name": "APIs",

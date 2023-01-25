@@ -51,7 +51,7 @@
   {
     "name": "Escolha Um Framework 🤔",
     "description": "Agora que você já domina os 3 Pilares do Desenvolvimento Web (HTML, CSS e JavaScript), começe a explorar os principais Frameworks de Front-end e descubra qual será o seu queridinho:",
-    "optional": true,
+    "iconClasses": "fa-solid fa-sitemap",
     "additionalContents": [
       {
         "name": "Formação React Developer",
