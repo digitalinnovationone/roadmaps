@@ -20,4 +20,8 @@
     margin-top: 30%;
   }
 
+  .container-tracks {
+   display: none;
+  }
+
 }
