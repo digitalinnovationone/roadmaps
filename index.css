@@ -127,10 +127,7 @@ body {
 
 .label__text{
   font-size: 22px;
-  font-family: 'open sans';
 }
-
-
 
 .button {
   color: #db3eb1;
@@ -150,4 +147,11 @@ body {
   color: white;
   background-color: #db3eb1;
   filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+}
+
+.container-contents{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-items: center;
 }
