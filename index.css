@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background:#000000;
+  background: #000000;
 }
 
 ::selection {
@@ -21,7 +21,7 @@ body {
   background: #02082A;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,16 +34,13 @@ body {
 }
 
 
-#tag{
+#tag {
   background-color: #E44C5D;
   padding: 8px 30px;
   color: #fff;
   width: 100px;
   font-size: 55px;
-
-
   box-shadow: 0 0 5px #ff2d62, 0 0 5px #eb3a72 inset;
-
   color: #fff;
   -webkit-perspective: 300px;
   perspective: 300px;
@@ -54,19 +51,19 @@ body {
 .neonText {
   color: #fff;
   text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px rgb(228, 228, 228),
-      0 0 82px rgb(247, 247, 247),
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(228, 228, 228),
+    0 0 82px rgb(247, 247, 247),
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
 }
 
-.container-labels{
+.container-labels {
   z-index: 99;
-  color:white;
+  color: white;
   background-color: rgba(9, 0, 6, 0.368);
   height: 100vh;
   width: 60%;
@@ -76,10 +73,10 @@ body {
   margin-left: 10%;
 }
 
-.container-tracks{
+.container-tracks {
   z-index: 99;
   background-color: rgba(9, 0, 6, 0.368);
-  color:white;
+  color: white;
   border: 1px solid blue;
   margin-left: 50px;
   height: 300px;
@@ -90,7 +87,7 @@ body {
 }
 
 
-.track-card{
+.track-card {
   border: 1px solid white;
   border-radius: 5px;
   background: #000000;
@@ -102,41 +99,45 @@ body {
   align-items: center;
 }
 
-.track-infos > p{
+.track-infos>p, .track-infos>ul {
   margin: auto;
   margin-bottom: 5%;
   width: 70%;
 }
 
+.track-infos>ul>li>a {
+  color: white;
+  font-weight: bold;
+}
 
-.label-box{
+.label-box {
   width: 600px;
   height: 60%;
   margin-right: 30px;
 }
 
-.label__tag, 
-.label__title, 
-.label__nagivation{
+.label__tag,
+.label__title,
+.label__nagivation {
   margin-bottom: 30px;
 }
 
-.label__nagivation{
+.label__nagivation {
   margin-top: 120px;
 }
 
-.label__text{
+.label__text {
   font-size: 22px;
 }
 
 .button {
   color: #db3eb1;
   border: 6px solid #db3eb1;
-  border-radius:15px;
+  border-radius: 15px;
   padding: 15px 25px;
   font-size: 30px;
   font-family: tahoma;
-  letter-spacing:5px;
+  letter-spacing: 5px;
   cursor: pointer;
   font-weight: bold;
   filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
@@ -149,9 +150,9 @@ body {
   filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
 }
 
-.container-contents{
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
+.container-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
