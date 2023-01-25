@@ -4,7 +4,7 @@
         "description": "Duas das grandes referências de Livros que podemos citar dentro da área de Infraestrutura (redes de computadores) estão relacionadas aos autores Kurose e Tanenbaum. Aqui nossa dica fica a cargo do livro Redes de Computadores e a Internet - Kurose.",
         "type": "BOOK",
         "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
-        "iconClasses": "fa-solid fa-sitemap",
+        "iconClasses": "fa-solid fa-book",
         "optional": false
     },
     {
@@ -70,7 +70,7 @@
         ]
     },
     {
-        "name": "Treinamento/Certificação <>Entry level</> CCST",
+        "name": "Treinamento/Certificação <i>Entry level</i> CCST",
         "description": "Certificação de nível de entrada da CISCO. Abordando assuntos, tais como: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
         "type": "BOOK",
         "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics",
@@ -87,7 +87,7 @@
         "name": "Virtualização e Containers",
         "description": "Um profissional de infra, deve saber manipular recursos de máquinas físicas e ainda lidar com virtualização. A virtualização permite utilizar de maneira otimizada os recurso de uma mesma máquina para diversas finalidades. Podemos criar diversos servidores virtualizados distintos. O limite esta relacionado a capacidade da máquina. Lembre-se containers também são caracterizados como virtualização, contudo são diferentes de máquinas virtuais (VMs) ",
         "type": "REFERENCIA",
-        "iconClasses": "fa-brands fa-html5",
+        "iconClasses": "fa-brands fa-sitemap",
         "optional": false,
         "additionalContents":
         [
