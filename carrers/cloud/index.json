@@ -9,7 +9,30 @@
         "description": "Sabendo das vantagens de utilizar a computação na nuvem (Cloud), podemos começar a dar os primeiros passos na área utilizando o GCP (Google Cloud Platform) plataforma da google para a computação na nuvem, crie e gerencie máquinas virtuais com o Compute Engine, domine a gestão de acessos com o Identity and Access Management (IAM), crie uma Infraestrutura totalmente Native Cloud, faça Deploys de aplicação utilizando container no Cloud Run e entenda boas práticas na hora de organizar e gerir projetos clouds a nível corporativo.",
         "type": "FORMACAO",
         "link": "https://web.dio.me/track/formacao-gcp-specialist",
-        "iconClasses": "fa-brands fa-google"
+        "iconClasses": "fa-brands fa-google",
+        "additionalContents":[
+            {
+                "name": "Core da infraestrutura Google Cloud Platform (GCP)",
+                "description": "Documentação oficial",
+                "type": "FORMACAO",
+                "link": "https://www.cloudskillsboost.google/course_templates/60",
+                "iconClasses": "fa-brands fa-google"
+            },
+            {
+                "name": "Core da infraestrutura Google Cloud Platform (GCP)",
+                "description": "Documentação oficial",
+                "type": "FORMACAO",
+                "link": "https://www.cloudskillsboost.google/course_templates/178",
+                "iconClasses": "fa-brands fa-google"
+            },
+            {
+                "name": "Log, Monitoramento e Observalidade - GCP",
+                "description": "Documentação oficial",
+                "type": "FORMACAO",
+                "link": "https://www.cloudskillsboost.google/course_templates/99",
+                "iconClasses": "fa-brands fa-google"
+            }
+        ]
     },
     {
         "name": "Microsoft Azure (Em Breve)",
