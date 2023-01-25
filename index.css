@@ -65,11 +65,11 @@ body {
   z-index: 99;
   color: white;
   height: 100vh;
-  width: 50%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .container-tracks {
@@ -79,7 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 
