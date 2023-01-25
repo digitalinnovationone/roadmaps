@@ -95,25 +95,19 @@
                 "name": "Virtualização com Virtualbox",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link":"https://www.virtualbox.org/wiki/Documentation",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://www.virtualbox.org/wiki/Documentation"
             },
             {
                 "name": "Containers com Docker",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link":"https://docs.docker.com/",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://docs.docker.com/"
             },
             {
                 "name": "Formação Docker Fundamentals",
                 "type": "FORMAÇÃO",
                 "description":" Você aprenderá Docker começando por entender o que é um contêiner e como é o seu funcionamento. Irá realizar atividades práticas em laboratórios virtuais para entender como os contêineres são criados e implementados em uma infraestrutura real.",
-                "link":"https://web.dio.me/track/formacao-docker-fundamentals",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://web.dio.me/track/formacao-docker-fundamentals"
                 
             }
         ]
@@ -123,8 +117,7 @@
         "type": "FORMAÇÃO",
         "description":"  Em um mundo onde aplicações estão migrando de arquiteturas monolíticas para microsserviços, o entendimento de como os microsserviços devem ser publicados e principalmente escalados é de vital importância para desenvolvedores e demais profissionais envolvidos em um projeto.",
         "link":"https://web.dio.me/track/formacao-kubernetes",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": true
+        "iconClasses": "fa-brands fa-kubernetes"
         
     },
     {
