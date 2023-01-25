@@ -98,8 +98,19 @@ body {
   margin-bottom: 5%;
 }
 
-.track-infos>ul> {
-  list-style-image: url('assets/logo-minimized.png');
+/* https://www.geeksforgeeks.org/how-to-resize-list-style-image-in-css/ */
+.track-infos>ul>li {
+  list-style: none;
+}
+.track-infos>ul>li::before {
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+  /* Height of the list image*/
+  height: 10px;
+  /* Width of the list image*/
+  width: 10px;
+  background-image: url('assets/logo-minimized.png')
 }
 
 .track-infos>ul>li>a {
