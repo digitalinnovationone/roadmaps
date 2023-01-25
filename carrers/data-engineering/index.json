@@ -22,7 +22,9 @@
                 "iconClasses": "fa-brands fa-java"
             },
             {
-                "name": "Scala"                
+                "name": "Linguagem de Programação Scala",
+                "description":"O número de empresas pedindo como requisito esta linguagem vem crescendo nos últimos anos. Aqui temos a documentação oficial da linguagem de programação Scala.",
+                "link":"https://docs.scala-lang.org/"                
             }
         ]
     },
@@ -111,11 +113,36 @@
     },
     {
         "name": "Construção de Soluções de Armazenamento de Dados",
-        "description": "Construção e gerenciamento de Data Warehouses, Data Marts, Data Lakes, Data Lakehouse e outras soluções."
+        "description": "Construção e gerenciamento de Data Warehouses, Data Marts, Data Lakes, Data Lakehouse e outras soluções.",
+        "additionalContents": [
+            {
+                "name": "BigQuery",
+                "description": "Documentação Oficial",
+                "link":"https://cloud.google.com/bigquery/docs?hl=pt-br"
+            },
+            {
+                "name":"Data Lake Azure",
+                "description":"Documentação Oficial",
+                "link":"https://azure.microsoft.com/pt-br/solutions/data-lake/"
+            },
+            {
+                "name": "Databricks",
+                "description": "Documentação Oficial",
+                "link":"https://www.databricks.com/databricks-documentation"
+            }
+        ]
     },
     {
         "name": "Processamento e Pipeline de Dados",
-        "description": "Construção e gerenciamento de Data Warehouses, Data Marts, Data Lakes, Data Lakehouse e outras soluções."
+        "description": "Processos, ETL e ELT",
+        "additionalContents":[
+            {
+
+            },
+            {
+                
+            }
+        ]
     }, 
     {
       "name": "Cloud Specialist",
