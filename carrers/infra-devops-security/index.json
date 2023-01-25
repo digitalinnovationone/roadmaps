@@ -229,35 +229,35 @@
                 "description": "Aprenda na prática a utilizar ferramentas e técnicas voltadas para a área de Cibersegurança, abrindo grandes possibilidades de carreira nesse mercado que vem crescendo exponencialmente.",
                 "type": "FORMAÇÃO",
                 "link": "https://web.dio.me/track/formacao-cybersecurity"
+            },
+            {
+                "name": "Aprofunde seus conhecimentos em Segurança",
+                "description": "IPS/IDS, VPN, Firewall e ferramentas e monitoramento de pacotes são pontos fundamentais de segurança.  Aqui estamos listando alguns dos principais pontos para você continuar sua jornada. Além disso, você poderá explorar outros assuntos como: Proxy, DMZ, pfBloquer, Segurança em redes sem fio... Seja protagonista da sua história!",
+                "type": "BOOK",
+                "iconClasses":"fa-solid fa-user-secret",
+                "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
+                "additionalContents":[
+                    {
+                        "name": "PFsense - Muito além de um SO",
+                        "description": "Sendo Firewall, router, VPN, dentre tantos outros recursos. Este é um dos principais SOs utilizados na área de segurança.",
+                        "type": "REFERENCIA",
+                        "link": "https://docs.netgate.com/pfsense/en/latest/"
+                    },
+                    {
+                        "name": "Snort - IDS Intrusion Detection System",
+                        "description":"Documentação oficial",
+                        "type": "REFERENCIA",
+                        "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/"                
+                    },
+                    {
+                        "name": "OpenVPN - Virtual Private Network",
+                        "description":"Documentação oficial",
+                        "type": "REFERENCIA",
+                        "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/"
+                    }           
+                    
+                ]
             }
-        ]
-    },
-    {
-        "name": "Aprofunde seus conhecimentos em Segurança",
-        "description": "IPS/IDS, VPN, Firewall e ferramentas e monitoramento de pacotes são pontos fundamentais de segurança.  Aqui estamos listando alguns dos principais pontos para você continuar sua jornada. Além disso, você poderá explorar outros assuntos como: Proxy, DMZ, pfBloquer, Segurança em redes sem fio... Seja protagonista da sua história!",
-        "type": "BOOK",
-        "iconClasses":"fa-solid fa-user-secret",
-        "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
-        "additionalContents":[
-            {
-                "name": "PFsense - Muito além de um SO",
-                "description": "Sendo Firewall, router, VPN, dentre tantos outros recursos. Este é um dos principais SOs utilizados na área de segurança.",
-                "type": "REFERENCIA",
-                "link": "https://docs.netgate.com/pfsense/en/latest/"
-            },
-            {
-                "name": "Snort - IDS Intrusion Detection System",
-                "description":"Documentação oficial",
-                "type": "REFERENCIA",
-                "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/"                
-            },
-            {
-                "name": "OpenVPN - Virtual Private Network",
-                "description":"Documentação oficial",
-                "type": "REFERENCIA",
-                "link": "http://manual-snort-org.s3-website-us-east-1.amazonaws.com/"
-            }           
-            
         ]
     }
     
