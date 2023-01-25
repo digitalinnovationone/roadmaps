@@ -1,7 +1,8 @@
 [
     {
-        "name": "Escolha uma plataforma CRM",
+        "name": "Escolha uma Plataforma CRM",
         "description": "Existem diversas plataformas CRM no mercado. Cada uma tens suas particularidades e podem ser aplicadas a cenários distintos. Sendo assim, temos algumas opções para você escolher e mergulhar no mundo do gerenciamento de relacionamento com cliente.",
+        "iconClasses": "fa-solid fa-home",
         "additionalContents":[
             {
                 "name": "Formação CRM Dynamics 365 Developer",
@@ -10,7 +11,7 @@
                 "link":"https://web.dio.me/track/formacao-dynamics-365"
             },
             {
-                "name": "Formação Salesforce Developer (Em 2023)",
+                "name": "Formação Salesforce Developer (Em Breve)",
                 "description": "Salesforce é uma ferramente CRM cloud-based focada em sales, costumer service, integração com marketing, analytics, entre outros.",
                 "type": "FORMACAO"
             },
@@ -22,8 +23,9 @@
         ]
     },
     {
-        "name": "Sistemas e Ferramentas que agregam ao ambiente CRM",
+        "name": "Sistemas e Ferramentas que Agregam ao Ambiente CRM",
         "description": "Existem diversas plataformas CRM no mercado, assim como diferentes sistemas para analisar e gerenciar comportamento e relcionamento com o cliente. Aqui estão listadas algumas ferramentas que podem fazer a diferença para um profissional de CRM.",
+        "iconClasses": "fa-solid fa-business-time",
         "additionalContents":[
             {
                 "name": "Google Analytics",
@@ -39,25 +41,20 @@
         ]
     },
     {
-        "name": "Low-code e automação",
+        "name": "Low-code e Automação",
         "description": "Existem diversas plataformas CRM no mercado, assim como diferentes sistemas para analisar e gerenciar comportamento e relcionamento com o cliente. Aqui estão listadas algumas ferramentas que podem fazer a diferença para um profissional de CRM.",
+        "iconClasses": "fa-solid fa-message-code",
         "additionalContents":[
             {
-                "name": "Formação Outsystems Developer (Em 2023)",
+                "name": "Formação Outsystems Developer (Em Breve)",
                 "description": "Com Outsystems é possível criar aplicações com low-code. Assim, você foca na estratégia do negócio. Além disso, conseguimos diminuir a demanda para TI e consequentemente o gargalo.",
                 "type": "FORMACAO"
             },
             {
-                "name": "Power Apps",
-                "description": "Ferramenta low-code proprietária da Microsoft. Por ser um produto Microsoft se integra facilmente aos demais tools.",
+                "name": "Conteúdos Oficiais Microsoft",
+                "description": "Ferramentas de low-code e automação são algumas das apostas da Microsoft. Em geral, produtos Microsoft têm uma facilidade adicional em termos de configuração e integração. Nesse sentido, a própria empresa possui uma série de conteúdos interessante que podem complementar sua jornada.",
                 "type": "REFERENCIA",
-                "link":"https://learn.microsoft.com/pt-br/training/modules/get-started-flows/"
-            },
-            {
-                "name": "Power Automate",
-                "description": "Com Power automate é possível criar fluxo e automatizar processos sem escrever uma linha de código. O CRM Dynamics, por ser Microsoft, se integra perfeitamente com o Power Automate",
-                "type": "REFERENCIA",
-                "link":"https://learn.microsoft.com/pt-br/training/modules/get-started-flows/"
+                "link":"https://learn.microsoft.com/pt-br/training/browse/?roles=business-analyst"
             }
         ]
     }        
