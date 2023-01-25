@@ -2,10 +2,16 @@
     {
         "name": "Fundamentos de Infraestrutura",
         "description": "Duas das grandes referências de Livros que podemos citar dentro da área de Infraestrutura (redes de computadores) estão relacionadas aos autores Kurose e Tanenbaum. Aqui nossa dica fica a cargo do livro Redes de Computadores e a Internet - Kurose.",
-        "type": "BOOK",
-        "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
         "iconClasses": "fa-solid fa-book",
         "additionalContents":[
+            {
+                "description": "Livro Redes de computadores e a Internet - Uma abordagem <i>Top Down</i> Kurose",
+                "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"        
+            },
+            {
+                "description": "Livro Redes de computadores e a Internet - Uma abordagem <i>Top Down</i> Kurose",
+                "link": "https://www.amazon.com.br/Redes-Computadores-Andrew-Tanenbaum/dp/8582605609/ref=pd_lpo_1?pd_rd_w=RzFJx&content-id=amzn1.sym.036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_p=036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_r=5R05H02WK86A0V0DV843&pd_rd_wg=Juf8n&pd_rd_r=e15051ba-801a-4b2c-80c6-7066de2a919c&pd_rd_i=8582605609&psc=1"        
+            },
             {
                 "name": "Treinamento/Certificação CISCO",
                 "description": "Uma das empresas referências do mercado. Ela oferece certificações básicas relacionadas a infraestrutura. Existem outras focadas nos produtos, contudo as mencionadas abaixo são as duas principais para iniciantes.",
