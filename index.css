@@ -112,6 +112,7 @@ body {
 .track-infos>ul>li>a {
   color: white;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .label-box {
