@@ -4,7 +4,7 @@
         "description": "Duas das grandes referências de Livros que podemos citar dentro da área de Infraestrutura (redes de computadores) estão relacionadas aos autores Kurose e Tanebaum. Aqui nossa dica fica a cargo do livro Redes de Computadores e a Internet - Kurose.",
         "type": "BOOK",
         "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
-        "iconClasses": "fa-brands fa-html5",
+        "iconClasses": "fa-solid fa-book",
         "optional": false
     },
     {

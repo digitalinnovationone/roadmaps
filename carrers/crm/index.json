@@ -2,7 +2,7 @@
     {
         "name": "Escolha uma Plataforma CRM",
         "description": "Existem diversas plataformas CRM no mercado. Cada uma tens suas particularidades e podem ser aplicadas a cenários distintos. Sendo assim, temos algumas opções para você escolher e mergulhar no mundo do gerenciamento de relacionamento com cliente.",
-        "iconClasses": "fa-solid fa-home",
+        "iconClasses": "fa-solid fa-road",
         "additionalContents":[
             {
                 "name": "Formação CRM Dynamics 365 Developer",

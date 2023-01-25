@@ -3,7 +3,7 @@
         "name": "Trabalhando em Equipes Ágeis",
         "description": "Se você já está ou pretende estar imerso no mundo da tecnologia, cedo ou tarde você terá contato com os princípios do Desenvolvimento Ágil de Software. Como um bom líder e gestor, entender como funciona e o que um time ágil valoriza, certamente fará diferença na sua jornada.",
         "link": "https://web.dio.me/course/trabalhando-em-equipes-ageis/learning/477c95b5-a83f-48e9-80ed-bb0364878f8b",
-        "iconClasses": "fa-solid fa-home",
+        "iconClasses": "fa-solid fa-road",
         "additionalContents": [
             {
                 "name": "Liderança de Negócios com Cultura Ágil",
@@ -17,7 +17,7 @@
         "description": "Quando o assunto é Tecnologia, Metodologias ágeis e Gestão, não tem como não falar sobre Scrum, o framework ágil mais utilizado no mundo que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos. Uma das possibilidades de carreira para quem quer liderar times ágeis é a de Scrum Master (SM). Os SMs são verdadeiros líderes que servem ao Scrum Team e à organização como um todo. Além de dominar os fundamentos do framework Scrum, ao final da Formação você estará preparado para a Certificação Internacional Professional Scrum Master I (PSM I) da Scrum.org. Vem com a gente nessa jornada e potencialize a sua carreira!",
         "type": "FORMACAO",
         "link": "https://web.dio.me/track/formacao-scrum-master",
-        "iconClasses": "fa-brands fa-scrum"
+        "iconClasses": "fa-solid fa-rugby-ball"
     },
     {
         "name": "Formação Carreiras Tech (Em Breve)",
