@@ -102,7 +102,11 @@ body {
 
 .track-infos>ul {
   list-style-image: url('assets/bullet-dio.png');
-  margin-left: 25px;
+  margin-left: 1.5rem;
+}
+
+.track-infos>ul>li {
+  margin-bottom: 0.5rem;
 }
 
 .track-infos>ul>li>a {
