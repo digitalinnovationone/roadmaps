@@ -15,12 +15,73 @@
         "name": "Microsoft Azure (Em Breve)",
         "description": "Outra plataforma que podemos utilizar e que consta em todas as listas de topo de mercado é o Microsoft Azure, plataforma da Microsoft, que também fornece acesso, gerenciamento e desenvolvimento de aplicativos ou serviços através de data centers distribuidos em todo mundo e também totalmente online na nuvem.",
         "type": "FORMACAO",
-        "iconClasses": "fa-brands fa-microsoft"
+        "iconClasses": "fa-brands fa-microsoft",
+        "additionalContents":[
+            {
+                "description": "Curso <strong>Fundamentos do Azure</strong>",
+                "type": "FORMACAO",
+                "iconClasses": "fa-brands fa-microsoft",
+                "link":"https://web.dio.me/course/fundamentos-do-azure/learning/14bfe457-2223-4baa-bb9e-9869149a732b"                
+            },
+            {
+                "name":"Conceitos e Arquitetura Cloud",
+                "description": "Documentação oficial",
+                "type": "FORMACAO",
+                "iconClasses": "fa-brands fa-microsoft",
+                "link":"https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/"                
+            },
+            {
+                "name":"Gerenciamento e Governaça - Azure",
+                "description": "Documentação oficial",
+                "type": "FORMACAO",
+                "iconClasses": "fa-brands fa-microsoft",
+                "link":"https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/"                
+            }
+        ]
     },
     {
         "name": "Amazon Web Services (Em Breve)",
         "description": "Mais uma opção de plataforma de nuvem, dessa vez distrubida pela Amazon, a AWS é considerada a maior do plataforma de nuvem do mundo, onde também é possivel gerenciar e desenvolver aplicativos na nuvem, também tecnologias como armazenamento de banco de dados e até tecnologias emergentes como Machine Learning, Inteligencia Artificiais e Internet das Coisas (IoT). Essa plataforma também oferece inumeros de banco de dados criados para as mais diversas aplicações.",
         "type": "FORMACAO",
         "iconClasses": "fa-brands fa-amazon"
+    },
+    {
+        "name": "Trabalhe com sistemas Cloud-based!",
+        "description": " Devido as grandes vantagens de computação em nuvem cada vez mais sistemas, pipelines e fluxo de dados vem sendo implementados em nuvem. Sendo assim, saber criar sistemas como banco de dados, VMs, monitoramento, aplicações, servidores web, armasenamento de dados e outros recursos é um ponto importantissímo. Logicamente, vai depender da sua função dentro da empresa. ",
+        "iconClasses": "fa-solid fa-home",
+        "additionalContents":[
+            {
+                "description": "Curso <strong>Introdução Prática a Computação em Nuvem Usando AWS</strong> ",
+                "iconClasses": "fa-solid fa-home",
+                "link":"https://web.dio.me/course/Introducao-pratica-a-computacao-em-nuvem-usando-AWS/learning/e5310041-3a80-44d5-bd22-ebc4ff548c67"
+            },
+            {
+                "description": "Curso <strong>Introdução a engenharia de dados na AWS</strong> ",
+                "iconClasses": "fa-solid fa-home",
+                "link":"https://web.dio.me/course/introducao-engenharia-de-dados-na-aws/learning/55291f79-ab8f-4dfa-9ea9-4d64e03032d3"
+            }
+        ]
+    },
+    {
+        "name":"Cursos de Cloud com Java",
+        "description":" Criação de aplicações que possam interagir com a infraestrutura criada faz parte da vida de diversos profissionais de TI.",
+        "additionalContents":[
+            {
+                "description": "Curso <strong>Criando uma API REST Conectada ao Amazon RDS com Java</strong> ",
+                "iconClasses": "fa-solid fa-home",
+                "link":"https://web.dio.me/course/criando-uma-api-rest-conectada-ao-amazon-rds-com-java/learning/16ea8b83-292e-4aec-b4ad-7c0429829770"
+            },
+            {
+                "description": "Curso <strong>Criando um Microsserviço de Upload de Imagens com o Amazon S3</strong> ",
+                "iconClasses": "fa-solid fa-home",
+                "link":"https://web.dio.me/course/criando-um-microsservico-de-upload-de-imagens-com-o-amazon-s3/learning/8af1955a-ee36-4ec8-b14d-746ab8fb849e"
+            }
+        ]
+    },
+    {
+        "name": "Migração de sistemas on-premise para cloud",
+        "description": "Como conquistar as vagas para Computação na Nuvem, instalar e gerenciar soluções na nuvem sem precisar de um espaço físico e aprender gerenciar projetos totalmente online. Neste roadmap apresentaremos as melhores plataformas para voce conhecer e já começar a praticar a computação na nuvem e ficar livre da necessidade de um super software para desenvolver e gerenciar seus projetos",
+        "iconClasses": "fa-solid fa-home"
     }
+   
 ]
