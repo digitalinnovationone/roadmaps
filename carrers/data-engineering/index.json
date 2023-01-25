@@ -114,6 +114,7 @@
     {
         "name": "Construção de Soluções de Armazenamento de Dados",
         "description": "Construção e gerenciamento de Data Warehouses, Data Marts, Data Lakes, Data Lakehouse e outras soluções.",
+        "iconClasses":"",
         "additionalContents": [
             {
                 "name": "BigQuery",
@@ -135,6 +136,7 @@
     {
         "name": "Processamento e Pipeline de Dados",
         "description": "Processos, ETL e ELT",
+        "iconClasses":"",
         "additionalContents":[
             {
                 "description": "<strong>Curso DIO </strong>: Fundamentos de ETL com Python",
