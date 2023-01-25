@@ -13,7 +13,7 @@ const questionState = {
       "order": 2
     },
     {
-      "question": "Qual a importância da inferface de um software para você?",
+      "question": "Qual a importância da interface de um software para você?",
       "order": 3
     },
     {
