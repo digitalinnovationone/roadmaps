@@ -114,6 +114,7 @@
     {
         "name": "Construção de Soluções de Armazenamento de Dados",
         "description": "Construção e gerenciamento de Data Warehouses, Data Marts, Data Lakes, Data Lakehouse e outras soluções.",
+        "iconClasses":"",
         "additionalContents": [
             {
                 "name": "BigQuery",
@@ -135,12 +136,19 @@
     {
         "name": "Processamento e Pipeline de Dados",
         "description": "Processos, ETL e ELT",
+        "iconClasses":"",
         "additionalContents":[
             {
-
+                "description": "<strong>Curso DIO </strong>: Fundamentos de ETL com Python",
+                "link":"https://web.dio.me/course/fundamentos-de-etl-com-python/learning/ddec4a4a-3912-49b3-b368-36518802b9eb"
             },
             {
-                
+                "description": "<strong>Curso DIO </strong>: Fundamentos de ETL/ELT",
+                "link":"https://web.dio.me/course/fundamentos-de-etl/learning/e4ad0ebd-d019-4332-9e79-f83a8dee11c2?back=/track/formacao-power-bi-analyst&tab=undefined&moduleId=undefined"
+            },
+            {
+                "description": "<strong>Curso DIO </strong>: Fundamentos de Modelagem Dimensional",
+                "link":"https://web.dio.me/course/fundamentos-de-modelagem-dimensional/learning/cfd67c81-3158-4c81-a31f-0a338544aadc?back=/track/formacao-power-bi-analyst&tab=undefined&moduleId=undefined"
             }
         ]
     }, 
