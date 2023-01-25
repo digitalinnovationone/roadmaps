@@ -37,15 +37,15 @@
         "iconClasses": "fa-solid fa-book",
         "additionalContents": [
             {
-                "title": "<strong>A Essência do Líder</strong>, Warren G. Bennis",
+                "name": "<strong>A Essência do Líder</strong>, Warren G. Bennis",
                 "description": "Warren Bennis entrevistou dezenas de líderes que se destacavam em diferentes áreas de atuação para consolidar as características e atitudes que definem um verdadeiro líder. Com insights preciosos para quem está tentando aprimorar a sua liderança, este livro é um guia que ensina a lapidar as suas próprias habilidades. Ideal para quem está começando a jornada!"
             },
             {
-                "title": "<strong>Mindset</strong>, Carol S. Dweck",
+                "name": "<strong>Mindset</strong>, Carol S. Dweck",
                 "description": "Você sabia que a atitude mental, o 'mindset', pode ser determinante para o sucesso ou o fracasso de um profissional? A autora Carol S. Dweck mostra como a maneira de cada um encarar a vida, e principalmente o fracasso, pode ser determinante para que se obtenha sucesso, definindo então as diferenças entre mindset de crescimento e o mindset fixo. O livro apresenta exemplos reais que auxiliam no processo de identificação do perfil e atitudes das pessoas que tiveram, verdadeiramente, sucesso. Este livro promete mudar a sua maneira de entender o sucesso e como ele pode ser alcançado. "
             },
             {
-                "title": "<strong>Liderança - A Inteligência Emocional na Formação do Líder de Sucesso</strong>, Daniel Goleman.",
+                "name": "<strong>Liderança - A Inteligência Emocional na Formação do Líder de Sucesso</strong>, Daniel Goleman.",
                 "description": "Este livro reúne reflexões e estudos do autor sobre a dinâmica dos relacionamentos e o real impacto da inteligência emocional nos resultados da empresa. É uma leitura essencial para líderes focados em inovação e excelência em gestão! "
             },
             {
