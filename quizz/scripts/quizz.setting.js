@@ -81,7 +81,6 @@ const httpStatus = {
   BadRequest: 400
 }
 
-
 function drawQuestion() {
   const quizz = document.getElementById("question")
   const questions = questionState.questionsList
@@ -99,7 +98,6 @@ function drawCounter() {
   counterDisplay.innerHTML = `${actualIndex} / ${maxItem}`
 }
 
-
 function isCompleted() {
   if (
     state.questionIndex >
@@ -111,7 +109,6 @@ function isCompleted() {
     return false
   }
 }
-
 
 async function redirectToCarrer() {
 
@@ -131,7 +128,7 @@ async function redirectToCarrer() {
 
   if (resultJSON.status == httpStatus.BadRequest) {
 
-    alert("nenhum modelo foi conclusivo pro seu perfil, escolha as respostas novamente de maneira mais objetiva")
+    alert(resultJSON.message)
 
     location.reload(true)
   }
