@@ -3,7 +3,7 @@ const API_URL = "https://wpahzm6d6ufb764nzelq226dua0oiprt.lambda-url.us-west-2.o
 const CARRER_URL = "https://digitalinnovationone.github.io/roadmaps/"
 
 const questionState = {
-  "questionsList":[
+  "questionsList": [
     {
       "question": "O design das coisas é algo importante para você?",
       "order": 1
@@ -73,7 +73,7 @@ const questionState = {
 
 const state = {
   "questionIndex": 0,
-  "responses":""
+  "responses": ""
 }
 
 const httpStatus = {
@@ -82,38 +82,38 @@ const httpStatus = {
 }
 
 
-function drawQuestion(){
-  const quizz =  document.getElementById("question")
+function drawQuestion() {
+  const quizz = document.getElementById("question")
   const questions = questionState.questionsList
 
   let questionPicker = questions[state.questionIndex].question
   quizz.innerHTML = questionPicker
 }
 
-function drawCounter(){
+function drawCounter() {
   const counterDisplay = document.getElementById("counter")
 
-  let actualIndex = state.questionIndex +1
+  let actualIndex = state.questionIndex + 1
   let maxItem = questionState.questionsList.length
 
   counterDisplay.innerHTML = `${actualIndex} / ${maxItem}`
 }
 
 
-function isCompleted(){
+function isCompleted() {
   if (
-    state.questionIndex > 
-    (questionState.questionsList.length -1)
-    ){
-      return true
-    }
-  else{
-      return false
-    }
+    state.questionIndex >
+    (questionState.questionsList.length - 1)
+  ) {
+    return true
+  }
+  else {
+    return false
+  }
 }
 
 
-async function redirectToCarrer(){
+async function redirectToCarrer() {
 
   //send responses to api
   let carrerPath = ""
@@ -122,17 +122,17 @@ async function redirectToCarrer(){
   let resultJSON = await requestAPI(state.responses)
   console.log(resultJSON)
 
-  if(resultJSON.status == httpStatus.OK){
+  if (resultJSON.status == httpStatus.OK) {
 
     carrerPath = await getCareerPath(resultJSON.carrer.id)
     window.location.href = `${CARRER_URL}${carrerPath}`
 
   }
-  
-  if(resultJSON.status == httpStatus.BadRequest){
+
+  if (resultJSON.status == httpStatus.BadRequest) {
 
     alert("nenhum modelo foi conclusivo pro seu perfil, escolha as respostas novamente de maneira mais objetiva")
-    
+
     location.reload(true)
   }
 
@@ -169,24 +169,26 @@ async function getCareerPath(careerId) {
 }
 
 
-function bindButtons(){
+function bindButtons() {
   let buttons = [...document
     .getElementsByClassName("rating")
   ]
-  
+
   state.responses = ""
 
   buttons.forEach(element => {
-    element.addEventListener('click', async ()=>{
+    element.addEventListener('click', async () => {
 
-      state.responses += element.innerHTML
-      state.questionIndex += 1
+      if (state.responses.length < 16) {
+        state.responses += element.innerHTML
+        state.questionIndex += 1
+      }
 
       console.log(state.responses)
 
-      if(isCompleted()){
+      if (isCompleted()) {
         await redirectToCarrer()
-      }else{
+      } else {
         drawQuestion()
         drawCounter()
       }
@@ -196,15 +198,15 @@ function bindButtons(){
   console.log("buttons started...")
 }
 
-async function requestAPI(answer){
+async function requestAPI(answer) {
 
   let myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
-  
+
   let raw = JSON.stringify({
     "answers": answer
   });
-  
+
   let requestOptions = {
     method: 'POST',
     body: raw,
@@ -220,15 +222,10 @@ async function requestAPI(answer){
 
 }
 
-
-
-function init(){
+function init() {
   bindButtons()
   drawQuestion()
   drawCounter()
 }
-
-
-
 
 init()
