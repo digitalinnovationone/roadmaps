@@ -33,6 +33,9 @@ body {
   font-family: 'Open Sans';
 }
 
+.container>img {
+  filter: brightness(35%);
+}
 
 #tag {
   background-color: #E44C5D;
