@@ -30,7 +30,7 @@ body {
   justify-content: center;
 }
 
-.rate-point, .rate-point:active {
+.rate-point {
   height: 7.5rem;
   width: 7.5rem;
   font-size: 2.5rem;
@@ -49,10 +49,17 @@ body {
 .rate-point:hover {
   background: white;
   color: #E94D5F;
-  border-color: transparent;
   cursor: pointer;
   transform: scale(1.075);
   border: 0.2rem solid;
+}
+
+.rate-point:active {
+  background: #E94D5F;
+  color: white;
+  cursor: default;
+  transform: scale(1);
+  border: none;
 }
 
 .level-header {
