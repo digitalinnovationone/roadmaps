@@ -113,12 +113,16 @@
         ]
     },
     {
-        "name": "Formação Kubernetes Fundamentals",
-        "type": "FORMAÇÃO",
-        "description":"  Em um mundo onde aplicações estão migrando de arquiteturas monolíticas para microsserviços, o entendimento de como os microsserviços devem ser publicados e principalmente escalados é de vital importância para desenvolvedores e demais profissionais envolvidos em um projeto.",
-        "link":"https://web.dio.me/track/formacao-kubernetes",
+        "name": "Orquestração de Containers",
+        "description":"Trabalhe para automatizar a implantação, o gerenciamento, a escala e a rede dos containers com Kubernetes ou Docker Swarm.",
         "iconClasses": "fa-brands fa-docker",
         "additionalContents":[
+            {
+                "name": "Formação Kubernetes Fundamentals",
+                "type": "FORMAÇÃO",
+                "description":"  Em um mundo onde aplicações estão migrando de arquiteturas monolíticas para microsserviços, o entendimento de como os microsserviços devem ser publicados e principalmente escalados é de vital importância para desenvolvedores e demais profissionais envolvidos em um projeto.",
+                "link":"https://web.dio.me/track/formacao-kubernetes"
+            },
             {
                 "name": "Kubernetes <i>Documentation</i>",
                 "type": "REFERENCIA",
