@@ -53,7 +53,7 @@
         "iconClasses": "fa-solid fa-book",
         "additionalContents":[
             {
-                "description": "<strong>Livro</strong> Redes de computadores e a Internet - Uma abordagem <i>Top Down</i> Kurose",
+                "description": "<strong>Livro</strong> Redes de computadores e a Internet - Uma abordagem <em>Top Down</em> Kurose",
                 "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"        
             },
             {
@@ -136,7 +136,7 @@
     {
         "name": "Processamento e Pipeline de Dados",
         "description": "Processos, ETL e ELT",
-        "iconClasses":"",
+        "iconClasses":"fa-solid ",
         "additionalContents":[
             {
                 "description": "<strong>Curso DIO </strong>: Fundamentos de ETL com Python",
@@ -200,10 +200,11 @@
     },
     {
       "name":"Processamento Moderno de Dados",
+      "iconClasses":"fa-solid ",
       "description":"Processamento de grande volumes de dados são cada vez mais frequentes em diversos cenários do mercado. Sendo assim, um DS precisa estar familiarizado com esse conceito. Ainda é preciso ser capaz de consumir e gerenciar dados dentro deste ambiente moderno. ",
       "additionalContents": [
         {
-            "description":"<strong>Livro Orrely:</strong> <i>Bacth Processing</i>",
+            "description":"<strong>Livro Orrely:</strong> <em>Bacth Processing</em>",
             "link":"https://www.oreilly.com/library/view/batch-processing/9781439861196/"
         },
         {
@@ -276,6 +277,7 @@
     {
         "name": "Orquestração de sistemas com Apache Airflow",
         "description": "Documentação Oficial",
+        "iconClasses":"fa-solid ",
         "type": "REFERENCIA",
         "link": "https://airflow.apache.org/docs/apache-airflow/stable/",
         "additionalContents": [

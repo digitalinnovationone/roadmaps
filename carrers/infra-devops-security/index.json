@@ -5,7 +5,7 @@
         "iconClasses": "fa-solid fa-book",
         "additionalContents":[
             {
-                "description": "<strong>Livro</strong> Redes de computadores e a Internet - Uma abordagem <i>Top Down</i> Kurose",
+                "description": "<strong>Livro</strong> Redes de computadores e a Internet - Uma abordagem <em>Top Down</em> Kurose",
                 "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"        
             },
             {
@@ -18,7 +18,7 @@
                 "iconClasses": "fas fa-bezier-curve"
             },
             {
-                "description": "<strong>Treinamento/Certificação</strong> <i>Entry level</i> CCST - Assuntos: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
+                "description": "<strong>Treinamento/Certificação</strong> <em>Entry level</em> CCST - Assuntos: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
                 "type": "BOOK",
                 "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics"
             },
@@ -141,13 +141,13 @@
                 "link":"https://web.dio.me/track/formacao-kubernetes"
             },
             {
-                "name": "Kubernetes <i>Documentation</i>",
+                "name": "Kubernetes <em>Documentation</em>",
                 "type": "REFERENCIA",
                 "description":"Documentação oficial",
                 "link":"https://kubernetes.io/docs/home/"
             },
             {
-                "name": "Docker Swarm <i>Documentation</i>",
+                "name": "Docker Swarm <em>Documentation</em>",
                 "type": "REFERENCIA",
                 "description":"Documentação oficial",
                 "link":"https://docs.docker.com/engine/swarm/swarm-tutorial/"
