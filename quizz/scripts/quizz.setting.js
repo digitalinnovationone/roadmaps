@@ -120,20 +120,14 @@ async function redirectToCarrer() {
   console.log(resultJSON)
 
   if (resultJSON.status == httpStatus.OK) {
-
     carrerPath = await getCareerPath(resultJSON.carrer.id)
-    window.location.href = `${CARRER_URL}${carrerPath}`
-
-  }
-
-  if (resultJSON.status == httpStatus.BadRequest) {
-
+    window.location.replace(`${CARRER_URL}${carrerPath}`)
+  } else if (resultJSON.status == httpStatus.BadRequest) {
     alert(resultJSON.message)
-
-    location.reload(true)
+    window.location.reload(true)
+  } else {
+    console.log(`Status Code ${resultJSON.status} não tratado`)
   }
-
-
 }
 
 async function getCareerPath(careerId) {
