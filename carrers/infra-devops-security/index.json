@@ -15,19 +15,17 @@
             {
                 "name": "Treinamento/Certificação CISCO",
                 "description": "Uma das empresas referências do mercado. Ela oferece certificações básicas relacionadas a infraestrutura. Existem outras focadas nos produtos, contudo as mencionadas abaixo são as duas principais para iniciantes.",
-                "iconClasses": "fas fa-bezier-curve",
-                "additionalContents":[
-                    {
-                        "description": "<strong>Treinamento/Certificação</strong> <i>Entry level</i> CCST - Assuntos: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
-                        "type": "BOOK",
-                        "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics"
-                    },
-                    {
-                        "description": "<strong>Treinamento/Certificação</strong> CCNA - Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
-                        "type": "BOOK",
-                        "link": "https://www.cisco.com/c/pt_br/training-events/training.html"
-                    }
-                ]
+                "iconClasses": "fas fa-bezier-curve"
+            },
+            {
+                "description": "<strong>Treinamento/Certificação</strong> <i>Entry level</i> CCST - Assuntos: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
+                "type": "BOOK",
+                "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics"
+            },
+            {
+                "description": "<strong>Treinamento/Certificação</strong> CCNA - Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
+                "type": "BOOK",
+                "link": "https://www.cisco.com/c/pt_br/training-events/training.html"
             }
         ]
     },
@@ -140,7 +138,7 @@
             {
                 "name": "Formação Kubernetes Fundamentals",
                 "type": "FORMAÇÃO",
-                "description":"  Em um mundo onde aplicações estão migrando de arquiteturas monolíticas para microsserviços, o entendimento de como os microsserviços devem ser publicados e principalmente escalados é de vital importância para desenvolvedores e demais profissionais envolvidos em um projeto.",
+                "description":"Em um mundo onde aplicações estão migrando de arquiteturas monolíticas para microsserviços, o entendimento de como os microsserviços devem ser publicados e principalmente escalados é de vital importância para desenvolvedores e demais profissionais envolvidos em um projeto.",
                 "link":"https://web.dio.me/track/formacao-kubernetes"
             },
             {
