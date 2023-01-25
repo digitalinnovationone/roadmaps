@@ -1,0 +1,271 @@
+[
+    {
+        "name": "Escolha uma linguagem de programação",
+        "description": "Para que você seja capaz de ingressar nessa área (vindo de infra) será necessário adquirir conhecimento relacionados a linguagem de programação. Aqui estão algumas opções para você escolher qual caminho seguir!",
+        "type": "REFERENCIA",
+        "iconClasses": "fa-solid fa-code",
+        "optional": false,
+        "additionalContents":
+        [
+            {
+                "name": "Formação Python Developer",
+                "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
+                "type": "FORMACAO",
+                "iconClasses": "fa-brands fa-python",
+                "link": "https://web.dio.me/track/formacao-python-developer"
+            },
+            {
+                "name": "Formação Java Developer",
+                "description": "O que acha de aprender Java do zero e com os melhores experts da DIO? Bora! Nesta formação você aprenderá desde os fundamentos dessa linguagem de programação até o uso de abstrações poderosas como o Spring Framework.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-java-developer",
+                "iconClasses": "fa-brands fa-java"
+            },
+            {
+                "name": "Scala"                
+            }
+        ]
+    },
+    {
+        "name": "Controle de Versão com Git",
+        "description": "Manter organização e o versionamento do código-fonte facilita o rastreamento de problemas, além do acompanhamento de atualizações. Utilize a documentação oficial do Git ou ainda o <em>Git Pro Book</em> (link abaixo). A seguir incluímos também a documentação oficial dos principais hosts dessa tecnologia: GitHub e GitLab.",
+        "type": "REFERENCIA",
+        "link": "https://git-scm.com/book/en/v2",
+        "iconClasses": "fa-brands fa-git",
+        "additionalContents": [
+            {
+                "description": "Documentação Oficial do <strong>GitHub</strong>:",
+                "type": "REFERENCIA",
+                "link": "https://docs.github.com"
+            },
+            {
+                "description": "Documentação Oficial do <strong>GitLab</strong>:",
+                "type": "REFERENCIA",
+                "link": "https://docs.gitlab.com"
+            }
+        ]
+    },
+    {
+        "name": "Fundamentos de Infraestrutura",
+        "description": "Duas das grandes referências de Livros que podemos citar dentro da área de Infraestrutura (redes de computadores) estão relacionadas aos autores Kurose e Tanenbaum. Aqui nossa dica fica a cargo do livro Redes de Computadores e a Internet - Kurose.",
+        "iconClasses": "fa-solid fa-book",
+        "additionalContents":[
+            {
+                "description": "<strong>Livro</strong> Redes de computadores e a Internet - Uma abordagem <i>Top Down</i> Kurose",
+                "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"        
+            },
+            {
+                "description": "<strong>Livro</strong> Redes de computadores - Tanenbaum",
+                "link": "https://www.amazon.com.br/Redes-Computadores-Andrew-Tanenbaum/dp/8582605609/ref=pd_lpo_1?pd_rd_w=RzFJx&content-id=amzn1.sym.036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_p=036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_r=5R05H02WK86A0V0DV843&pd_rd_wg=Juf8n&pd_rd_r=e15051ba-801a-4b2c-80c6-7066de2a919c&pd_rd_i=8582605609&psc=1"        
+            }
+        ]
+    },
+    {
+        "name": "Virtualização e Containers",
+        "description": "Um profissional de infra, deve saber manipular recursos de máquinas físicas e ainda lidar com virtualização. A virtualização permite utilizar de maneira otimizada os recurso de uma mesma máquina para diversas finalidades. Podemos criar diversos servidores virtualizados distintos. O limite esta relacionado a capacidade da máquina. Lembre-se containers também são caracterizados como virtualização, contudo são diferentes de máquinas virtuais (VMs) ",
+        "type": "REFERENCIA",
+        "iconClasses": "fa-solid fa-terminal",
+        "optional": false,
+        "additionalContents":
+        [
+            {
+                "name": "Virtualização com Virtualbox",
+                "description":"Documentação oficial",
+                "type": "REFERENCIA",
+                "link":"https://www.virtualbox.org/wiki/Documentation"
+            },
+            {
+                "name": "Containers com Docker",
+                "description":"Documentação oficial",
+                "type": "REFERENCIA",
+                "link":"https://docs.docker.com/"
+            },
+            {
+                "name": "Formação Docker Fundamentals",
+                "type": "FORMAÇÃO",
+                "description":" Você aprenderá Docker começando por entender o que é um contêiner e como é o seu funcionamento. Irá realizar atividades práticas em laboratórios virtuais para entender como os contêineres são criados e implementados em uma infraestrutura real.",
+                "link":"https://web.dio.me/track/formacao-docker-fundamentals"
+                
+            }
+        ]
+    },
+    {
+        "name": "Formação SQL Database Specialist",
+        "description": "Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de dados de acordo com necessidades de negócios, aprenda a trabalhar com comandos Data Manipulation Language (DML) e Data Definition Language (DDL) para consultar e manipular seus dados. Crie projetos de soluções baseadas nas boas práticas das regras formais e explore técnicas de Recuperação e Controle de Concorrência em Banco de dados.",
+        "type": "FORMACAO",
+        "link": "https://web.dio.me/track/formacao-sql-db-specialist",
+        "iconClasses": "fa-solid fa-database",
+        "additionalContents": [
+          {
+            "name": "Formação NoSQL Specialist (Em Breve)",
+            "description": "Você passou por uma etapa fundamental: Banco de Dados relacional. Agora está na hora de evoluir e conhecer o mundo OLAP. Sistemas voltados para análise de dados geralmente estão atrelados a modelagem dimensional e NoSQL. Começar pelo MongoDB é uma escolha assertiva devido a sua curva de aprendizagem. Formação NoSQL (em breve)",
+            "type": "FORMACAO"
+          },
+          {
+            "name": "Live Banco de Dados: Quando e qual usar?",
+            "description": "Fundamentos adquiridos, agora você precisa entender qual o papel de cada modelo dentro da área de banco de dados.",
+            "type": "SERIE",
+            "link": "https://web.dio.me/lives/banco-de-dados-qual-e-quando-usar-getting-started-25"
+          }
+        ]
+    },
+    {
+        "name": "Construção de Soluções de Armazenamento de Dados",
+        "description": "Construção e gerenciamento de Data Warehouses, Data Marts, Data Lakes, Data Lakehouse e outras soluções."
+    },
+    {
+        "name": "Processamento e Pipeline de Dados",
+        "description": "Construção e gerenciamento de Data Warehouses, Data Marts, Data Lakes, Data Lakehouse e outras soluções."
+    }, 
+    {
+      "name": "Cloud Specialist",
+      "description": "Sistemas e processos de pipeline de dados estão sendo migrados para Cloud. Sendo assim, um cientista de dados precisa estar familiarizado com esse contexto. Você provavelmente irá realizar suas análises coletando dados de data lake hospedado na nuvem. Então esteja preparado! Você pode optar pela especialização em uma ou mais provedores de cloud. As principais são: AWS, Azure e GCP.",
+      "type": "PATH",
+      "iconClasses": "fa-solid fa-cloud",
+      "additionalContents": [
+        {
+          "name": "Roadmap DIO: Cloud",
+          "description": "Acesse o nosso Roadmap específico sobre a Carreira de Cloud e tenha uma visão do seu caminho para as nuvens 😶‍🌫️",
+          "type": "ROADMAP",
+          "link": "https://digitalinnovationone.github.io/roadmaps/carrers/cloud"
+        }
+      ]
+    },
+    {
+      "name": "Formação Machine Learning Specialist",
+      "description": "Análises mais complexas e aprofundadas (preditivas e prescritivas) frequentemente estão sendo criadas com IA e machine learning. Além disso, temas como: NPL, Visão computacional, Sistemas de recomendação, Machine Learning são frequentemente associados ao aspecto avançado dentro de Data Scientist. Tenha esse diferencial em seu currículo.",
+      "type": "FORMACAO",
+      "link": "https://web.dio.me/track/formacao-machine-learning-specialist",
+      "iconClasses": "fa-solid fa-brain-circuit",
+      "additionalContents": [
+        {
+          "name": "Análises Temporais com estatística e Machine Learning",
+          "description": "Livro: Análise Prática de Séries Temporais: Predição com Estatística e Aprendizado de Máquina ",
+          "type": "LIVRO",
+          "link": "https://www.amazon.com.br/gp/product/8550815624/ref=ox_sc_saved_image_5?smid=A1ZZFT5FULY4LN&psc=1"
+        },
+        {
+          "name": "Engenheiro de Machine Learning",
+          "description": "O engenheiro de Machine Learning trabalha apenas em IA/ML focando em otimização e deploy de modelos de ML. Seguem alguns conteúdos relevantes nesse contexto.",
+          "type": "ROADMAP"
+        },
+        {
+          "name": "Desenvolvimento e Deploy de Modelos de Machine Learning",
+          "description": "O deploy de um modelo de ML é mais desafiador do que parece. Livro que aborda processos interativos para produção de aplicações.",
+          "type": "LIVRO",
+          "link": "https://www.amazon.com.br/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969/ref=asc_df_1098107969/?tag=googleshopp00-20&linkCode=df0&hvadid=379726160779&hvpos=&hvnetw=g&hvrand=16010001501719124189&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-1688018801992&psc=1"
+        },
+        {
+          "name": "Design Patterns Machine Learning",
+          "description": "Soluções para desfafios comuns dentro da preparação de dados, construção de modelos e Mlops.",
+          "type": "LIVRO",
+          "link": "https://www.amazon.com.br/Machine-Learning-Design-Patterns-Preparation/dp/1098115783/ref=asc_df_1098115783/?tag=googleshopp00-20&linkCode=df0&hvadid=379726160779&hvpos=&hvnetw=g&hvrand=16010001501719124189&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-943743647161&psc=1"
+        }
+      ]
+    },
+    {
+      "name":"Processamento Moderno de Dados",
+      "description":"Processamento de grande volumes de dados são cada vez mais frequentes em diversos cenários do mercado. Sendo assim, um DS precisa estar familiarizado com esse conceito. Ainda é preciso ser capaz de consumir e gerenciar dados dentro deste ambiente moderno. ",
+      "additionalContents": [
+        {
+            "description":"<strong>Livro Orrely:</strong> <i>Bacth Processing</i>",
+            "link":"https://www.oreilly.com/library/view/batch-processing/9781439861196/"
+        },
+        {
+            "description": "<strong>Livro Fundamentos de Big data</strong>: O que é Big data? Um dos tópicos cada fez mais frequentes e falados na atualidade em TI. O livro Big Data para leigos pode ser um bom começo para quem não tem conhecimento prévio do assunto.",
+            "type": "BOOK",
+            "link": "https://www.amazon.com.br/data-para-leigos-Alan-Nugent/dp/8576089556"
+        },
+        {
+            "name": "Big Data Now - Livro Gratuito Orrely",
+            "description": "Uma maneira de compreender a abrangência do tema Big Data e ainda aprimorar os conhecimentos está na leitura deste livro. Nele a o'reilly fornece diversas visões e espectros de todas as publicações (ano anterior ao lançamento do livro) sobre a temática Big Data.",
+            "type": "LIVRO",
+            "link": "https://www.amazon.com.br/Big-Data-Now-Current-Perspectives-ebook/dp/B00BELZE46"
+        },
+        {
+            "name": "Formação Spark Big Data Specialist (Em 2023)",
+            "description": "O sistema mais utilizado e frequentemente associado ao paradigma do Big Data é sem dúvida o Apache Spark.",
+            "type": "FORMACAO",
+            "iconClasses": "fa-solid fa-fire"
+        },
+        {
+            "name": "Formação Hadoop Developer (Em 2023)",
+            "description": "O que é Big data? Um dos tópicos cada fez mais frequentes e falados na atualidade em TI. O livro Big Data para leigos pode ser um bom começo para quem não tem conhecimento prévio do assunto.",
+            "type": "FORMACAO"
+        },
+        {
+            "name": "Testes",
+            "description": "Conhecimento na execução de testes com sua aplicação são um diferencial. São diversos, tais como: Testes de integração, testes unitários, testes funcionais. Um bom começo está no curso Introdução a Testes de Software na plataforma DIO (link)!",
+            "link": "https://web.dio.me/course/introducao-a-testes-de-software/learning/0c6e3021-7351-4a64-8f69-3e8cebc221fa"
+        },
+        {
+            "name": "Formação CI/CD Gitlab",
+            "description": "Nos conceitos de Continuous Integration (CI) e Continuous Deploy (CD) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código. Se curte essa pegada de DevOps, da uma olhadinha na nossa formação.",
+            "type": "FORMACAO",
+            "link": "https://web.dio.me/track/formacao-gitlab-cicd"
+        },
+        {
+            "name": "Monitoramento e Análise de Logs",
+            "description": "Documentação Oficial da Stack ELK (Elaticsearch, Logstash e Kibana).",
+            "link": "https://www.elastic.co/pt/what-is/elk-stack"
+        },
+        {
+            "name": "Sistemas de Mensageria",
+            "description": "Documentação Oficial do RabbitMQ",
+            "link": "https://www.rabbitmq.com/documentation.html"
+        },
+        {
+            "name": "Sistemas Orientados a Eventos",
+            "description": "Documentação Oficial do Kafka.",
+            "link": "https://kafka.apache.org/documentation/"
+        },
+        {
+            "description": "Curso <strong>Mensageria com Spring AMQP e RabbitMQ</strong>.",
+            "link": "https://web.dio.me/course/mensageria-com-spring-amqp-e-rabbitmq-1/learning/4c5a15d0-f42d-4301-9de0-55f5e152934e/?back=/home"
+        },
+        {
+            "description": "Curso <strong>Introdução a serviços de mensageria com RabbitMQ e Ruby</strong>",
+            "link": "https://web.dio.me/course/introducao-a-servicos-de-mensageria-com-rabbitmq-e-ruby/learning/a2517097-ee8c-47ed-8a6a-42c107015c28"
+        },
+        {
+            "description": "Curso <strong>Arquitetura Orientada a Eventos com Java, Spring Boot e Kafka</strong>",
+            "link": "https://web.dio.me/course/arquitetura-orientada-a-eventos-com-java-spring-boot-e-kafka/learning/2ca710ba-6a28-481c-a663-6f85aaec329b"
+        },
+        {
+            "description": "Curso <strong>Introdução à Mensageria na Nuvem Com Kafka e Python</strong>",
+            "link": "https://web.dio.me/course/introducao-mensageria-na-nuvem-com-kafka-e-python/learning/07402ee4-c99b-45b8-bdd4-808ad457a778"
+        }
+        
+      ]
+    },
+    {
+        "name": "Orquestração de sistemas com Apache Airflow",
+        "description": "Documentação Oficial",
+        "type": "REFERENCIA",
+        "link": "https://airflow.apache.org/docs/apache-airflow/stable/",
+        "additionalContents": [
+            {
+                "name": "Orquestração de sistemas com Google Composer",
+                "description": "Documentação Oficial",
+                "type": "REFERENCIA",
+                "link": " https://cloud.google.com/composer/docs?hl=pt-br"
+            }
+        ]
+    },
+    {
+        "name": "Formação Power BI Analyst",
+        "description": "Através dos recursos visuais conseguimos absorver 80% de informação. Para otimizar processos podemos realizar o monitoramento dos sistemas a fim de detectar pontos de melhora. Essas análises são realizadas com auxilio de ferramentas como Power BI.",
+        "type": "FORMACAO",
+        "link": "https://web.dio.me/track/formacao-power-bi-analyst",
+        "iconClasses": "fa-solid fa-business-time",
+        "additionalContents": [
+          {
+            "name": "Série Hands ON - Power BI ",
+            "description": "Venha criar um dashboard interativo no Power BI explorando e detectando os fatores de impacto nas vendas de Skateboards de uma empresa fictícia. Vamos explorar os dados através de diferentes perspectivas e fatores. Além disso, iremos criar uma estilização objetiva e elegante para impressionar seus clientes. ",
+            "type": "SERIE",
+            "link": "https://web.dio.me/lives/criando-um-dashboard-de-vendas-com-power-bi",
+            "optional": true
+          }
+        ]
+      }  
+  ]
