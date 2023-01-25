@@ -109,7 +109,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.track-infos>ul>li>a {
+.track-infos a, .rodape>a {
   color: white;
   font-weight: bold;
   text-decoration: underline;
@@ -167,10 +167,4 @@ body {
   color: white;
   text-align: center;
   font-size: 12px;
-}
-
-.rodape>a {
-  color: white;
-  text-decoration: underline;
-  font-weight: bold;
 }
