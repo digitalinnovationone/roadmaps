@@ -125,8 +125,7 @@
                 "name": "Formação Docker Fundamentals",
                 "type": "FORMAÇÃO",
                 "description":" Você aprenderá Docker começando por entender o que é um contêiner e como é o seu funcionamento. Irá realizar atividades práticas em laboratórios virtuais para entender como os contêineres são criados e implementados em uma infraestrutura real.",
-                "link":"https://web.dio.me/track/formacao-docker-fundamentals"
-                
+                "link":"https://web.dio.me/track/formacao-docker-fundamentals"   
             }
         ]
     },
@@ -153,8 +152,7 @@
                 "description":"Documentação oficial",
                 "link":"https://docs.docker.com/engine/swarm/swarm-tutorial/"
             }
-        ]
-        
+        ]     
     },
     {
         "name": "Escolha uma linguagem de programação",
