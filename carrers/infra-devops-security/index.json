@@ -1,16 +1,17 @@
 [
     {
         "name": "Fundamentos de Infraestrutura",
-        "description": "Duas das grandes referências de Livros que podemos citar dentro da área de Infraestrutura (redes de computadores) estão relacionadas aos autores Kurose e Tanebaum. Aqui nossa dica fica a cargo do livro Redes de Computadores e a Internet - Kurose.",
+        "description": "Duas das grandes referências de Livros que podemos citar dentro da área de Infraestrutura (redes de computadores) estão relacionadas aos autores Kurose e Tanenbaum. Aqui nossa dica fica a cargo do livro Redes de Computadores e a Internet - Kurose.",
         "type": "BOOK",
         "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d",
-        "iconClasses": "fa-solid fa-book",
+        "iconClasses": "fa-solid fa-sitemap",
         "optional": false
     },
     {
         "name": "Formação Linux Fundamentals",
         "description": "Aprenda a trabalhar com o principal sistema operacional utilizado em servidores de aplicações, da Instalação ao passo a passo de como gerenciar usuários para ter mais segurança, manipular arquivos de maneira segura e os principais comandos Linux que são essenciais para a sua jornada como desenvolvedor.",
         "type": "BOOK",
+        "iconClasses": "fa-brands fa-linux",
         "link": "https://web.dio.me/track/formacao-linux-fundamentals",
         "additionalContents":[
             {
@@ -18,7 +19,6 @@
                 "description": "Um ótimo livro de referência para esse tema: Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
                 "type": "BOOK",
                 "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
-                "iconClasses": "fa-brands fa-html5",
                 "optional": false
             }
         ]
@@ -27,7 +27,7 @@
         "name": "Gerenciamento de Servidores",
         "description": "Seja localmente ou utilizando virtualização, o gerenciamento de servidores é uma parte importante dentro de infraestrutura. Além disso, você precisa estar atento para aplicar as principais técnicas de criptografia aos seus servidores. Aqui você encontrará alguns servers relevantes e suas respectivas referências. Contudo, não se limite as aqui exemplificadas. Seja protagonista de sua carreira!",
         "type": "REFERENCIA",
-        "iconClasses": "fa-brands fa-html5",
+        "iconClasses": "fa-solid fa-microchip",
         "optional": false,
         "additionalContents":
         [
@@ -35,59 +35,53 @@
                 "name": "Tranferência de arquivos FTP - JSCAPE",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",  
-                "link":"https://www.jscape.com/support/documentation",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://www.jscape.com/support/documentation"
             },
             {
                 "name": "Conexão e transferência segura de arquivos SSH - OpenSSH",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link":"https://www.openssh.com/manual.html",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://www.openssh.com/manual.html"
             },
             {
                 "name": "Servidor HTTP - Apache",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link":"https://httpd.apache.org/docs/",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://httpd.apache.org/docs/"
             },            
             {
                 "name": "Configurando um servidor de arquivos - Samba",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link":"https://www.samba.org/samba/docs/",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://www.samba.org/samba/docs/"
             },
             {
                 "name": "Configurando um Servidor de Dominío DNS - BIND",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link":"https://bind9.readthedocs.io/en/v9_18_10/",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://bind9.readthedocs.io/en/v9_18_10/"
             },
             {
                 "name": "Configurando um Servidor de Email (SMTP e IMAP) - Postfix",
                 "description":"Documentação oficial",
                 "type": "REFERENCIA",
-                "link":"https://www.postfix.org/documentation.html",
-                "iconClasses": "fa-brands fa-html5",
-                "optional": true
+                "link":"https://www.postfix.org/documentation.html"
             }
         ]
     },
     {
-        "name": "Treinamento/Certificação CCNA",
-        "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
+        "name": "Treinamento/Certificação <>Entry level</> CCST",
+        "description": "Certificação de nível de entrada da CISCO. Abordando assuntos, tais como: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
         "type": "BOOK",
-        "link": "https://www.cisco.com/c/pt_br/training-events/training.html",
-        "iconClasses": "fa-brands fa-html5",
-        "optional": false
+        "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics",
+        "iconClasses": "fas fa-bezier-curve",
+        "additionalContents":[
+            {
+                "description": "Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
+                "type": "BOOK",
+                "link": "https://www.cisco.com/c/pt_br/training-events/training.html"
+            }
+        ]
     },
     {
         "name": "Virtualização e Containers",
