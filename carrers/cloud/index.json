@@ -12,17 +12,17 @@
         "iconClasses": "fa-brands fa-google",
         "additionalContents":[
             {
-                "description": "Curso Google - '<em>Google Cloud Fundamentals: Core Infrastructure</em>'",
+                "description": "Curso Google - <em>Google Cloud Fundamentals: Core Infrastructure</em>",
                 "type": "CURSO",
                 "link": "https://www.cloudskillsboost.google/course_templates/60"
             },
             {
-                "description": "Curso Google - '<em>Elastic Google Cloud Infrastructure: Scaling and Automation</em>'",
+                "description": "Curso Google - <em>Elastic Google Cloud Infrastructure: Scaling and Automation</em>",
                 "type": "CURSO",
                 "link": "https://www.cloudskillsboost.google/course_templates/178"
             },
             {
-                "description": "Curso Google - '<em>Logging, Monitoring and Observability in Google Cloud</em>'",
+                "description": "Curso Google - <em>Logging, Monitoring and Observability in Google Cloud</em>",
                 "type": "CURSO",
                 "link": "https://www.cloudskillsboost.google/course_templates/99"
             }
@@ -40,12 +40,12 @@
                 "link":"https://web.dio.me/course/fundamentos-do-azure/learning/14bfe457-2223-4baa-bb9e-9869149a732b"                
             },
             {
-                "description": "Curso Azure - '<em>Azure Fundamentals: Describe Azure architecture and services</em>'",
+                "description": "Curso Azure - <em>Azure Fundamentals: Describe Azure architecture and services</em>",
                 "type": "CURSO",
                 "link":"https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/"                
             },
             {
-                "description": "Curso Azure - '<em>Azure Fundamentals: Describe Azure management and governance</em>'",
+                "description": "Curso Azure - <em>Azure Fundamentals: Describe Azure management and governance</em>",
                 "type": "CURSO",
                 "link":"https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/"                
             }
@@ -58,12 +58,12 @@
         "iconClasses": "fa-brands fa-amazon",
         "additionalContents":[
             {
-                "description": "Curso AWS - '<em>Cloud Essentials Learning Plan</em>'",
+                "description": "Curso AWS - <em>Cloud Essentials Learning Plan</em>",
                 "type": "CURSO",
                 "link":"https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-foundations-learning-plan?la=cta&cta=topbanner"                
             },
             {
-                "description": "Curso AWS - '<em>Solutions Architect Learning Plan</em>'",
+                "description": "Curso AWS - <em>Solutions Architect Learning Plan</em>",
                 "type": "CURSO",
                 "link":"https://explore.skillbuilder.aws/learn/public/learning_plan/view/1044/solutions-architect-learning-plan?la=cta&cta=topbanner"                
             }
@@ -76,22 +76,22 @@
         "additionalContents":[
             {
                 "description": "Curso DIO - <strong>Introdução Prática a Computação em Nuvem Usando AWS</strong> ",
-                "iconClasses": "fa-solid fa-home",
+                "type": "CURSO",
                 "link":"https://web.dio.me/course/Introducao-pratica-a-computacao-em-nuvem-usando-AWS/learning/e5310041-3a80-44d5-bd22-ebc4ff548c67"
             },
             {
                 "description": "Curso DIO - <strong>Introdução a Engenharia de Dados na AWS</strong> ",
-                "iconClasses": "fa-solid fa-home",
+                "type": "CURSO",
                 "link":"https://web.dio.me/course/introducao-engenharia-de-dados-na-aws/learning/55291f79-ab8f-4dfa-9ea9-4d64e03032d3"
             },
             {
                 "description": "Curso DIO - <strong>Criando uma API REST Conectada ao Amazon RDS com Java</strong> ",
-                "iconClasses": "fa-solid fa-home",
+                "type": "CURSO",
                 "link":"https://web.dio.me/course/criando-uma-api-rest-conectada-ao-amazon-rds-com-java/learning/16ea8b83-292e-4aec-b4ad-7c0429829770"
             },
             {
                 "description": "Curso DIO - <strong>Criando um Microsserviço de Upload de Imagens com o Amazon S3</strong> ",
-                "iconClasses": "fa-solid fa-home",
+                "type": "CURSO",
                 "link":"https://web.dio.me/course/criando-um-microsservico-de-upload-de-imagens-com-o-amazon-s3/learning/8af1955a-ee36-4ec8-b14d-746ab8fb849e"
             }
         ]
