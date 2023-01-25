@@ -1,22 +1,29 @@
 @media only screen and (max-device-width: 800px) {
 
-  #question{
+  #question {
     font-size: 14px;
     padding: 5px 10px;
   }
 
-  .level-content{
+  .level-content {
     margin-bottom: 40%;
   }
 
-  .level-picture > img{
+  .level-picture>img {
     height: 150px;
   }
 
-  .rate-point{
+  .rate-point {
     height: 80px;
-    width:  80px;
+    width: 80px;
     margin: 5px 5px;
+  }
+
+  .rate-point:hover {
+    color: white;
+    background: #E94D5F;
+    transform: scale(1);
+    border: none;
   }
 
 }
