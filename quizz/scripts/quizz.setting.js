@@ -5,19 +5,19 @@ const CARRER_URL = "https://digitalinnovationone.github.io/roadmaps/"
 const questionState = {
   "questionsList":[
     {
-      "question": "O design das coisas é algo importante para você ?",
+      "question": "O design das coisas é algo importante para você?",
       "order": 1
     },
     {
-      "question": "Você se considera uma pessoa criativa ?",
+      "question": "Você se considera uma pessoa criativa?",
       "order": 2
     },
     {
-      "question": "Qual a importância da inferface de um software para você ?",
+      "question": "Qual a importância da inferface de um software para você?",
       "order": 3
     },
     {
-      "question": "Qual a importância da rapidez de um software para você ?",
+      "question": "Qual a importância da rapidez de um software para você?",
       "order": 4
     },
     {
