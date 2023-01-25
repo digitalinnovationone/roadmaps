@@ -30,7 +30,7 @@ body {
   justify-content: center;
 }
 
-.rate-point {
+.rate-point, .rate-point:active {
   height: 7.5rem;
   width: 7.5rem;
   font-size: 2.5rem;
