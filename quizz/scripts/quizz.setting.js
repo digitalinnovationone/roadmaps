@@ -57,7 +57,7 @@ const questionState = {
       "order": 13
     },
     {
-      "question": "Você se considera um bom lider para agilizar os trabalhos em equipe?",
+      "question": "Você se considera um bom líder para agilizar os trabalhos em equipe?",
       "order": 14
     },
     {
