@@ -117,9 +117,10 @@
         ]
     },
     {
-        "name": "Migração de sistemas on-premise para cloud",
+        "name": "Migração: livro A Practical Guide to Cloud Migration",
         "description": "Como conquistar as vagas para Computação na Nuvem, instalar e gerenciar soluções na nuvem sem precisar de um espaço físico e aprender gerenciar projetos totalmente online. Neste roadmap apresentaremos as melhores plataformas para voce conhecer e já começar a praticar a computação na nuvem e ficar livre da necessidade de um super software para desenvolver e gerenciar seus projetos",
-        "iconClasses": "fa-solid fa-home"
+        "iconClasses": "fa-solid fa-home",
+        "link":"https://www.oreilly.com/library/view/a-practical-guide/9781492095187/"
     }
    
 ]
