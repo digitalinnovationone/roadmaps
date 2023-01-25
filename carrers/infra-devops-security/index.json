@@ -5,11 +5,11 @@
         "iconClasses": "fa-solid fa-book",
         "additionalContents":[
             {
-                "description": "Livro Redes de computadores e a Internet - Uma abordagem <i>Top Down</i> Kurose",
+                "description": "<strong>Livro</strong> Redes de computadores e a Internet - Uma abordagem <i>Top Down</i> Kurose",
                 "link": "https://www.amazon.com.br/Redes-computadores-Internet-James-Kurose/dp/8582605587/ref=sr_1_1?keywords=redes+de+computadores+kurose&qid=1674492682&s=books&sr=1-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"        
             },
             {
-                "description": "Livro Redes de computadores e a Internet - Uma abordagem <i>Top Down</i> Kurose",
+                "description": "<strong>Livro</strong> Redes de computadoresn Tanenbaum",
                 "link": "https://www.amazon.com.br/Redes-Computadores-Andrew-Tanenbaum/dp/8582605609/ref=pd_lpo_1?pd_rd_w=RzFJx&content-id=amzn1.sym.036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_p=036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_r=5R05H02WK86A0V0DV843&pd_rd_wg=Juf8n&pd_rd_r=e15051ba-801a-4b2c-80c6-7066de2a919c&pd_rd_i=8582605609&psc=1"        
             },
             {
@@ -18,12 +18,12 @@
                 "iconClasses": "fas fa-bezier-curve",
                 "additionalContents":[
                     {
-                        "description": "Treinamento/Certificação <i>Entry level</i> CCST - Assuntos: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
+                        "description": "<strong>Treinamento/Certificação</strong> <i>Entry level</i> CCST - Assuntos: padrões e conceitos, endereçamento IP, endpoints, segurança e resolução de problemas. Para maior detalhes acesse o link.",
                         "type": "BOOK",
                         "link": "https://learningnetwork.cisco.com/s/ccst-networking-exam-topics"
                     },
                     {
-                        "description": "CCNA <i>certificaion</i> - Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
+                        "description": "<strong>Treinamento/Certificação</strong> CCNA - Esse Treinamento ou ainda a certificação CCNA assegura que você possui as competências básicas de suporte a infraestrutura (redes de computadores)",
                         "type": "BOOK",
                         "link": "https://www.cisco.com/c/pt_br/training-events/training.html"
                     }
@@ -43,15 +43,13 @@
                 "link": "https://web.dio.me/track/formacao-linux-fundamentals"
             },
             {
-                "name": "Administração de sistemas Linux",
-                "description": "Um ótimo livro de referência para esse tema: Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
+                "description": "<strong>Livro Administração de sistemas Linux</strong>: Um ótimo livro de referência para esse tema: Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux",
                 "type": "BOOK",
                 "link": "https://www.amazon.com.br/Linux-B%C3%ADblia-Abrangente-Definitivo-Sobre-ebook/dp/B07H8Q5B6Y/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1674493140&sr=8-4",
                 "optional": false
             },
             {
-                "name": "Livro The Linux Command Line",
-                "description": "Um ótimo livro de referência para dar seus primeiros passos no terminal.",
+                "description": "<strong>Livro The Linux Command Line</strong>: Um ótimo livro de referência para dar seus primeiros passos no terminal.",
                 "type": "BOOK",
                 "link": "https://www.amazon.com.br/Linux-Command-Line-2nd-Introduction-ebook/dp/B07J43H42Z/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=",
                 "optional": false
