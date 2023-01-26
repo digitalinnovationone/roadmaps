@@ -4,6 +4,7 @@
   --primary-color: #E94D5F;
   --secondary-color: #52569F;
   --gray-500: #565656;
+  --dark: #000001;
 }
 
 * {
@@ -22,7 +23,7 @@ html {
 }
 
 body {
-  background: #000000;
+  background: var(--dark);
 }
 
 ::-webkit-scrollbar {
@@ -196,7 +197,7 @@ body {
 .container-contents {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
