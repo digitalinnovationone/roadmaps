@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('_base.css');
 
-:root {
-  --primary-color: #F34C5D;
-  --secondary-color: #6948D0;
-  --tertiary-color: #18B0F4;
-  --gray-500: #565656;
-  --gray-100: #A1A1A1;
-  --white: #FAFAFA;
-  --dark: #000001;
-  --dark-purple: #02082A;
-}
 
 * {
   margin: 0;
@@ -28,14 +19,6 @@ html {
 
 body {
   background: var(--dark);
-}
-
-a {
-  color: var(--white);
-}
-
-a:hover {
-  color: var(--primary-color);
 }
 
 ::-webkit-scrollbar {
@@ -94,28 +77,6 @@ header {
   flex-direction: row;
   align-items: center;
   list-style: none;
-}
-
-.menu-principal button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: .55rem;
-  background: transparent;
-  border: .1rem solid var(--gray-500);
-  border-radius: 50rem;
-  padding: .45rem 1.25rem;
-  cursor: pointer;
-}
-
-.menu-principal button:hover {
-  background: var(--gray-500);
-}
-
-.menu-principal button span,
-.menu-principal button i {
-  color: var(--white);
-  font-size: 1rem;
 }
 
 #tag {
