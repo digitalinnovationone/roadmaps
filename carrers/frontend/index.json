@@ -7,8 +7,15 @@
     "iconClasses": "fa-brands fa-html5"
   },
   {
+    "name": "Formação UX Designer",
+    "description": "Aqui você irá dominar desde os princípios básicos de UX/UI até a criação de protótipos navegáveis para Web e Mobile. Entendendo o que são Layouts, Grids, Wireframe, Usabilidade e muitos outros conceitos importantes nesta área. Depois, você irá mergulhar nas Leis e Elementos que fundamentam a Experiência do Usuário (UX). Por fim, você irá aprender, na prática, a criar protótipos navegáveis e funcionais do zero.",
+    "type": "FORMACAO",
+    "link": "https://web.dio.me/track/formacao-ux-designer",
+    "iconClasses": "fa-brands fa-figma"
+  },
+  {
     "name": "Formação CSS Web Developer",
-    "description": "Agora que você já conhece o HTML, é hora de deixá-lo bonitão através do CSS! Para isso, nós da DIO preparamos uma Formação completa para que você possa criar páginas Web com visuais incríveis.",
+    "description": "Agora que você já conhece o HTML e tem noções de UI/UX (o que é um grande diferencial), é hora de deixá-lo bonitão através do CSS! Para isso, nós da DIO preparamos uma Formação completa para que você possa criar páginas Web com visuais incríveis.",
     "type": "FORMACAO",
     "link": "https://web.dio.me/track/formacao-css-web-developer",
     "iconClasses": "fa-brands fa-css3-alt"
