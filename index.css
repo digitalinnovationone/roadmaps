@@ -115,6 +115,7 @@ body {
   grid-gap: 1rem;
   justify-content: center;
   list-style: none;
+  width: 91vw;
   margin: 2rem 0;
 }
 
@@ -235,13 +236,13 @@ body {
 
 .menu-social > ul li {   
   color: var(--white);
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.55rem;
+  height: 2.55rem;
   margin: 0;
   padding: 0.5rem;
   border: .1rem solid var(--gray-500);
