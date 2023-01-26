@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap');
 
+:root {
+  --primary-color: #E94D5F;
+  --secondary-color: #52569F;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -38,17 +43,21 @@ body {
 }
 
 #tag {
-  background-color: #E44C5D;
-  padding: 8px 30px;
-  color: #fff;
-  width: 100px;
-  font-size: 55px;
-  box-shadow: 0 0 5px #ff2d62, 0 0 5px #eb3a72 inset;
-  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
   -webkit-perspective: 300px;
   perspective: 300px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 700;  
+  display: flex;
+  flex-direction: column;
+  user-select: none;
 }
 
 .neonText {
@@ -62,6 +71,14 @@ body {
     0 0 92px #0fa,
     0 0 102px #0fa,
     0 0 151px #0fa;
+}
+
+.gradientText {
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color), var(--secondary-color)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .container-labels {
