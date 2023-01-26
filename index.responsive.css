@@ -20,6 +20,10 @@
    display: none;
   }
 
+  #scrolldown {
+    display: none;
+  }
+
   .rodape {
     width: 100%;
     padding: 1.5rem;
