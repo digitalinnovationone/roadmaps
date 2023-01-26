@@ -1,7 +1,11 @@
 @media only screen and (max-device-width: 800px) {
+  .menu-principal ul {
+    display: none;
+  }
+  
   .container-contents {
     width: 100%;
-    margin: 1rem 2rem 1rem 3rem;
+    padding: 1rem 2rem 1rem 3rem;
   }
 
   .container-labels {
