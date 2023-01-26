@@ -71,7 +71,7 @@
     },
     {
         "name":"Sugestões de Cursos DIO",
-        "description":"Devido as grandes vantagens de computação em nuvem cada vez mais sistemas, pipelines e fluxo de dados vem sendo implementados em nuvem. Sendo assim, saber criar sistemas como banco de dados, VMs, monitoramento, aplicações, servidores web, armasenamento de dados e outros recursos é um ponto importantissímo. Logicamente, vai depender da sua função dentro da empresa. Criação de aplicações que possam interagir com a infraestrutura criada faz parte da vida de diversos profissionais de TI.",
+        "description":"Devido as grandes vantagens de computação em nuvem cada vez mais sistemas, pipelines e fluxo de dados vem sendo implementados em nuvem. Sendo assim, saber criar sistemas como banco de dados, VMs, monitoramento, aplicações, servidores web, armazenamento de dados e outros recursos é um ponto importantíssimo. Logicamente, vai depender da sua função dentro da empresa. Criação de aplicações que possam interagir com a infraestrutura criada faz parte da vida de diversos profissionais de TI.",
         "iconClasses": "fa-solid fa-play",
         "additionalContents":[
             {
