@@ -9,6 +9,33 @@
     --dark-purple: #02082A;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    
+    scrollbar-width: thin;
+    scrollbar-color: var(--gray-500) transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}  
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: var(--dark);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--gray-500);
+    border-radius: 50rem;
+}
+
 a {
     color: var(--white);
     text-decoration: none;
