@@ -226,6 +226,7 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
   gap: 1rem;
   padding: 2rem 2.5rem 2rem 4.5rem;
 }
@@ -244,11 +245,17 @@ a {
 
 .menu-social > ul li {   
   color: var(--white);
-  font-size: 1.25rem;
-  height: 2.3rem;
-  padding: .3rem .45rem .5rem;
-  border-radius: 50rem;
+  font-size: 1.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0;
+  padding: 0.5rem;
   border: .1rem solid var(--gray-500);
+  border-radius: 50rem;
 }
 
 .menu-social > ul li:hover {   
