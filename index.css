@@ -41,7 +41,7 @@ body {
 }
 
 ::selection {
-  color: #fff;
+  color: var(--white);
   background: #02082A;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .track-card {
-  border: 1px solid white;
+  border: 1px solid var(--white);;
   border-radius: 5px;
   background: #000000;
   width: 100%;
@@ -134,9 +134,17 @@ body {
   margin: 1rem 0;
 }
 
+.track-infos a:hover{
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
 .track-infos>ul {
   list-style-image: url('assets/bullet-dio.png');
-  margin-left: 1.5rem;
+  margin: 0 0 2.5rem 1.5rem;
 }
 
 .track-infos>ul>li {
@@ -211,8 +219,8 @@ body {
 }
 
 .rodape {    
-  padding-bottom: 1rem;
   color: var(--white);
+  font-size: 1rem;
   text-align: center;
-  font-size: 12px;
+  padding: 2rem 2rem 2rem 4.5rem;
 }
