@@ -3,6 +3,7 @@
 :root {
   --primary-color: #E94D5F;
   --secondary-color: #52569F;
+  --gray-500: #565656;
 }
 
 * {
@@ -11,6 +12,9 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray-500) transparent;
 }
 
 html {
@@ -20,6 +24,20 @@ html {
 body {
   background: #000000;
 }
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-500);
+  border-radius: 50rem;
+}
+
 
 ::selection {
   color: #fff;
