@@ -38,17 +38,19 @@ body {
 }
 
 #tag {
-  background-color: #E44C5D;
+  background-color: black;
   padding: 8px 30px;
   color: #fff;
   width: 100px;
   font-size: 55px;
-  box-shadow: 0 0 5px #ff2d62, 0 0 5px #eb3a72 inset;
+  box-shadow: 0 0 5px purple, 0 0 5px #eb3a72 inset;
   color: #fff;
   -webkit-perspective: 300px;
   perspective: 300px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  border-radius: 60px;
+
 }
 
 .neonText {
@@ -96,6 +98,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .track-infos>p, .track-infos>ul {
@@ -139,8 +142,8 @@ body {
 }
 
 .button {
-  color: #db3eb1;
-  border: 6px solid #db3eb1;
+  color:  #e7e7e7;
+  border: 6px solid black;
   border-radius: 15px;
   padding: 15px 25px;
   font-size: 30px;
