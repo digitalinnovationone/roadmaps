@@ -1,26 +1,29 @@
 @media only screen and (max-device-width: 800px) {
-  .label-box{
-    width: 350px;
-    height: 60%;
-    margin-right: 0px;
+  .container-contents {
+    width: 100%;
+    margin: 1rem 2rem 1rem 3rem;
   }
 
-  .label__text{
-    font-size: 14px;
-    width: 90%;
+  .container-labels {
+    width: 95%;
   }
 
-  #tag{
-    padding: 8px 30px;
-    font-size: 12px;
+  .label-box {
+    width: 85%;
   }
 
   .label__nagivation{
-    margin-top: 30%;
+    margin-top: 1rem;
   }
 
   .container-tracks {
    display: none;
+  }
+
+  .rodape {
+    width: 100%;
+    padding: 1.5rem;
+    margin: 0;
   }
 
 }
