@@ -55,30 +55,6 @@ body {
   filter: brightness(35%);
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 1.25rem;
-  width: 100%;
-}
-
-.menu-principal {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.35rem;
-}
-
-.menu-principal ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  list-style: none;
-}
-
 #tag {
   font-size: 1.25rem;
   font-weight: 600;
