@@ -21,12 +21,13 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="index.responsive.css">
   <link rel="stylesheet" href="animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 
 <body>
 
   <div class="container">
-    <img src="./assets/bgdio.png" alt="dio logo" height="500px">
+    <img src="./assets/bgdio.png" alt="dio logo" height="650px">
   </div>
 
   <div class="container-glass">
@@ -40,37 +41,49 @@
       <div class="label-box">
 
         <div class="label__tag animate pop delay-1">
-          <span id="tag">Roadmaps Dio._</span>
+          <span id="tag">Roadmaps DIO._</span>
         </div>
 
         <div class="label__title animate pop delay-2">
-          <h1 class="neonText">DESCUBRA SUA CARREIRA IDEAL</h1>
+          <h1 class="main-title">
+              <span>Descubra a sua</span>
+              <span class="gradientText">Carreira Ideal</span> 
+          </h1>
         </div>
 
         <div class="label__text animate pop delay-3">
           <p>
-            Chegou a hora de você descobrir qual é a sua aptidão na área de tecnologia. Para isso, responda as perguntas
+            Chegou a hora de você descobrir qual é a sua aptidão na área da Tecnologia. Para isso, responda as perguntas
             a seguir com notas de 1 a 5.<br />
-            Dica: Dê nota 5 apenas aos temas que você ama 🥰
+            <b>Dica:</b> Dê nota 5 apenas aos temas que você ama 🥰
           </p>
         </div>
 
         <div class="label__nagivation animate pop delay-3 pulse">
-          <a href="./quizz/index.html" class="button"> INICIAR >
+          <a href="./quizz/index.html" class="button">
+            <span>Iniciar</span> 
+            <i class="fa-solid fa-circle-chevron-right"></i>
           </a>
         </div>
 
       </div>
 
+      <a href="#carreiras">
+        <div id="scrolldown" class="animate pop delay-3">
+          <div class="chevrons">
+            <div class="chevrondown"></div>
+            <div class="chevrondown"></div>
+          </div>
+        </div>
+      </a>
+    
     </div>
 
     <div class="container-tracks">
       <div class="track-infos">
+        <h2 id="carreiras">Explore todas as Carreiras</h2>
         <p>
-          Já sabe por onde começar?<br/>
-          Ou não curtiu a Carreira recomendada pela nossa IA?<br/>
-          Listamos aqui todos os Roadmaps DIO.<br/>
-          Acesse/Compartilhe à vontade e sucesso em sua jornada 👊🤩
+          Listamos aqui todos os Roadmaps DIO. Acesse/Compartilhe à vontade e sucesso em sua jornada 👊🤩
         </p>
         <ul>
           <li><a href='https://digitalinnovationone.github.io/roadmaps/carrers/backend' target="_blank">Carreira Back-end</a></li>
@@ -94,9 +107,47 @@
 
   </div>
 
-  <p class="rodape">
-    2023 - <a href="https://www.dio.me" target="_blank">Digital Innovation One</a> - Todos os direitos reservados.
-  </p>
+  <div class="rodape">
+    <span>    
+      2023. <a href="https://www.dio.me" target="_blank">Digital Innovation One</a>. 
+      Todos os direitos reservados.
+    </span>
+
+    <nav class="menu-social">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/company/digitalinnovation-one/"target="_blank" 
+            title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@diomakethechange"target="_blank" 
+            title="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dio_makethechange/" target="_blank"
+            title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/diomakethechange"target="_blank" 
+            title="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/dio_me_"target="_blank"
+            title="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
 </body>
 
