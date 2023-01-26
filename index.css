@@ -4,6 +4,7 @@
   --primary-color: #E94D5F;
   --secondary-color: #52569F;
   --gray-500: #565656;
+  --white: #FAFAFA;
   --dark: #000001;
 }
 
@@ -39,7 +40,6 @@ body {
   border-radius: 50rem;
 }
 
-
 ::selection {
   color: #fff;
   background: #02082A;
@@ -72,6 +72,7 @@ body {
 }
 
 .main-title {
+  color: var(--white);
   font-size: 3rem;
   font-weight: 700;  
   display: flex;
@@ -102,18 +103,18 @@ body {
 
 .container-labels {
   z-index: 99;
-  color: white;
+  color: var(--white);
   height: calc(100vh - 40px);
   width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1rem;
+  align-items: flex-start;
 }
 
 .container-tracks {
   z-index: 99;
-  color: white;
+  color: var(--white);
   min-height: 300px;
   display: flex;
   flex-direction: column;
@@ -134,9 +135,17 @@ body {
   align-items: center;
 }
 
+.track-infos > h2 {
+  color: var(--white);
+  font-size: 2.55rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
 .track-infos>p, .track-infos>ul {
-  margin: auto;
-  margin-bottom: 5%;
+  font-size: 1.15rem;
+  font-weight: 300;
+  margin: 1rem 0;
 }
 
 .track-infos>ul {
@@ -149,29 +158,27 @@ body {
 }
 
 .track-infos a, .rodape>a {
-  color: white;
+  color: var(--white);
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .label-box {
   width: 600px;
-  height: 60%;
-  margin-right: 30px;
-}
-
-.label__tag,
-.label__title,
-.label__nagivation {
-  margin-bottom: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .label__nagivation {
-  margin-top: 120px;
+  margin-top: 3rem;
 }
 
 .label__text {
-  font-size: 22px;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .button {
@@ -196,14 +203,16 @@ body {
 
 .container-contents {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 0 2rem 1rem 5rem;
 }
 
 .rodape {    
   padding-bottom: 1rem;
-  color: white;
+  color: var(--white);
   text-align: center;
   font-size: 12px;
 }
