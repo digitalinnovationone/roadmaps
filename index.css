@@ -27,6 +27,10 @@ body {
   background: var(--dark);
 }
 
+a {
+  color: var(--white);
+}
+
 ::-webkit-scrollbar {
   width: 0.4rem;
 }
@@ -218,11 +222,41 @@ body {
   margin: 0 2rem 1rem 5rem;
 }
 
-.rodape {    
+.rodape {   
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem 2.5rem 2rem 4.5rem;
+}
+
+.rodape > span {   
   color: var(--white);
   font-size: 1rem;
-  text-align: center;
-  padding: 2rem 2rem 2rem 4.5rem;
+}
+
+.menu-social > ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  gap: .5rem;
+}
+
+.menu-social > ul li {   
+  color: var(--white);
+  font-size: 1.25rem;
+  height: 2.3rem;
+  padding: .3rem .45rem .5rem;
+  border-radius: 50rem;
+  border: .1rem solid var(--gray-500);
+}
+
+.menu-social > ul li:hover {   
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; 
 }
 
 /* Scrolldown icon by https://codepen.io/aledebarba/pen/wvGYYXX */
