@@ -80,19 +80,6 @@ body {
   user-select: none;
 }
 
-.neonText {
-  color: #fff;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px rgb(228, 228, 228),
-    0 0 82px rgb(247, 247, 247),
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
-}
-
 .gradientText {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color), var(--secondary-color)); 
   -webkit-background-clip: text;
@@ -121,7 +108,6 @@ body {
   justify-content: center;
   margin-right: 1rem;
 }
-
 
 .track-card {
   border: 1px solid white;
@@ -173,7 +159,7 @@ body {
 }
 
 .label__nagivation {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .label__text {
@@ -182,23 +168,37 @@ body {
 }
 
 .button {
-  color: #db3eb1;
-  border: 6px solid #db3eb1;
-  border-radius: 15px;
-  padding: 15px 25px;
-  font-size: 30px;
-  font-family: tahoma;
-  letter-spacing: 5px;
+  color: var(--white);
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: .075rem;
+  border: .1rem solid var(--dark);
+  border-radius: 50rem;
+  padding: .55rem 3.75rem .55rem 1.5rem;
   cursor: pointer;
-  font-weight: bold;
-  filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)); 
   transition: .5s;
 }
 
 .button:hover {
-  color: white;
-  background-color: #db3eb1;
-  filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+  color: var(--white);
+  background: transparent;
+  border: .1rem solid var(--gray-500);
+}
+
+.button .fa-circle-chevron-right {
+  position: absolute;
+  margin: -.3rem 0 0 .75rem;
+  font-size: 2.75rem;
+}
+
+.button:hover .fa-circle-chevron-right {
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .container-contents {
