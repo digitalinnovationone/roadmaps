@@ -1,22 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('global.css');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   background-image: linear-gradient(#271321, #010932);
 }
 
 ::selection {
-  color: #fff;
+  color: var(--white);
   background: #9F3544;
 }
 
@@ -31,7 +22,7 @@ body {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #fff;
+  background: var(--white);
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -51,7 +42,7 @@ body {
 }
 
 .wrapper .row section {
-  background: #fff;
+  background: var(--white);
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -63,7 +54,7 @@ body {
   content: "";
   height: 15px;
   width: 15px;
-  background: #fff;
+  background: var(--white);
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -86,9 +77,9 @@ body {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #E94D5F;
+  color: var(--primary-color);
   font-size: 17px;
-  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px var(--white), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .center-line .scroll-icon {
@@ -126,8 +117,8 @@ body {
 
 .row section .bottom a {
   text-decoration: none;
-  background: #E94D5F;
-  color: #fff;
+  background: var(--primary-color);
+  color: var(--white);
   padding: 7px 15px;
   border-radius: 5px;
   /* font-size: 17px; */
@@ -178,9 +169,9 @@ body {
 
 .content-header {
   text-align: center;
-  color: #fff;
+  color: var(--white);
 }
 
 .content-header a {
-  color: #fff;
+  color: var(--white);
 }

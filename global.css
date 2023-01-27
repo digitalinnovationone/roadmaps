@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #F34C5D;
+    --secondary-color: #6948D0;
+    --tertiary-color: #18B0F4;
+    --gray-500: #565656;
+    --gray-100: #A1A1A1;
+    --white: #FAFAFA;
+    --dark: #000001;
+    --dark-purple: #02082A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    
+    scrollbar-width: thin;
+    scrollbar-color: var(--gray-500) transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}  
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: var(--dark);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--gray-500);
+    border-radius: 50rem;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+  
+a:hover {
+    color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    width: 100%;
+}
+  
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.35rem;
+}
+  
+.menu-principal ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+.button-share {
+    background: transparent;
+    border: .1rem solid var(--gray-500);
+    border-radius: 50rem;
+    padding: .45rem 1.25rem;
+    margin: .25rem;
+    cursor: pointer;
+}
+  
+.button-share:hover {
+    background: var(--gray-500);
+}
+
+.button-share span {
+    margin-right: .5rem;
+}
+  
+.button-share span,
+.button-share i {
+    color: var(--white);
+    font-size: 1rem;
+}
