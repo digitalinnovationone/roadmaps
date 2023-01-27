@@ -2,7 +2,9 @@
 
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/) ![GitHub Org's stars](https://img.shields.io/github/stars/digitalinnovationone/roadmaps?style=social) ![GitHub Org's forks](https://img.shields.io/github/forks/digitalinnovationone/roadmaps?style=social) [![GitHub issues](https://img.shields.io/github/issues/digitalinnovationone/roadmaps?style=social)](https://GitHub.com/digitalinnovationone/roadmaps/issues/)
 
-Roadmaps DIO, responda apenas 16 perguntas e nossa Inteligência Artificial (IA) irá te recomendar conteúdos incríveis. [Clique aqui](https://digitalinnovationone.github.io/roadmaps/) e descubra seu Roadmap de Carreira.
+Roadmaps DIO, responda apenas 16 perguntas e nossa Inteligência Artificial (IA) irá te recomendar conteúdos incríveis. 
+
+**[Clique aqui](https://digitalinnovationone.github.io/roadmaps/) e descubra seu Roadmap de Carreira ideal.**
 
 ## Tecnologias de Front-end (Este Repositório)
 
