@@ -105,25 +105,27 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 1.75rem 0;
+  margin: 1.75rem 0 1rem;
 }
 
-.track-infos > h2 {
+.track-careers > h2 {
   color: var(--white);
   font-size: 2.35rem;
   font-weight: 700;
   padding: 1rem 0;
 }
 
-.track-infos>p, .track-infos>ul {
+.track-careers>p, 
+.track-careers>ul,
+.track-info > p {
   color: var(--white);
   font-size: 1.15rem;
   font-weight: 300;
   text-align: justify;
 }
 
-.track-infos a:hover,
-.track-infos i {
+.track-careers a:hover,
+.track-careers i {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -131,17 +133,17 @@ body {
   color: transparent;
 }
 
-.track-infos>ul {
+.track-careers>ul {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   justify-content: center;
   list-style: none;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
 }
 
-.track-infos>ul>li {
-  border: .1rem solid var(--gray-500);
+.track-careers>ul>li {
+  border: .1rem solid var(--gray-600);
   border-radius: 50rem;
   background: #000000AF;
   display: flex;
@@ -149,7 +151,7 @@ body {
   padding: 1rem 1.25rem;
 }
 
-.track-infos a {
+.track-careers a {
   color: var(--white);
   font-weight: bold;
   text-decoration: none;
@@ -159,6 +161,51 @@ body {
   gap: .75rem;
   justify-content: flex-start;
   align-items: center;
+}
+
+.track-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: .25rem;
+  margin: 1rem 0;
+}
+
+.track-info > h3 {
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.track-info > a {
+  color: var(--dark);
+  font-weight: 600;
+  word-break: break-all;
+  border-radius: 50rem;
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .25rem;
+  margin: .25rem 0 0;
+}
+
+.track-info > a:hover {
+  background: linear-gradient(to left, var(--primary-color), var(--secondary-color)); 
+}
+
+.track-info > a i {
+  font-size: 1.75rem;
+}
+
+.track-info > a > span {
+  font-size: 1.125rem;
+  padding-right: .75rem;
 }
 
 .button {
@@ -175,7 +222,7 @@ body {
   width: 10.5rem;
   height: 3.3rem;
   padding: .55rem .15rem .55rem 1.5rem;
-  border: .1rem solid var(--gray-500);
+  border: .1rem solid var(--gray-600);
   border-radius: 50rem;
   background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)); 
   transition: .5s;
@@ -184,6 +231,7 @@ body {
 
 .button:hover {
   color: var(--white);
+  border: .1rem solid var(--gray-500);
   background: transparent;
 }
 
@@ -209,19 +257,22 @@ body {
   box-shadow: inset .01rem .07rem .2rem .001rem var(--dark-purple);
 }
 
-.rodape {   
+.rodape__content {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  width: 100%;
+  border-top: .1rem solid var(--gray-600);
   padding: 1.5rem 2rem;
   text-align: center;
 }
 
-.rodape > span {   
+.rodape__content > span {
   color: var(--white);
   font-size: 1rem;
+  text-align: center;
 }
 
 .menu-social > ul {
