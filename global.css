@@ -50,8 +50,19 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0.75rem 1.25rem;
+    padding: 1rem 1.25rem;
     width: 100%;
+    height: 5rem;
+}
+
+.logo-dio {
+    height: 2.5rem;
+}
+
+@media (min-width: 1400px) {
+    .logo-dio {
+        height: 3rem;
+    }
 }
   
 .menu-principal {
@@ -63,10 +74,7 @@ header {
 }
   
 .menu-principal ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
+    display: none;
 }
 
 .button-share {
@@ -74,7 +82,6 @@ header {
     border: .1rem solid var(--gray-500);
     border-radius: 50rem;
     padding: .45rem 1.25rem;
-    margin: .25rem;
     cursor: pointer;
 }
   

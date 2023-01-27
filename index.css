@@ -27,6 +27,41 @@ body {
   filter: brightness(35%);
 }
 
+.container-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.container-labels {
+  color: var(--white);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+
+.label-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: .75rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.label__tag,
+.label__title {
+  width: 100%;
+}
+
 #tag {
   font-size: 1.25rem;
   font-weight: 600;
@@ -39,10 +74,9 @@ body {
 
 .main-title {
   color: var(--white);
-  font-size: 3rem;
-  font-weight: 700;  
-  display: flex;
-  flex-direction: column;
+  font-size: 2.5rem;
+  font-weight: 700;
+  word-break: break-word;
   user-select: none;
 }
 
@@ -54,38 +88,36 @@ body {
   color: transparent;
 }
 
-.container-labels {
-  z-index: 99;
-  color: var(--white);
-  height: calc(100vh - 120px);
-  width: 55%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+.label__text {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: justify;
+  word-break: break-word;
+}
+
+.label__nagivation {
+  margin-top: 1rem;
 }
 
 .container-tracks {
-  z-index: 99;
-  color: var(--white);
-  min-height: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-right: 1rem;
+  width: 100%;
+  margin: 1.75rem 0;
 }
 
 .track-infos > h2 {
   color: var(--white);
-  font-size: 2.55rem;
+  font-size: 2.25rem;
   font-weight: 700;
-  padding: 2.75rem 0 .25rem;
+  padding: 1rem 0;
 }
 
 .track-infos>p, .track-infos>ul {
+  color: var(--white);
   font-size: 1.15rem;
   font-weight: 300;
-  margin: 1rem 0;
+  text-align: justify;
 }
 
 .track-infos a:hover,
@@ -99,19 +131,20 @@ body {
 
 .track-infos>ul {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 1rem;
   justify-content: center;
   list-style: none;
-  width: 91vw;
-  margin: 2rem 0;
+  margin: 2.5rem 0;
 }
 
 .track-infos>ul>li {
-  padding: 1rem 1.25rem;
   border: .1rem solid var(--gray-500);
   border-radius: 50rem;
   background: #000000AF;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem 1.25rem;
 }
 
 .track-infos a {
@@ -124,24 +157,6 @@ body {
   gap: .75rem;
   justify-content: flex-start;
   align-items: center;
-}
-
-.label-box {
-  width: 600px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.label__nagivation {
-  margin-top: 1.5rem;
-}
-
-.label__text {
-  font-size: 1.25rem;
-  font-weight: 300;
 }
 
 .button {
@@ -172,7 +187,7 @@ body {
 
 .button .fa-circle-chevron-right {
   position: relative;
-  font-size: 2.75rem;
+  font-size: 2.7rem;
   box-shadow: none;  
   border: none;
   border-radius: 50rem;
@@ -192,22 +207,14 @@ body {
   box-shadow: inset .01rem .07rem .2rem .001rem var(--dark-purple);
 }
 
-.container-contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
-  padding: 0 2rem 1rem 5rem;
-}
-
 .rodape {   
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding: 2rem 2.5rem 2rem 4.5rem;
+  padding: 1rem 2rem;
+  text-align: center;
 }
 
 .rodape > span {   
@@ -245,21 +252,23 @@ body {
   color: transparent; 
 }
 
+.container-scrolldown {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+
 /* Scrolldown icon by https://codepen.io/aledebarba/pen/wvGYYXX */
 #scrolldown {
   --color: var(--white);
   --sizeX: 30px;
   --sizeY: 50px;
-  position: absolute;
+  position: relative;
   width: var(--sizeX);
   height: var(--sizeY);
-  margin-left: var(sizeX / 2);
   border: calc(var(--sizeX) / 10) solid var(--color);
   border-radius: 50px;
-  box-sizing: border-box;
-  margin: 1rem;
-  top: 80%;
-  left: 50%;
   cursor: pointer;
 }
 
@@ -297,6 +306,7 @@ body {
     opacity: 0;
   }
 }
+
 .chevrons {
   padding: 6px 0 0 0;
   margin-left: -3px;
@@ -306,6 +316,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .chevrondown {
   margin-top: -6px;
   position: relative;
@@ -316,12 +327,15 @@ body {
   height: 10px;
   transform: rotate(45deg);
 }
+
 .chevrondown:nth-child(odd) {
   animation: pulse 500ms ease infinite alternate;
 }
+
 .chevrondown:nth-child(even) {
   animation: pulse 500ms ease infinite alternate 250ms;
 }
+
 @keyframes pulse {
   from {
     opacity: 0;
