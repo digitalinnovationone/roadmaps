@@ -104,9 +104,21 @@
   
   .track-careers>ul,
   .track-info > p,
-  .track-info > a,
   .rodape__content > span {
+    font-size: 1.3rem;
+  }
+
+  .track-info > a {
+    padding: .35rem;
+  }
+
+  .track-info > a i {
+    font-size: 2rem;
+  }
+  
+  .track-info > a > span {
     font-size: 1.25rem;
+    padding-right: .75rem;
   }
 
   .menu-social > ul li {   

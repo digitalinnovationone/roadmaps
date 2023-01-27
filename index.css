@@ -187,7 +187,7 @@ body {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
 
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: .5rem;
@@ -204,7 +204,7 @@ body {
 }
 
 .track-info > a > span {
-  font-size: 1.125rem;
+  font-size: 1rem;
   padding-right: .75rem;
 }
 
