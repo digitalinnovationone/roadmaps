@@ -167,7 +167,7 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
   border-radius: .25rem;
   margin: 1rem 0;
