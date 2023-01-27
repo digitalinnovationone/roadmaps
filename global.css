@@ -52,16 +52,20 @@ header {
     align-items: center;
     padding: 1rem 1.25rem;
     width: 100%;
-    height: 5rem;
+    height: 4.5rem;
 }
 
 .logo-dio {
-    height: 2.5rem;
+    height: 2.3rem;
 }
 
 @media (min-width: 1400px) {
+    header {
+        height: 5rem;
+    }
+
     .logo-dio {
-        height: 3rem;
+        height: 2.8rem;
     }
 }
   
