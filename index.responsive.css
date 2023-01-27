@@ -41,6 +41,7 @@
   .rodape {   
     flex-flow: row;
     justify-content: space-between;
+    margin-top: 1rem;
   }
 }
 
@@ -71,8 +72,10 @@
     font-size: 3.75rem;
   }
 
-  #tag, .label__text,
-  .track-infos>p, .track-infos>ul {
+  #tag, 
+  .label__text,
+  .track-infos>p, 
+  .track-infos>ul {
     font-size: 1.55rem;
   }
 
@@ -90,5 +93,14 @@
   .track-infos > h2 {
     font-size: 3rem;
   }
-  
+
+  .rodape > span {   
+    font-size: 1.35rem;
+  }
+
+  .menu-social > ul li {   
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+  }
 }
