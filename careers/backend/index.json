@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Escolha uma Linguagem de Programação",
+        "description": "Quando falamos de Back-end encontramos diversas opções no mercado, tais como: Java, GO, C/C++, C#, Rusty, Ruby, PHP, JavaScript e Python. Dentre estas as mais utilizadas historicamente tem sido JavaScript, Java e Python. Contudo, esse não deve ser seu único ponto de comparação entre elas. Por isso, seguem as principais linguagens de programação para Back-end disponíveis na DIO e alguns spoilers do nosso Roadmap!",
+        "iconClasses": "fa-solid fa-sitemap",
+        "additionalContents": [
+            {
+                "name": "Formação Java Developer",
+                "description": "O que acha de aprender Java do zero e com os melhores experts da DIO? Bora! Nesta formação você aprenderá desde os fundamentos dessa linguagem de programação até o uso de abstrações poderosas como o Spring Framework.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-java-developer",
+                "iconClasses": "fa-brands fa-java"
+            },
+            {
+                "name": "Formação JavaScript Developer",
+                "description": "O que acha de aprender Java do zero e com os melhores experts da DIO? Bora! Nesta formação você aprenderá desde os fundamentos dessa linguagem de programação até o uso de abstrações poderosas como o Spring Framework.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-javascript-developer",
+                "iconClasses": "fa-brands fa-js"
+            },
+            {
+                "name": "Formação Python Developer",
+                "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-python-developer",
+                "iconClasses": "fa-brands fa-python"
+            },
+            {
+                "name": "Formação .NET Developer",
+                "description": "Domine a principal stack de desenvolvimento da Microsoft e torne-se um profissional de destaque no mercado quando o assunto se trata de criar soluções na plataforma .NET.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-dotnet-developer",
+                "iconClasses": "fa-brands fa-microsoft"
+            },
+            {
+                "name": "Formação PHP Experience",
+                "description": "Preparamos uma imersão com experts em PHP, uma linguagem de script open source extremamente difundida no desenvolvimento Web.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-php-experience",
+                "iconClasses": "fa-brands fa-php"
+            },
+            {
+                "name": "Formação GO Developer",
+                "description": "Comece agora mesmo a aprender sobre Go (Golang), uma linguagem moderna, legível e com capacidade de alta para multiplos acessos, além de ser extremamente rápida.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-go-developer",
+                "iconClasses": "fa-brands fa-golang"
+            },
+            {
+                "name": "Formação Rust Developer (Em Breve)"
+            },
+            {
+                "name": "Formação C/C++ Developer (em Breve)"
+            }
+        ]
+    },
+    {
+        "name": "Controle de Versão com Git",
+        "description": "Manter organização e o versionamento do código-fonte facilita o rastreamento de problemas, além do acompanhamento de atualizações. Utilize a documentação oficial do Git ou ainda o <em>Git Pro Book</em> (link abaixo). A seguir incluímos também a documentação oficial dos principais hosts dessa tecnologia: GitHub e GitLab.",
+        "type": "REFERENCIA",
+        "link": "https://git-scm.com/book/en/v2",
+        "iconClasses": "fa-brands fa-git",
+        "additionalContents": [
+            {
+                "description": "Documentação Oficial do <strong>GitHub</strong>:",
+                "type": "REFERENCIA",
+                "link": "https://docs.github.com"
+            },
+            {
+                "description": "Documentação Oficial do <strong>GitLab</strong>:",
+                "type": "REFERENCIA",
+                "link": "https://docs.gitlab.com"
+            }
+        ]
+    },
+    {
+        "name": "Bancos de Dados São Fundamentais!",
+        "description": "A grande maioria dos dados estão armazenados em SGBDs (SQL ou NoSQL). Saber trabalhar com banco de dados e realizar integrações com a linguagem de programação (de preferência) é fundamental.",
+        "iconClasses": "fa-solid fa-database",
+        "additionalContents": [
+            {
+                "name": "Formação SQL Database Specialist",
+                "description": "Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de dados de acordo com necessidades de negócios, aprenda a trabalhar com comandos Data Manipulation Language (DML) e Data Definition Language (DDL) para consultar e manipular seus dados. Crie projetos de soluções baseadas nas boas práticas das regras formais e explore técnicas de Recuperação e Controle de Concorrência em Banco de dados.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-sql-db-specialist"
+            },
+            {
+                "name": "Formação NoSQL Specialist (Em Breve)",
+                "description": "Você passou por uma etapa fundamental: Banco de Dados relacional. Agora está na hora de evoluir e conhecer o mundo OLAP. Sistemas voltados para análise de dados geralmente estão atrelados a modelagem dimensional e NoSQL. Começar pelo MongoDB é uma escolha assertiva devido a sua curva de aprendizagem.",
+                "type": "FORMACAO"
+            }
+        ]
+    },
+    {
+        "name": "Tendências Arquiteturais de Software",
+        "description": "A tecnologia evolui na velocidade da luz e, por isso, é fundamental que você esteja acompanhe tais mudanças. Nesse contexto, listamos alguns conteúdos/tecnologias interessantes que podem deixar a sua jornada ainda mais rica e desafiadora.",
+        "link": "https://web.dio.me/track/formacao-gitlab-cicd",
+        "iconClasses": "fa-solid fa-layer-group",
+        "additionalContents": [
+            {
+                "name": "APIs",
+                "description": "APIs regem a comunicação entre diversos sistemas e aplicações por toda a internet. Sendo assim é um conhecimento extremamente valioso. Alguns tópicos de referência que podemos citar, são: HATEOAS, REST, JSON APIs, gROC e GraphQL. Para sair do zero neste tema podes começar com o curso DIO Introdução a APIs e métodos HTTP (link).",
+                "link": "https://web.dio.me/course/introducao-a-apis-e-metodos-http/learning/c88d3acb-fc58-416d-a4d0-deeb856cdaf1"
+            },
+            {
+                "name": "Testes",
+                "description": "Conhecimento na execução de testes com sua aplicação são um diferencial. São diversos, tais como: Testes de integração, testes unitários, testes funcionais. Um bom começo está no curso Introdução a Testes de Software na plataforma DIO (link)!",
+                "link": "https://web.dio.me/course/introducao-a-testes-de-software/learning/0c6e3021-7351-4a64-8f69-3e8cebc221fa"
+            },
+            {
+                "name": "Monitoramento e Análise de Logs",
+                "description": "Documentação Oficial da Stack ELK (Elaticsearch, Logstash e Kibana).",
+                "link": "https://www.elastic.co/pt/what-is/elk-stack"
+            },
+            {
+                "name": "Formação CI/CD Gitlab",
+                "description": "Nos conceitos de Continuous Integration (CI) e Continuous Deploy (CD) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código. Se curte essa pegada de DevOps, da uma olhadinha na nossa formação.",
+                "type": "FORMACAO",
+                "link": "https://web.dio.me/track/formacao-gitlab-cicd"
+            },
+            {
+                "name": "Sistemas de Mensageria",
+                "description": "Documentação Oficial do RabbitMQ",
+                "link": "https://www.rabbitmq.com/documentation.html"
+            },
+            {
+                "name": "Sistemas Orientados a Eventos",
+                "description": "Documentação Oficial do Kafka.",
+                "link": "https://kafka.apache.org/documentation/"
+            },
+            {
+                "description": "Curso <strong>Mensageria com Spring AMQP e RabbitMQ</strong>.",
+                "link": "https://web.dio.me/course/mensageria-com-spring-amqp-e-rabbitmq-1/learning/4c5a15d0-f42d-4301-9de0-55f5e152934e/?back=/home"
+            },
+            {
+                "description": "Curso <strong>Introdução a serviços de mensageria com RabbitMQ e Ruby</strong>",
+                "link": "https://web.dio.me/course/introducao-a-servicos-de-mensageria-com-rabbitmq-e-ruby/learning/a2517097-ee8c-47ed-8a6a-42c107015c28"
+            },
+            {
+                "description": "Curso <strong>Arquitetura Orientada a Eventos com Java, Spring Boot e Kafka</strong>",
+                "link": "https://web.dio.me/course/arquitetura-orientada-a-eventos-com-java-spring-boot-e-kafka/learning/2ca710ba-6a28-481c-a663-6f85aaec329b"
+            },
+            {
+                "description": "Curso <strong>Introdução à Mensageria na Nuvem Com Kafka e Python</strong>",
+                "link": "https://web.dio.me/course/introducao-mensageria-na-nuvem-com-kafka-e-python/learning/07402ee4-c99b-45b8-bdd4-808ad457a778"
+            }
+        ]
+    },
+    {
+        "name": "Sugestões de Bons Livros 🤓",
+        "description": "Seguem algumas sugestões de livros com temáticas interessantes para quem está engajado em dominar uma Stack de Back-end. A maioria deles trata de assuntos transversais, ou seja, que podem ser aplicados em diferentes contextos/tecnologias.",
+        "iconClasses": "fa-solid fa-book",
+        "additionalContents": [
+            {
+                "description": "<strong>Fundamentos de Sistemas Operacionais</strong>: SOs são a base que fundamental de conhecimento para que você possa implementar desde sistemas monolíticos até microsserviços.",
+                "link": "https://www.amazon.com.br/Sistemas-operacionais-modernos-Andrew-Tanenbaum/dp/8543005671/ref=asc_df_8543005671/?tag=googleshopp00-20&linkCode=df0&hvadid=379728844501&hvpos=&hvnetw=g&hvrand=9233094379115809317&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-810610120079&psc=1"
+            },
+            {
+                "description": "<strong>Criando Microsserviços</strong: Ótimo livro sobre a criação de microsserviços",
+                "link": "https://www.amazon.com.br/Criando-Microsservi%C3%A7os-Projetando-Componentes-Especializados/dp/6586057884/ref=pd_lpo_1?pd_rd_w=BG9rP&content-id=amzn1.sym.036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_p=036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_r=1YV2SCB7460B1F50B42F&pd_rd_wg=2pCrv&pd_rd_r=f548d683-fb43-4c8e-b845-6e82ac8ad50e&pd_rd_i=6586057884&psc=1"
+            },
+            {
+                "description": "<strong>Migração de Sistemas Monolíticos para Microsserviços</strong>: No mundo real muitas vezes precisamos migrar sistemas Monilitícos para microsserviços. Na maioria das vezes não é uma tarefa trivial.",
+                "link": "https://www.amazon.com.br/Migrando-Sistemas-Monol%C3%ADticos-Para-Microsservi%C3%A7os/dp/6586057043"
+            },
+            {
+                "description": "<strong>Microsserviços - Produção e Padronização</strong>: Um dos maiores desafios para as empresas que adotaram a arquitetura de microsserviços é a falta de padronização de arquitetura. Depois de dividir uma aplicação monolítica ou construir um ecossistema de microsserviços a partir do zero, muitos engenheiros se perguntam o que vem a seguir.",
+                "link": "https://www.amazon.com.br/Microsservi%C3%A7os-Prontos-Para-Produ%C3%A7%C3%A3o-Padronizados/dp/8575226215"
+            },
+            {
+                "description": "<strong>Sistemas Baseados em Domain Driven</strong>: A comunidade de desenvolvimento de softwares reconhece que a modelagem de domínios é fundamental para o design de softwares.",
+                "link": "https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651/ref=sr_1_10?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527581&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-10"
+            },
+            {
+                "description": "<strong>Código Limpo</strong>: Um dos maiores desafios para as empresas que adotaram a arquitetura de microsserviços é a falta de padronização de arquitetura. Depois de dividir uma aplicação monolítica ou construir um ecossistema de microsserviços a partir do zero, muitos engenheiros se perguntam o que vem a seguir. ",
+                "link": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            },
+            {
+                "description": "<strong>Arquitetura Limpa</strong>: As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software.",
+                "link": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            }
+        ]
+    }
+]
