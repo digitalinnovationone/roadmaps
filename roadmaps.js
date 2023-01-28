@@ -7,16 +7,33 @@ async function loadRoadmapJson() {
         const resp = await fetch("index.json");
         if (resp.ok) {
             const roadmaps = await resp.json();
-            roadmaps.forEach((roadmapStep, index) => createStep(roadmapStep, index % 2 == 0 ? 'start' : 'end'));
+            roadmaps.forEach((roadmapStep, index) => {
+                let justifySide = index % 2 == 0 ? 'start' : 'end';
+                justifySide = justifySide == 'start' ? 1 : 2
+                
+                let animationDelay = 1;
+                
+                createStep(roadmapStep, justifySide, animationDelay);
+
+                if (animationDelay < 3) animationDelay++;
+                
+                if (roadmapStep.additionalContents) {
+                    roadmapStep.additionalContents.forEach(nextContent => {
+                        createStep(nextContent, justifySide, animationDelay);
+                        
+                        if (animationDelay < 3) animationDelay++;
+                    });
+                }
+            });
         }
     } catch (error) {
         console.log(`Erro ao carregar o arquivo JSON de Roadmap: ${error}`);
     }
 }
 
-function createStep(content, justify) {
+function createStep(content, justify, delay) {
     const htmlTemplate = `
-        <div class="row row-${justify == 'start' ? 1 : 2}">
+        <div class="row row-${justify} animate pop delay-${delay}">
             <section>
             ${createIconIfNecessary(content.iconClasses)}
             ${createTitleIfNecessary(content.name)}
@@ -32,12 +49,6 @@ function createStep(content, justify) {
     const step = template.content.firstChild;
 
     document.querySelector(".roadmap-steps").appendChild(step);
-
-    if (content.additionalContents) {
-        content.additionalContents.forEach(nextContent => {
-            createStep(nextContent, justify);
-        });
-    }
 }
 
 function createIconIfNecessary(icons) {
