@@ -9,7 +9,7 @@ async function loadRoadmapJson() {
             const roadmaps = await resp.json();
             roadmaps.forEach((roadmapStep, index) => createStep(roadmapStep, index % 2 == 0 ? 'start' : 'end'));
         }
-    } catch (erro) {
+    } catch (error) {
         console.log(`Erro ao carregar o arquivo JSON de Roadmap: ${error}`);
     }
 }
