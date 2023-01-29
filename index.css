@@ -124,7 +124,7 @@ body {
   text-align: justify;
 }
 
-.track-careers a:hover,
+.track-careers a:hover span,
 .track-careers i {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
   -webkit-background-clip: text;
@@ -142,7 +142,7 @@ body {
   margin: 2rem 0;
 }
 
-.track-careers>ul>li {
+.track-careers>ul>li>a {
   border: .1rem solid var(--gray-600);
   border-radius: 50rem;
   background: #000000AF;
