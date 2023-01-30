@@ -11,11 +11,17 @@
     display: flex;
     flex-direction: column;
   }
+
+  .track-info {
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 
 
 @media (min-width: 768px) {
-  .container-contents, .rodape {
+  .container-contents,
+  .rodape__content {
     padding: 1rem 4rem;
   }
 
@@ -27,21 +33,20 @@
     width: 50%;
   }
 
-  .track-infos > ul {
+  .track-careers > ul {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 
 @media (min-width: 1024px) {
-  .track-infos > ul {
+  .track-careers > ul {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .rodape {   
+  .rodape__content {   
     flex-flow: row;
     justify-content: space-between;
-    margin-top: 1rem;
   }
 }
 
@@ -51,7 +56,7 @@
     font-size: 3rem;
   }
 
-  .track-infos > ul {
+  .track-careers > ul {
     grid-template-columns: repeat(4, 1fr);
   }
 }
@@ -73,9 +78,7 @@
   }
 
   #tag, 
-  .label__text,
-  .track-infos>p, 
-  .track-infos>ul {
+  .label__text {
     font-size: 1.55rem;
   }
 
@@ -90,12 +93,32 @@
     font-size: 3.2rem;
   }
 
-  .track-infos > h2 {
+  .track-careers > h2 {
     font-size: 3rem;
   }
 
-  .rodape > span {   
-    font-size: 1.35rem;
+  .track-careers>p, 
+  .track-careers>ul {
+    font-size: 1.45rem;
+  }
+  
+  .track-careers>ul,
+  .track-info > p,
+  .rodape__content > span {
+    font-size: 1.3rem;
+  }
+
+  .track-info > a {
+    padding: .35rem;
+  }
+
+  .track-info > a i {
+    font-size: 2rem;
+  }
+  
+  .track-info > a > span {
+    font-size: 1.25rem;
+    padding-right: .75rem;
   }
 
   .menu-social > ul li {   
