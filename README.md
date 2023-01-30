@@ -2,13 +2,15 @@
 
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/) ![GitHub Org's stars](https://img.shields.io/github/stars/digitalinnovationone/roadmaps?style=social) ![GitHub Org's forks](https://img.shields.io/github/forks/digitalinnovationone/roadmaps?style=social) [![GitHub issues](https://img.shields.io/github/issues/digitalinnovationone/roadmaps?style=social)](https://GitHub.com/digitalinnovationone/roadmaps/issues/)
 
-Roadmaps DIO, responda apenas 16 perguntas e nossa Inteligência Artificial (IA) irá te recomendar conteúdos incríveis.
-Com ele você pode descobrir qual carreira da área de tecnologia mais combina com você de acordo com suas respostas ao quiz.
-Você pode, ao responder as 16 perguntas presentes no quiz, entender qual é a carreira mais indicada de acordo com suas preferências.
-Porém, lembre-se que este roadmap não é uma resposta definitiva, você pode ver o seu resultado e se fazer sentido para você, será recomendada uma trilha para que você possa se tornar um desenvolvedor mais completo e desejado pelo mercado de trabalho.
-Caso você deseje conhecer as outras trilhas, não deixe de consultar também, o objetivo é encontrar aquela que mais faz você se sentir motivado em aprender, se destacar e alavancar sua carreira de acordo com suas aptidões!
+Roadmaps DIO, responda apenas 16 perguntas e nossa Inteligência Artificial (IA) irá te recomendar um Roadmap de Carreira com conteúdos incríveis.
+Com ele você pode descobrir qual área da Tecnologia de Informação (TI) mais combina com você, tendo em vista suas preferências pessoais.
+Porém, entenda que nossos Roadmaps não são uma resposta definitiva, você deve avaliar se o resultado faz sentido para o seu momento e suas aptidões, pois lembre-se...
 
-**[Clique aqui](https://digitalinnovationone.github.io/roadmaps/) e descubra seu Roadmap de Carreira ideal.**
+> Ninguém te conhece melhor do que você mesmo 😉 
+
+Por isso, todos os nossos Roadmaps estão disponíveis para que você tome uma decisão em sua carreira, com um emporrãozinho (ou não) da nossa IA 👊😎
+
+**[Clique aqui](https://digitalinnovationone.github.io/roadmaps/) e descubra o Roadmap de Carreira ideal.**
 
 ## Tecnologias de Front-end (Este Repositório)
 
