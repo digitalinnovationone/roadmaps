@@ -22,6 +22,14 @@
   .track-careers > ul {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .footer__content1 {
+    justify-content: flex-start;
+  }
+
+  .container-info {
+    width: 48%;
+  }
 }
 
 

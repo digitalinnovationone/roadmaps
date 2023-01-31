@@ -97,29 +97,36 @@ header {
 
 .footer__content1 {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 1rem;
-    border-radius: .25rem;
-    padding: 1rem 2rem;
-    margin: 1rem 0;
+    gap: 2rem;
+    padding: 2rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0)); 
 }
 
-.footer__content1 > h3 {
+.container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+    width: 60%;
+    text-align: center;
+}
+
+.container-info > h3 {
     font-size: 1.55rem;
     font-weight: 600;
     color: var(--white);
 }
 
-.footer__content1 > p {
+.container-info > p {
     color: var(--white);
     font-size: 1.15rem;
     font-weight: 300;
-    text-align: justify;
 }
 
-.footer__content1 > a {
+.container-info > a {
     color: var(--dark);
     font-weight: 600;
     word-break: break-all;
@@ -135,15 +142,15 @@ header {
     margin: .25rem 0 0;
 }
 
-.footer__content1 > a:hover {
+.container-info > a:hover {
     background: linear-gradient(to left, var(--primary-color), var(--secondary-color)); 
 }
 
-.footer__content1 > a i {
+.container-info > a i {
     font-size: 1.75rem;
 }
 
-.footer__content1 > a > span {
+.container-info > a > span {
     font-size: 1rem;
     padding-right: .75rem;
 }
@@ -155,6 +162,7 @@ header {
     align-items: center;
     gap: 1rem;
     width: 100%;
+    background: rgba(0, 0, 0, 0.686);
     border-top: .1rem solid var(--gray-600);
     padding: 1.5rem 2rem;
     text-align: center;
@@ -214,16 +222,18 @@ header {
         list-style: none;
         font-size: 1rem;
     }
-    
-    .footer__content1 {
-        justify-content: center;
-        align-items: flex-start;
-    }
 }
 
 
 @media (min-width: 768px) {
-    .footer__content1,
+    .footer__content1 {
+        padding: 2rem 4rem;
+    }
+
+    .footer__content1 {
+        flex-direction: row;
+    }
+
     .footer__content2 {
         padding: 1rem 4rem;
     }
@@ -261,19 +271,19 @@ header {
         padding: .5rem 1.5rem;
     }
 
-    .footer__content1 > p {
+    .container-info > p {
         font-size: 1.3rem;
     }
 
-    .footer__content1 > a {
+    .container-info > a {
         padding: .35rem;
     }
     
-    .footer__content1 > a i {
+    .container-info > a i {
         font-size: 2rem;
     }
     
-    .footer__content1 > a > span {
+    .container-info > a > span {
         font-size: 1.25rem;
         padding-right: .75rem;
     }

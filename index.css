@@ -106,7 +106,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  min-height: calc(100vh - 270px);
+  min-height: calc(100vh - 300px);
 }
 
 .track-careers {
@@ -217,6 +217,12 @@ body {
   background-clip: text;
   color: transparent;
   box-shadow: inset .01rem .07rem .2rem .001rem var(--dark-purple);
+}
+
+.container-info {
+  align-items: flex-start;
+  text-align: justify;
+  width: 100%;
 }
 
 /* Scrolldown icon by https://codepen.io/aledebarba/pen/wvGYYXX */
