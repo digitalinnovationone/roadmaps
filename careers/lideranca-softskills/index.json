@@ -2,13 +2,13 @@
     {
         "name": "Trabalhando em Equipes Ágeis",
         "description": "Se você já está ou pretende estar imerso no mundo da tecnologia, cedo ou tarde você terá contato com os princípios do Desenvolvimento Ágil de Software. Como um bom líder e gestor, entender como funciona e o que um time ágil valoriza, certamente fará diferença na sua jornada. Em um cenário com constantes mudanças é fundamental ser flexível e conseguir se adaptar bem às novas realidades. Neste curso, você irá compreender o que é ser ágil de fato, a importância da agilidade nos dias atuais e conhecer alguns dos principais métodos e ferramentas que existem e que você pode aplicar na gestão ágil em conjunto com o seu time.",
-        "link": "https://web.dio.me/course/trabalhando-em-equipes-ageis/learning/477c95b5-a83f-48e9-80ed-bb0364878f8b",
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/trabalhando-em-equipes-ageis/learning/477c95b5-a83f-48e9-80ed-bb0364878f8b",
         "iconClasses": "fa-solid fa-arrows-split-up-and-left",
         "additionalContents": [
             {
                 "name": "Liderança de Negócios com Cultura Ágil",
                 "description": "Que tal se inspirar com líderes de grandes empresas? Para um líder em formação, ter uma rede sólida de networking e boas referências são fundamentais. Esse curso vai trazer insights de como empresas de sucesso como MaxMilhas, Méliuz e Raccoon criaram um ambiente empreendedor que envolve os colaboradores. Você entenderá o quão importante é a manutenção dessa cultura desde o processo de contratação do(a) colaborador(a), que precisa ter um mindset que corresponda com o da empresa e demais integrantes, até no dia a dia do time. Um bom líder deve ter em mente a importância de definir metas SMART, de criar uma cultura ágil e sadia dentro do time e também a como estimular as pessoas na dose certa para que os resultados sejam entregues.",
-                "link": "https://web.dio.me/course/lideranca-de-negocios-com-cultura-agil/learning/a0f100e4-7847-41db-9bd2-f288a92a9d44"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/lideranca-de-negocios-com-cultura-agil/learning/a0f100e4-7847-41db-9bd2-f288a92a9d44"
             }
         ]
     },
@@ -16,7 +16,7 @@
         "name": "Formação Scrum Master Certification",
         "description": "Quando o assunto é Tecnologia, Metodologias ágeis e Gestão, não tem como não falar sobre Scrum, o framework ágil mais utilizado no mundo que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos. Uma das possibilidades de carreira para quem quer liderar times ágeis é a de Scrum Master (SM). Os SMs são verdadeiros líderes que servem ao Scrum Team e à organização como um todo. Além de dominar os fundamentos do framework Scrum, ao final da Formação você estará preparado para a Certificação Internacional Professional Scrum Master I (PSM I) da Scrum.org. Vem com a gente nessa jornada e potencialize a sua carreira!",
         "type": "FORMACAO",
-        "link": "https://web.dio.me/track/formacao-scrum-master",
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-scrum-master",
         "iconClasses": "fa-solid fa-football"
     },
     {
@@ -49,7 +49,7 @@
                 "description": "Este livro reúne reflexões e estudos do autor sobre a dinâmica dos relacionamentos e o real impacto da inteligência emocional nos resultados da empresa. É uma leitura essencial para líderes focados em inovação e excelência em gestão! "
             },
             {
-                "description": "LEU OUTRO LIVRO QUE NÃO ESTÁ NA LISTA? NÃO DEIXE DE COMPARTILHAR A SUA EXPERIÊNCIA NA <a href='https://web.dio.me/articles' target='_blank'>ÁREA DE ARTIGOS</a> DA DIO!"
+                "description": "LEU OUTRO LIVRO QUE NÃO ESTÁ NA LISTA? NÃO DEIXE DE COMPARTILHAR A SUA EXPERIÊNCIA NA <a href='https://dio.me/sign-in?redirect=https://web.dio.me/articles' target='_blank'>ÁREA DE ARTIGOS</a> DA DIO!"
             }
         ]
     }
