@@ -95,6 +95,59 @@ header {
     font-size: 1rem;
 }
 
+.track-info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    border-radius: .25rem;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+}
+
+.track-info > h3 {
+    font-size: 1.55rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.track-info > p {
+    color: var(--white);
+    font-size: 1.15rem;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.track-info > a {
+    color: var(--dark);
+    font-weight: 600;
+    word-break: break-all;
+    border-radius: 50rem;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: .25rem;
+    margin: .25rem 0 0;
+}
+
+.track-info > a:hover {
+    background: linear-gradient(to left, var(--primary-color), var(--secondary-color)); 
+}
+
+.track-info > a i {
+    font-size: 1.75rem;
+}
+
+.track-info > a > span {
+    font-size: 1rem;
+    padding-right: .75rem;
+}
+
 .footer__content2 {
     display: flex;
     flex-flow: column;
@@ -161,10 +214,16 @@ header {
         list-style: none;
         font-size: 1rem;
     }
+    
+    .track-info {
+        justify-content: center;
+        align-items: flex-start;
+    }
 }
 
 
 @media (min-width: 768px) {
+    .track-info,
     .footer__content2 {
         padding: 1rem 4rem;
     }
@@ -200,6 +259,23 @@ header {
 
     .button-share {
         padding: .5rem 1.5rem;
+    }
+
+    .track-info > p {
+        font-size: 1.3rem;
+    }
+
+    .track-info > a {
+        padding: .35rem;
+    }
+    
+    .track-info > a i {
+        font-size: 2rem;
+    }
+    
+    .track-info > a > span {
+        font-size: 1.25rem;
+        padding-right: .75rem;
     }
 
     .menu-social > ul li {   

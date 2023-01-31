@@ -116,8 +116,7 @@ body {
 }
 
 .track-careers>p, 
-.track-careers>ul,
-.track-info > p {
+.track-careers>ul {
   color: var(--white);
   font-size: 1.15rem;
   font-weight: 300;
@@ -161,51 +160,6 @@ body {
   gap: .75rem;
   justify-content: flex-start;
   align-items: center;
-}
-
-.track-info {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1rem;
-  border-radius: .25rem;
-  margin: 1rem 0;
-}
-
-.track-info > h3 {
-  font-size: 1.55rem;
-  font-weight: 600;
-  color: var(--white);
-}
-
-.track-info > a {
-  color: var(--dark);
-  font-weight: 600;
-  word-break: break-all;
-  border-radius: 50rem;
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: .5rem;
-  padding: .25rem;
-  margin: .25rem 0 0;
-}
-
-.track-info > a:hover {
-  background: linear-gradient(to left, var(--primary-color), var(--secondary-color)); 
-}
-
-.track-info > a i {
-  font-size: 1.75rem;
-}
-
-.track-info > a > span {
-  font-size: 1rem;
-  padding-right: .75rem;
 }
 
 .button {
