@@ -1,12 +1,4 @@
 @media (min-width: 576px) {
-  .menu-principal ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    font-size: 1rem;
-  }
-
   .main-title {
     display: flex;
     flex-direction: column;
@@ -20,8 +12,7 @@
 
 
 @media (min-width: 768px) {
-  .container-contents,
-  .rodape__content {
+  .container-contents {
     padding: 1rem 4rem;
   }
 
@@ -43,11 +34,6 @@
   .track-careers > ul {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .rodape__content {   
-    flex-flow: row;
-    justify-content: space-between;
-  }
 }
 
 
@@ -63,16 +49,6 @@
 
 
 @media (min-width: 1400px) {
-  .menu-principal ul,
-  .button-share span,
-  .button-share i {
-    font-size: 1.25rem;
-  }
-
-  .button-share {
-    padding: .5rem 1.5rem;
-  }
-
   .main-title {
     font-size: 3.75rem;
   }
@@ -103,8 +79,7 @@
   }
   
   .track-careers>ul,
-  .track-info > p,
-  .rodape__content > span {
+  .track-info > p {
     font-size: 1.3rem;
   }
 
@@ -119,11 +94,5 @@
   .track-info > a > span {
     font-size: 1.25rem;
     padding-right: .75rem;
-  }
-
-  .menu-social > ul li {   
-    font-size: 1.5rem;
-    width: 3rem;
-    height: 3rem;
   }
 }

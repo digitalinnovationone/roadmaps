@@ -188,18 +188,6 @@ body {
   }
 }
 
-@media (min-width: 1400px) {
-  .menu-principal ul,
-  .button-share span,
-  .button-share i {
-    font-size: 1.25rem;
-  }
-
-  .button-share {
-    padding: .5rem 1.5rem;
-  }
-}
-
 /* DIO Customization */
 
 .content-header {
