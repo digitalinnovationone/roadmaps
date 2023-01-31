@@ -104,15 +104,23 @@ body {
 .container-tracks {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
-  margin: 1.75rem 0 1rem;
+  min-height: calc(100vh - 270px);
+}
+
+.track-careers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .track-careers > h2 {
   color: var(--white);
   font-size: 2.35rem;
   font-weight: 700;
-  padding: 1rem 0;
+  padding: 1.5rem 0 0;
 }
 
 .track-careers>p, 
@@ -138,7 +146,7 @@ body {
   grid-gap: 1rem;
   justify-content: center;
   list-style: none;
-  margin: 2rem 0;
+  margin: 1rem 0 0;
 }
 
 .track-careers>ul>li>a {
