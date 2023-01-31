@@ -17,17 +17,17 @@
                 "name": "Formação Android Developer",
                 "description": "Aprenda na prática a linguagem de programação Kotlin e suas possibilidades de carreira no mercado de trabalho atualmente. Depois disso, vamos dominar desde os fundamentos para criação de Apps Android até o uso de bibliotecas e abstrações poderosas como o Android Jetpack.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-android-developer"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-android-developer"
             },
             {
                 "description": "Desafio de Projeto - <strong>App Nativo Sobre Futebol Feminino com Android Jetpack e Java</strong>: App Android Nativo em Java, explorando os componentes nativos mais atuais oferecidos pelo Android Jetpack.",
                 "type": "LAB",
-                "link": "https://web.dio.me/lab/app-nativo-sobre-futebol-feminino-com-android-jetpack-e-java/learning/0ef48c73-9c8d-4e1d-b4c1-d552bea1a856"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lab/app-nativo-sobre-futebol-feminino-com-android-jetpack-e-java/learning/0ef48c73-9c8d-4e1d-b4c1-d552bea1a856"
             },
             {
                 "description": "Desafio de Projeto - <strong>App Android de Extrato Bancário em Kotlin com Coroutines e LiveData</strong>: Aprenda na prática desde a configuração do ambiente de desenvolvimento até o criação de um App previamente prototipado. Para isso, vamos explorar tendências do desenvolvimento mobile nativo para Android, como Kotlin, Coroutines, LiveData, Jetpack e Material Design 3.",
                 "type": "LAB",
-                "link": "https://web.dio.me/lab/app-android-de-extrato-bancario-em-kotlin-com-coroutines-e-livedata/learning/0c313369-603c-4c7e-a9b6-5f319afe0a24"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lab/app-android-de-extrato-bancario-em-kotlin-com-coroutines-e-livedata/learning/0c313369-603c-4c7e-a9b6-5f319afe0a24"
             }
         ]
     },
@@ -44,13 +44,13 @@
                 "name": "Formação iOS Developer",
                 "description": "Nesta formação você terá dois módulos completos explorando Swift sem a necessidade de um macOS, utilizando o Swift Playground, que pode ser acessado através do seu browser de Internet. Depois disso, você entrará no mundo do desenvolvimento de Apps, conhecendo as ferramentas, conceitos e padrões mais explorados por profissionais iOS.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-ios-developer"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-ios-developer"
             },
             {
                 "name": "Formação Swift & iOS Experience",
                 "description": "Preparamos uma imersão com experts em Swift, a linguagem de programação recomendada para o desenvolvimento de Apps iOS. Nesta formação você terá conteúdos mais avançados com vários experts, apresentando uma diversidade incrível de padrões de projeto e arquiteturas.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-swift-and-ios-experience"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-swift-and-ios-experience"
             }
         ]
     },
@@ -63,7 +63,7 @@
                 "description": "Aprenda a desenvolver Apps multiplataforma com Flutter, explorando desde a base da linguagem <strong>Dart</strong> até como o fluxo de pessistência de dados com Hive e SQLite. Além disso, você irá dominar como consumir APIs e conheçer os componentes/widgets para construção de uma solução rica e fluida.",
                 "type": "FORMACAO",
                 "iconClasses": "fa-solid fa-bullseye",
-                "link": "https://web.dio.me/track/formacao-flutter-specialist"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-flutter-specialist"
             },
             {
                 "name": "Formação <strong>React Native</strong> Developer",

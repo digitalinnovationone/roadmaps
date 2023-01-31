@@ -17,7 +17,7 @@
     "name": "Formação SQL Database Specialist",
     "description": "Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de dados de acordo com necessidades de negócios, aprenda a trabalhar com comandos Data Manipulation Language (DML) e Data Definition Language (DDL) para consultar e manipular seus dados. Crie projetos de soluções baseadas nas boas práticas das regras formais e explore técnicas de Recuperação e Controle de Concorrência em Banco de dados.",
     "type": "FORMACAO",
-    "link": "https://web.dio.me/track/formacao-sql-db-specialist",
+    "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-sql-db-specialist",
     "iconClasses": "fa-solid fa-database",
     "additionalContents": [
       {
@@ -29,7 +29,7 @@
         "name": "Live Banco de Dados: Quando e qual usar?",
         "description": "Fundamentos adquiridos, agora você precisa entender qual o papel de cada modelo dentro da área de banco de dados.",
         "type": "SERIE",
-        "link": "https://web.dio.me/lives/banco-de-dados-qual-e-quando-usar-getting-started-25"
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/banco-de-dados-qual-e-quando-usar-getting-started-25"
       }
     ]
   },
@@ -37,14 +37,14 @@
     "name": "Formação Power BI Analyst",
     "description": "Através dos recursos visuais conseguimos absorver 80% de informação. Com outros recursos nossa assimilação do conteúdo reduz. Sendo assim, para ser assertivo precisamos criar relatórios e dashboards interativos considerando nosso público-alvo. Mergulhe na formação Power BI Analyst para impressionar clientes e colaboradores.",
     "type": "FORMACAO",
-    "link": "https://web.dio.me/track/formacao-power-bi-analyst",
+    "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-power-bi-analyst",
     "iconClasses": "fa-solid fa-business-time",
     "additionalContents": [
       {
         "name": "Série Hands ON - Power BI ",
         "description": "Venha criar um dashboard interativo no Power BI explorando e detectando os fatores de impacto nas vendas de Skateboards de uma empresa fictícia. Vamos explorar os dados através de diferentes perspectivas e fatores. Além disso, iremos criar uma estilização objetiva e elegante para impressionar seus clientes. ",
         "type": "SERIE",
-        "link": "https://web.dio.me/lives/criando-um-dashboard-de-vendas-com-power-bi",
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/criando-um-dashboard-de-vendas-com-power-bi",
         "optional": true
       }
     ]
@@ -60,19 +60,19 @@
         "name": "Formação Python Developer",
         "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
         "type": "FORMACAO",
-        "link": "https://web.dio.me/track/formacao-python-developer"
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-python-developer"
       },
       {
         "name": "Serie - Como aprender Python do Zero",
         "description": "Você já ouviu falar de Python? Ela é simplesmente uma das linguagens mais utilizadas na atualidade! Python é uma linguagem de programação de alto nível, isso significa que ela possui uma sintaxe mais simplificada e próxima da linguagem humana, utilizada nas mais diversas aplicações, como desktop, web, servidores e até mesmo ciência de dados! ",
         "type": "SERIE",
-        "link": "https://web.dio.me/lives/como-aprender-a-programar-python-do-zero-getting-started-26"
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/como-aprender-a-programar-python-do-zero-getting-started-26"
       },
       {
         "name": "Projeto Análise de Dados com Python e Machine Learning",
         "description": "Criando Modelos com Python e Machine Learning para Prever a Evolução do COVID-19 no Brasil",
         "type": "LAB",
-        "link": "https://web.dio.me/lab/criando-modelos-com-python-e-machine-learning-para-prever-a-evolucao-do-covid-19-no-brasil/learning/14fba55d-a017-4f74-bc4f-e3b43b87d2bb"
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lab/criando-modelos-com-python-e-machine-learning-para-prever-a-evolucao-do-covid-19-no-brasil/learning/14fba55d-a017-4f74-bc4f-e3b43b87d2bb"
       }
     ]
   },
@@ -86,7 +86,7 @@
         "name": "Curso Introdução a Ciência de Dados",
         "description": "Entenda o mundo da ciência de dados. De os primeiros passos e entenda o que de fato faz um ciêntista de dados",
         "type": "CURSO",
-        "link": "https://web.dio.me/course/introducao-a-ciencia-de-dados/learning/0e6023ed-5981-4da1-98ae-8da5ca8b32cf"
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-a-ciencia-de-dados/learning/0e6023ed-5981-4da1-98ae-8da5ca8b32cf"
       },
       {
         "name": "Data Science do Zero",
@@ -133,7 +133,7 @@
     "name": "Formação Machine Learning Specialist",
     "description": "Análises mais complexas e aprofundadas (preditivas e prescritivas) frequentemente estão sendo criadas com IA e machine learning. Além disso, temas como: NPL, Visão computacional, Sistemas de recomendação, Machine Learning são frequentemente associados ao aspecto avançado dentro de Data Scientist. Tenha esse diferencial em seu currículo.",
     "type": "FORMACAO",
-    "link": "https://web.dio.me/track/formacao-machine-learning-specialist",
+    "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-machine-learning-specialist",
     "iconClasses": "fa-solid fa-brain-circuit",
     "additionalContents": [
       {
