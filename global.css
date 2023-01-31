@@ -95,7 +95,7 @@ header {
     font-size: 1rem;
 }
 
-.track-info {
+.footer__content1 {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -106,20 +106,20 @@ header {
     margin: 1rem 0;
 }
 
-.track-info > h3 {
+.footer__content1 > h3 {
     font-size: 1.55rem;
     font-weight: 600;
     color: var(--white);
 }
 
-.track-info > p {
+.footer__content1 > p {
     color: var(--white);
     font-size: 1.15rem;
     font-weight: 300;
     text-align: justify;
 }
 
-.track-info > a {
+.footer__content1 > a {
     color: var(--dark);
     font-weight: 600;
     word-break: break-all;
@@ -135,15 +135,15 @@ header {
     margin: .25rem 0 0;
 }
 
-.track-info > a:hover {
+.footer__content1 > a:hover {
     background: linear-gradient(to left, var(--primary-color), var(--secondary-color)); 
 }
 
-.track-info > a i {
+.footer__content1 > a i {
     font-size: 1.75rem;
 }
 
-.track-info > a > span {
+.footer__content1 > a > span {
     font-size: 1rem;
     padding-right: .75rem;
 }
@@ -215,7 +215,7 @@ header {
         font-size: 1rem;
     }
     
-    .track-info {
+    .footer__content1 {
         justify-content: center;
         align-items: flex-start;
     }
@@ -223,7 +223,7 @@ header {
 
 
 @media (min-width: 768px) {
-    .track-info,
+    .footer__content1,
     .footer__content2 {
         padding: 1rem 4rem;
     }
@@ -261,19 +261,19 @@ header {
         padding: .5rem 1.5rem;
     }
 
-    .track-info > p {
+    .footer__content1 > p {
         font-size: 1.3rem;
     }
 
-    .track-info > a {
+    .footer__content1 > a {
         padding: .35rem;
     }
     
-    .track-info > a i {
+    .footer__content1 > a i {
         font-size: 2rem;
     }
     
-    .track-info > a > span {
+    .footer__content1 > a > span {
         font-size: 1.25rem;
         padding-right: .75rem;
     }
