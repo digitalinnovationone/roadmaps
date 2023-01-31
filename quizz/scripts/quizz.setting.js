@@ -110,18 +110,18 @@ function isCompleted() {
   }
 }
 
-async function redirectToCarrer() {
+async function redirectToCareer() {
 
   //send responses to api
-  let carrerPath = ""
+  let careerPath = ""
 
   //let resultJSON = await requestAPI("4553212311221211")
   let resultJSON = await requestAPI(state.responses)
   console.log(resultJSON)
 
   if (resultJSON.status == httpStatus.OK) {
-    carrerPath = await getCareerPath(resultJSON.carrer.id)
-    window.location.replace(`${CARRER_URL}${carrerPath}`)
+    careerPath = await getCareerPath(resultJSON.career.id)
+    window.location.replace(`${CARRER_URL}${careerPath}`)
   } else if (resultJSON.status == httpStatus.BadRequest) {
     alert(resultJSON.message)
     window.location.reload(true)
@@ -133,27 +133,27 @@ async function redirectToCarrer() {
 async function getCareerPath(careerId) {
   switch (careerId) {
     case 1:
-      return 'carrers/backend';
+      return 'careers/backend';
     case 2:
-      return 'carrers/frontend';
+      return 'careers/frontend';
     case 3:
-      return 'carrers/mobile';
+      return 'careers/mobile';
     case 4:
-      return 'carrers/infra-devops-security';
+      return 'careers/infra-devops-security';
     case 5:
-      return 'carrers/cloud';
+      return 'careers/cloud';
     case 6:
-      return 'carrers/data-analytics';
+      return 'careers/data-analytics';
     case 7:
-      return 'carrers/games';
+      return 'careers/games';
     case 8:
-      return 'carrers/qa';
+      return 'careers/qa';
     case 9:
-      return 'carrers/web3-ia';
+      return 'careers/web3-ia';
     case 10:
-      return 'carrers/lideranca-softskills';
+      return 'careers/lideranca-softskills';
     case 11:
-      return 'carrers/crm';
+      return 'careers/crm';
     default:
       return 'Invalid careerId';
   }
@@ -178,7 +178,7 @@ function bindButtons() {
       console.log(state.responses)
 
       if (isCompleted()) {
-        await redirectToCarrer()
+        await redirectToCareer()
       } else {
         drawQuestion()
         drawCounter()
