@@ -13,14 +13,14 @@
             },
             {
                 "name": "Formação JavaScript Developer",
-                "description": "O que acha de aprender Java do zero e com os melhores experts da DIO? Bora! Nesta formação você aprenderá desde os fundamentos dessa linguagem de programação até o uso de abstrações poderosas como o Spring Framework.",
+                "description": "Aprenda JavaScript do zero, em uma abordagem de ensino totalmente imersiva e prática. Nesta formação você aprenderá desde os fundamentos desta linguagem de programação até o seu papel essencial na Web atualmente.",
                 "type": "FORMACAO",
                 "link": "https://web.dio.me/track/formacao-javascript-developer",
                 "iconClasses": "fa-brands fa-js"
             },
             {
                 "name": "Formação Python Developer",
-                "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
+                "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista, precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversas outras finalidades.",
                 "type": "FORMACAO",
                 "link": "https://web.dio.me/track/formacao-python-developer",
                 "iconClasses": "fa-brands fa-python"
@@ -34,7 +34,7 @@
             },
             {
                 "name": "Formação PHP Experience",
-                "description": "Preparamos uma imersão com experts em PHP, uma linguagem de script open source extremamente difundida no desenvolvimento Web.",
+                "description": "Preparamos uma imersão com experts em PHP, uma linguagem de script open source extremamente difundida no desenvolvimento web.",
                 "type": "FORMACAO",
                 "link": "https://web.dio.me/track/formacao-php-experience",
                 "iconClasses": "fa-brands fa-php"
@@ -56,7 +56,7 @@
     },
     {
         "name": "Controle de Versão com Git",
-        "description": "Manter organização e o versionamento do código-fonte facilita o rastreamento de problemas, além do acompanhamento de atualizações. Utilize a documentação oficial do Git ou ainda o <em>Git Pro Book</em> (link abaixo). A seguir incluímos também a documentação oficial dos principais hosts dessa tecnologia: GitHub e GitLab.",
+        "description": "Manter a organização e o versionamento do código-fonte facilita o rastreamento de problemas, além do acompanhamento de atualizações. Utilize a documentação oficial do Git ou ainda o <em>Git Pro Book</em> (link abaixo). A seguir incluímos também a documentação oficial dos principais hosts dessa tecnologia: GitHub e GitLab.",
         "type": "REFERENCIA",
         "link": "https://git-scm.com/book/en/v2",
         "iconClasses": "fa-brands fa-git",
@@ -93,7 +93,7 @@
     },
     {
         "name": "Tendências Arquiteturais de Software",
-        "description": "A tecnologia evolui na velocidade da luz e, por isso, é fundamental que você esteja acompanhe tais mudanças. Nesse contexto, listamos alguns conteúdos/tecnologias interessantes que podem deixar a sua jornada ainda mais rica e desafiadora.",
+        "description": "A tecnologia evolui na velocidade da luz e, por isso, é fundamental que você acompanhe tais mudanças. Neste contexto, listamos alguns conteúdos/tecnologias interessantes que podem deixar a sua jornada ainda mais rica e desafiadora.",
         "link": "https://web.dio.me/track/formacao-gitlab-cicd",
         "iconClasses": "fa-solid fa-layer-group",
         "additionalContents": [
@@ -104,7 +104,7 @@
             },
             {
                 "name": "Testes",
-                "description": "Conhecimento na execução de testes com sua aplicação são um diferencial. São diversos, tais como: Testes de integração, testes unitários, testes funcionais. Um bom começo está no curso Introdução a Testes de Software na plataforma DIO (link)!",
+                "description": "Conhecimento na execução de testes com sua aplicação é um diferencial. Existem diversos, tais como: Testes de integração, testes unitários e testes funcionais. Um bom começo está no curso Introdução a Testes de Software na plataforma DIO (link)!",
                 "link": "https://web.dio.me/course/introducao-a-testes-de-software/learning/0c6e3021-7351-4a64-8f69-3e8cebc221fa"
             },
             {
@@ -130,7 +130,7 @@
             },
             {
                 "description": "Curso <strong>Mensageria com Spring AMQP e RabbitMQ</strong>.",
-                "link": "https://web.dio.me/course/mensageria-com-spring-amqp-e-rabbitmq-1/learning/4c5a15d0-f42d-4301-9de0-55f5e152934e/?back=/home"
+                "link": "https://web.dio.me/course/mensageria-com-spring-amqp-e-rabbitmq-1/learning/4c5a15d0-f42d-4301-9de0-55f5e152934e"
             },
             {
                 "description": "Curso <strong>Introdução a serviços de mensageria com RabbitMQ e Ruby</strong>",
@@ -153,11 +153,11 @@
         "additionalContents": [
             {
                 "description": "<strong>Fundamentos de Sistemas Operacionais</strong>: SOs são a base que fundamental de conhecimento para que você possa implementar desde sistemas monolíticos até microsserviços.",
-                "link": "https://www.amazon.com.br/Sistemas-operacionais-modernos-Andrew-Tanenbaum/dp/8543005671/ref=asc_df_8543005671/?tag=googleshopp00-20&linkCode=df0&hvadid=379728844501&hvpos=&hvnetw=g&hvrand=9233094379115809317&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100922&hvtargid=pla-810610120079&psc=1"
+                "link": "https://www.amazon.com.br/Sistemas-operacionais-modernos-Andrew-Tanenbaum/dp/8543005671/"
             },
             {
                 "description": "<strong>Criando Microsserviços</strong: Ótimo livro sobre a criação de microsserviços",
-                "link": "https://www.amazon.com.br/Criando-Microsservi%C3%A7os-Projetando-Componentes-Especializados/dp/6586057884/ref=pd_lpo_1?pd_rd_w=BG9rP&content-id=amzn1.sym.036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_p=036a9a17-ef5c-4c87-bb2c-81a28b5a8e68&pf_rd_r=1YV2SCB7460B1F50B42F&pd_rd_wg=2pCrv&pd_rd_r=f548d683-fb43-4c8e-b845-6e82ac8ad50e&pd_rd_i=6586057884&psc=1"
+                "link": "https://www.amazon.com.br/Criando-Microsservi%C3%A7os-Projetando-Componentes-Especializados/dp/6586057884/"
             },
             {
                 "description": "<strong>Migração de Sistemas Monolíticos para Microsserviços</strong>: No mundo real muitas vezes precisamos migrar sistemas Monilitícos para microsserviços. Na maioria das vezes não é uma tarefa trivial.",
@@ -169,15 +169,15 @@
             },
             {
                 "description": "<strong>Sistemas Baseados em Domain Driven</strong>: A comunidade de desenvolvimento de softwares reconhece que a modelagem de domínios é fundamental para o design de softwares.",
-                "link": "https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651/ref=sr_1_10?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527581&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-10"
+                "link": "https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651/"
             },
             {
-                "description": "<strong>Código Limpo</strong>: Um dos maiores desafios para as empresas que adotaram a arquitetura de microsserviços é a falta de padronização de arquitetura. Depois de dividir uma aplicação monolítica ou construir um ecossistema de microsserviços a partir do zero, muitos engenheiros se perguntam o que vem a seguir. ",
-                "link": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+                "description": "<strong>Código Limpo</strong>:  Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis e recursos importantes devido a um código mal escrito. Mas isso não precisa ser assim!",
+                "link": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/"
             },
             {
                 "description": "<strong>Arquitetura Limpa</strong>: As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software.",
-                "link": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=FDJQ1VBJZ5AJ&keywords=c%C3%B3digo+limpo&qid=1674527488&s=books&sprefix=c%C3%B3digo+limpo%2Cstripbooks%2C198&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySjNVMUFRU1VEVVdCJmVuY3J5cHRlZElkPUEwNDMyMTQwMUk1UFpNVDNDODk5QiZlbmNyeXB0ZWRBZElkPUEwNDEwMzgwUUFQVzQ0QTBRTE5EJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+                "link": "https://www.amazon.com.br/Arquitetura-Limpa-Artesão-Estrutura-Software/dp/8550804606/"
             }
         ]
     }

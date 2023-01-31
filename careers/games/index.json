@@ -1,12 +1,12 @@
 [
     {
         "name": "O Mercado de Games",
-        "description": "A industria dos games faturaram quase 236 bilhões de dolares em 2022, crescendo mais de 10% do ultimo ano, isso prova que é um mercado aquecido no mundo todo. Porém uma pergunta é importante, como fazemos pra ingressar nessa área que só cresce ao passar dos anos? Aqui nesse roadmap você verá como traçar seus objetivos e ingressar nessa área apaixonante do mundo dos jogos.",
+        "description": "A industria dos games faturou quase 236 bilhões de dolares em 2022, crescendo mais de 10% do último ano, isso prova que é um mercado aquecido no mundo todo. Porém, uma pergunta é importante: como fazemos pra ingressar nessa área que só cresce ao passar dos anos? Nesse roadmap você verá como traçar seus objetivos e ingressar nessa área apaixonante do mundo dos jogos.",
         "iconClasses": "fa-solid fa-gamepad",
         "additionalContents": [
             {
                 "name": "<em>Linguagens</em> e <strong>Engines</strong>",
-                "description": "Importante saber que no desenvolvimento de jogos, linguagem e engine/plataforma são interdependentes, ou seja, é necessário escolher essas três em conjunto. Desenvolva sua lógica de programação e escolha um uma linguagem básica, que pode ser <em>C# ou C++</em>, caso queira começar a desenvolver jogos utilizando as plataformas <strong>Unity 3D</strong> ou <strong>Unreal Engine</strong>. Caso voce queira desenvolver jogos como o <strong>Roblox</strong> é necessário aprender <em>Lua/Lual</em>. "
+                "description": "Importante saber que no desenvolvimento de jogos, linguagem e engine/plataforma são interdependentes, ou seja, é necessário escolher essas três em conjunto. Desenvolva sua lógica de programação e escolha um uma linguagem básica, que pode ser <em>C# ou C++</em>, caso queira começar a desenvolver jogos utilizando as plataformas <strong>Unity 3D</strong> ou <strong>Unreal Engine</strong>. Caso voce queira desenvolver jogos como o <strong>Roblox</strong> é necessário aprender <em>Lua/Luau</em>."
             }
         ]
     },
@@ -34,7 +34,7 @@
     },
     {
         "name": "Plataforma Unreal Engine",
-        "description": "Em 2023 na DIO! O Unreal Engine, é a ferramenta de criação 3D em tempo real opensource, com avanços incriveis para ter experiencias visuais fotorrealistas e imersivas. Criada pela Epic Games, apesar de ter sido criado para uma série de jogos de tiro em primeira pessoa, tem sido utilizada para uma grande variedade de gêneros desde então. Baseada também em C++, é possivel haver a portabilidade e suporta multiplas plataformas incluindo Microsoft Windows, macOS e Linux em PCs e consoles como PlayStation, Xbox e Nintendo Switch.",
+        "description": "Em 2023 na DIO! O Unreal Engine, é a ferramenta de criação 3D em tempo real open-source, com avanços incriveis para ter experiencias visuais fotorrealistas e imersivas. Criada pela Epic Games, apesar de ter sido criado para uma série de jogos de tiro em primeira pessoa, tem sido utilizada para uma grande variedade de gêneros desde então. Baseada também em C++, é possivel haver a portabilidade e suporta multiplas plataformas incluindo Microsoft Windows, macOS e Linux em PCs e consoles como PlayStation, Xbox e Nintendo Switch.",
         "type": "EM_BREVE",
         "iconClasses": "fa-solid fa-biohazard"
     }
