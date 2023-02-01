@@ -43,6 +43,11 @@ body {
   transform-origin: top;
 }
 
+.wrapper .row a {
+  color: var(--dark-purple);
+  text-decoration: underline;
+}
+
 .wrapper .row-1 {
   justify-content: flex-start;
 }
