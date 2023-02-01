@@ -8,42 +8,42 @@
                 "name": "Formação Java Developer",
                 "description": "O que acha de aprender Java do zero e com os melhores experts da DIO? Bora! Nesta formação você aprenderá desde os fundamentos dessa linguagem de programação até o uso de abstrações poderosas como o Spring Framework.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-java-developer",
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-java-developer",
                 "iconClasses": "fa-brands fa-java"
             },
             {
                 "name": "Formação JavaScript Developer",
                 "description": "Aprenda JavaScript do zero, em uma abordagem de ensino totalmente imersiva e prática. Nesta formação você aprenderá desde os fundamentos desta linguagem de programação até o seu papel essencial na Web atualmente.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-javascript-developer",
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-javascript-developer",
                 "iconClasses": "fa-brands fa-js"
             },
             {
                 "name": "Formação Python Developer",
                 "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista, precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversas outras finalidades.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-python-developer",
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-python-developer",
                 "iconClasses": "fa-brands fa-python"
             },
             {
                 "name": "Formação .NET Developer",
                 "description": "Domine a principal stack de desenvolvimento da Microsoft e torne-se um profissional de destaque no mercado quando o assunto se trata de criar soluções na plataforma .NET.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-dotnet-developer",
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-dotnet-developer",
                 "iconClasses": "fa-brands fa-microsoft"
             },
             {
                 "name": "Formação PHP Experience",
                 "description": "Preparamos uma imersão com experts em PHP, uma linguagem de script open source extremamente difundida no desenvolvimento web.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-php-experience",
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-php-experience",
                 "iconClasses": "fa-brands fa-php"
             },
             {
                 "name": "Formação GO Developer",
                 "description": "Comece agora mesmo a aprender sobre Go (Golang), uma linguagem moderna, legível e com capacidade de alta para multiplos acessos, além de ser extremamente rápida.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-go-developer",
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-go-developer",
                 "iconClasses": "fa-brands fa-golang"
             },
             {
@@ -82,7 +82,7 @@
                 "name": "Formação SQL Database Specialist",
                 "description": "Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de dados de acordo com necessidades de negócios, aprenda a trabalhar com comandos Data Manipulation Language (DML) e Data Definition Language (DDL) para consultar e manipular seus dados. Crie projetos de soluções baseadas nas boas práticas das regras formais e explore técnicas de Recuperação e Controle de Concorrência em Banco de dados.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-sql-db-specialist"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-sql-db-specialist"
             },
             {
                 "name": "Formação NoSQL Specialist (Em Breve)",
@@ -94,18 +94,18 @@
     {
         "name": "Tendências Arquiteturais de Software",
         "description": "A tecnologia evolui na velocidade da luz e, por isso, é fundamental que você acompanhe tais mudanças. Neste contexto, listamos alguns conteúdos/tecnologias interessantes que podem deixar a sua jornada ainda mais rica e desafiadora.",
-        "link": "https://web.dio.me/track/formacao-gitlab-cicd",
+        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-gitlab-cicd",
         "iconClasses": "fa-solid fa-layer-group",
         "additionalContents": [
             {
                 "name": "APIs",
                 "description": "APIs regem a comunicação entre diversos sistemas e aplicações por toda a internet. Sendo assim é um conhecimento extremamente valioso. Alguns tópicos de referência que podemos citar, são: HATEOAS, REST, JSON APIs, gROC e GraphQL. Para sair do zero neste tema podes começar com o curso DIO Introdução a APIs e métodos HTTP (link).",
-                "link": "https://web.dio.me/course/introducao-a-apis-e-metodos-http/learning/c88d3acb-fc58-416d-a4d0-deeb856cdaf1"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-a-apis-e-metodos-http/learning/c88d3acb-fc58-416d-a4d0-deeb856cdaf1"
             },
             {
                 "name": "Testes",
                 "description": "Conhecimento na execução de testes com sua aplicação é um diferencial. Existem diversos, tais como: Testes de integração, testes unitários e testes funcionais. Um bom começo está no curso Introdução a Testes de Software na plataforma DIO (link)!",
-                "link": "https://web.dio.me/course/introducao-a-testes-de-software/learning/0c6e3021-7351-4a64-8f69-3e8cebc221fa"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-a-testes-de-software/learning/0c6e3021-7351-4a64-8f69-3e8cebc221fa"
             },
             {
                 "name": "Monitoramento e Análise de Logs",
@@ -116,7 +116,7 @@
                 "name": "Formação CI/CD Gitlab",
                 "description": "Nos conceitos de Continuous Integration (CI) e Continuous Deploy (CD) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código. Se curte essa pegada de DevOps, da uma olhadinha na nossa formação.",
                 "type": "FORMACAO",
-                "link": "https://web.dio.me/track/formacao-gitlab-cicd"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-gitlab-cicd"
             },
             {
                 "name": "Sistemas de Mensageria",
@@ -130,19 +130,19 @@
             },
             {
                 "description": "Curso <strong>Mensageria com Spring AMQP e RabbitMQ</strong>.",
-                "link": "https://web.dio.me/course/mensageria-com-spring-amqp-e-rabbitmq-1/learning/4c5a15d0-f42d-4301-9de0-55f5e152934e"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/mensageria-com-spring-amqp-e-rabbitmq-1/learning/4c5a15d0-f42d-4301-9de0-55f5e152934e"
             },
             {
                 "description": "Curso <strong>Introdução a serviços de mensageria com RabbitMQ e Ruby</strong>",
-                "link": "https://web.dio.me/course/introducao-a-servicos-de-mensageria-com-rabbitmq-e-ruby/learning/a2517097-ee8c-47ed-8a6a-42c107015c28"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-a-servicos-de-mensageria-com-rabbitmq-e-ruby/learning/a2517097-ee8c-47ed-8a6a-42c107015c28"
             },
             {
                 "description": "Curso <strong>Arquitetura Orientada a Eventos com Java, Spring Boot e Kafka</strong>",
-                "link": "https://web.dio.me/course/arquitetura-orientada-a-eventos-com-java-spring-boot-e-kafka/learning/2ca710ba-6a28-481c-a663-6f85aaec329b"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/arquitetura-orientada-a-eventos-com-java-spring-boot-e-kafka/learning/2ca710ba-6a28-481c-a663-6f85aaec329b"
             },
             {
                 "description": "Curso <strong>Introdução à Mensageria na Nuvem Com Kafka e Python</strong>",
-                "link": "https://web.dio.me/course/introducao-mensageria-na-nuvem-com-kafka-e-python/learning/07402ee4-c99b-45b8-bdd4-808ad457a778"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-mensageria-na-nuvem-com-kafka-e-python/learning/07402ee4-c99b-45b8-bdd4-808ad457a778"
             }
         ]
     },

@@ -153,6 +153,16 @@ body {
   transform: scale(0.97);
 }
 
+.container-info > a {
+  background: var(--primary-color); 
+  transition: all 0.3s ease;
+}
+
+.container-info > a:hover {
+  background: var(--primary-color); 
+  transform: scale(0.97);
+}
+
 @media(max-width: 790px) {
   .wrapper .center-line {
     left: 40px;
@@ -185,18 +195,6 @@ body {
 
   .wrapper .row {
     margin: 10px 0;
-  }
-}
-
-@media (min-width: 1400px) {
-  .menu-principal ul,
-  .button-share span,
-  .button-share i {
-    font-size: 1.25rem;
-  }
-
-  .button-share {
-    padding: .5rem 1.5rem;
   }
 }
 

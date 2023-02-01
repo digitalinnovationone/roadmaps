@@ -38,7 +38,7 @@
             {
                 "name": "Formação Linux Fundamentals",
                 "description": "Aprenda a trabalhar com o principal sistema operacional utilizado em servidores de aplicações, da Instalação ao passo a passo de como gerenciar usuários para ter mais segurança, manipular arquivos de maneira segura e os principais comandos Linux que são essenciais para a sua jornada como desenvolvedor.",
-                "link": "https://web.dio.me/track/formacao-linux-fundamentals"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-linux-fundamentals"
             },
             {
                 "description": "<strong>Livro Linux - A bíblia</strong>: Um ótimo livro de referência para esse tema.",
@@ -125,7 +125,7 @@
                 "name": "Formação Docker Fundamentals",
                 "type": "FORMAÇÃO",
                 "description":" Você aprenderá Docker começando por entender o que é um contêiner e como é o seu funcionamento. Irá realizar atividades práticas em laboratórios virtuais para entender como os contêineres são criados e implementados em uma infraestrutura real.",
-                "link":"https://web.dio.me/track/formacao-docker-fundamentals"   
+                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-docker-fundamentals"   
             }
         ]
     },
@@ -138,7 +138,7 @@
                 "name": "Formação Kubernetes Fundamentals",
                 "type": "FORMAÇÃO",
                 "description":"Em um mundo onde aplicações estão migrando de arquiteturas monolíticas para microsserviços, o entendimento de como os microsserviços devem ser publicados e principalmente escalados é de vital importância para desenvolvedores e demais profissionais envolvidos em um projeto.",
-                "link":"https://web.dio.me/track/formacao-kubernetes"
+                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-kubernetes"
             },
             {
                 "name": "Kubernetes <em>Documentation</em>",
@@ -166,7 +166,7 @@
                 "name": "Formação GO Developer",
                 "description": "Comece agora mesmo a aprender sobre Go (Golang), uma linguagem moderna, legível e com capacidade de alta para multiplos acessos, além de ser extremamente rápida.",
                 "type": "REFERENCIA",
-                "link":"https://web.dio.me/track/formacao-go-developer",
+                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-go-developer",
                 "iconClasses": "fa-brands fa-golang"
             },
             {
@@ -174,7 +174,7 @@
                 "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
                 "type": "FORMACAO",
                 "iconClasses": "fa-brands fa-python",
-                "link": "https://web.dio.me/track/formacao-python-developer"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-python-developer"
             },
             {
                 "name": "Formação C/C++ Developer (em Breve)",
@@ -204,7 +204,7 @@
                 "name": "Formação CI/CD Gitlab",
                 "description": "No Continuos Integration (CI) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código.",
                 "type": "FORMAÇÃO",
-                "link": "https://web.dio.me/track/formacao-gitlab-cicd"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-gitlab-cicd"
             }
         ]
     },
@@ -253,7 +253,7 @@
                 "name": "Formação Cybersecurity Specialist",
                 "description": "Aprenda na prática a utilizar ferramentas e técnicas voltadas para a área de Cibersegurança, abrindo grandes possibilidades de carreira nesse mercado que vem crescendo exponencialmente.",
                 "type": "FORMAÇÃO",
-                "link": "https://web.dio.me/track/formacao-cybersecurity"
+                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-cybersecurity"
             },
             {
                 "name": "Aprofunde seus conhecimentos em Segurança",
