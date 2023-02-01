@@ -25,6 +25,10 @@ body {
   height: 160px;
 }
 
+.level-buttons.hidden {
+  display: none;
+}
+
 .level-picture {
   display: flex;
   justify-content: center;
@@ -80,4 +84,36 @@ body {
 
 #question {
   font-size: 1.5rem;
+}
+
+.level-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+
+.level-loader.hidden {
+  display: none;
+}
+
+.spinner {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  
+  border: 5px solid;
+  border-radius: 50%;
+  border-color: white transparent transparent transparent;
+  animation: spin 1100ms linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

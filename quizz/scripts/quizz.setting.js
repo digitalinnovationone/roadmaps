@@ -178,6 +178,16 @@ function bindButtons() {
       console.log(state.responses)
 
       if (isCompleted()) {
+        let buttonsContainer = [...document
+          .getElementsByClassName("level-buttons")
+        ]
+        let loaderContainer = [...document
+          .getElementsByClassName("level-loader")
+        ]
+
+        buttonsContainer[0].classList.add('hidden');
+        loaderContainer[0].classList.remove('hidden');
+
         await redirectToCareer()
       } else {
         drawQuestion()
