@@ -4,61 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link 
-    rel="stylesheet" 
-    href="./styles/quizz.css"
-  >
-
-  <link 
-    rel="stylesheet" 
-    href="./styles/quizz.responsive.css"
-  >
-  
-  <link 
-    rel="stylesheet" 
-    href="./styles/reset.css"
-  >
-
-  <link 
-      rel="stylesheet" 
-      href="https://www.w3schools.com/w3css/4/w3.css"
-  >
-
-
-  <link 
-    rel="icon" 
-    href ="https://www.dio.me/favicon.ico" 
-    type = "image/x-icon"
-  >
-
-  <title>
-    DIO | Codifique o seu futuro global agora
-  </title>
+  <title>DIO | Codifique o seu futuro global agora</title>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./styles/quizz.css">
+  <link rel="stylesheet" href="./styles/quizz.responsive.css">
+  <link rel="icon" href ="https://www.dio.me/favicon.ico" type = "image/x-icon">
 </head>
 <body>
-
   <div class="container">
-
-    <div class="level-header">
+    <div id="level-header">
       <h1 id="counter">0/0</h1>
     </div>
 
-    <div class="level-content">
-      <h2 id="question">
-        Q
-      </h2>
+    <div id="level-content">
+      <h2 id="question">Carregando pergunta...</h2>
     </div>
 
-    <div class="level-picture">
-      <img 
-      src="../assets/bgdio.png" 
-      alt="dio logo principal" 
-      height="230px"
-    >
+    <div id="level-picture">
+      <img src="../assets/bgdio.png" alt="dio logo principal" height="230px">
     </div>
     
-    <div class="level-buttons">
+    <div id="level-buttons">
       <button class="rate-point rating">1</button>
       <button class="rate-point rating">2</button>
       <button class="rate-point rating">3</button>
@@ -66,12 +33,11 @@
       <button class="rate-point rating">5</button>
     </div>
 
-    <div class="level-loader hidden">
+    <div id="level-loader" class="hidden">
       <span class="spinner"></span>
     </div>
   </div>
   
-
   <script src="scripts/quizz.setting.js"></script>
 </body>
 </html>

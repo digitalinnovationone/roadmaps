@@ -18,20 +18,47 @@ body {
   margin: auto;
 }
 
-.level-buttons {
+#level-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+#level-header>h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#level-content {
+  font-size: 2.5rem;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 90px;
+}
+
+#question {
+  font-size: 1.5rem;
+}
+
+#level-picture {
+  display: flex;
+  justify-content: center;
+}
+
+#level-buttons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 160px;
 }
 
-.level-buttons.hidden {
+#level-buttons.hidden {
   display: none;
-}
-
-.level-picture {
-  display: flex;
-  justify-content: center;
 }
 
 .rate-point {
@@ -59,41 +86,14 @@ body {
   border: 0.2rem solid;
 }
 
-.level-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 4px;
-}
-
-.level-header>h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.level-content {
-  font-size: 2.5rem;
-  height: 33px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 90px;
-}
-
-#question {
-  font-size: 1.5rem;
-}
-
-.level-loader {
+#level-loader {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 160px;
 }
 
-.level-loader.hidden {
+#level-loader.hidden {
   display: none;
 }
 

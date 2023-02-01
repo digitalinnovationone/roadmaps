@@ -111,13 +111,10 @@ function isCompleted() {
 }
 
 async function redirectToCareer() {
-
-  //send responses to api
+  
+  // send responses to api
+  const resultJSON = await requestAPI(state.responses)
   let careerPath = ""
-
-  //let resultJSON = await requestAPI("4553212311221211")
-  let resultJSON = await requestAPI(state.responses)
-  console.log(resultJSON)
 
   if (resultJSON.status == httpStatus.OK) {
     careerPath = await getCareerPath(resultJSON.career.id)
@@ -131,37 +128,30 @@ async function redirectToCareer() {
 }
 
 async function getCareerPath(careerId) {
-  switch (careerId) {
-    case 1:
-      return 'careers/backend';
-    case 2:
-      return 'careers/frontend';
-    case 3:
-      return 'careers/mobile';
-    case 4:
-      return 'careers/infra-devops-security';
-    case 5:
-      return 'careers/cloud';
-    case 6:
-      return 'careers/data-analytics';
-    case 7:
-      return 'careers/games';
-    case 8:
-      return 'careers/qa';
-    case 9:
-      return 'careers/web3-ia';
-    case 10:
-      return 'careers/lideranca-softskills';
-    case 11:
-      return 'careers/crm';
-    default:
-      return 'Invalid careerId';
+  const careerPath = {
+    1: 'careers/backend',
+    2: 'careers/frontend',
+    3: 'careers/mobile',
+    4: 'careers/infra-devops-security',
+    5: 'careers/cloud',
+    6: 'careers/data-analytics',
+    7: 'careers/games',
+    8: 'careers/qa',
+    9: 'careers/web3-ia',
+    10: 'careers/lideranca-softskills',
+    11: 'careers/crm',
   }
+
+  if (careerPath[careerId]) {
+    return careerPath[careerId];
+  }
+
+  return 'Invalid careerId';
 }
 
 
 function bindButtons() {
-  let buttons = [...document
+  const buttons = [...document
     .getElementsByClassName("rating")
   ]
 
@@ -175,18 +165,12 @@ function bindButtons() {
         state.questionIndex += 1
       }
 
-      console.log(state.responses)
-
       if (isCompleted()) {
-        let buttonsContainer = [...document
-          .getElementsByClassName("level-buttons")
-        ]
-        let loaderContainer = [...document
-          .getElementsByClassName("level-loader")
-        ]
+        const buttonsContainer = document.getElementById("level-buttons");
+        const loaderContainer = document.getElementById("level-loader");
 
-        buttonsContainer[0].classList.add('hidden');
-        loaderContainer[0].classList.remove('hidden');
+        buttonsContainer.classList.add('hidden');
+        loaderContainer.classList.remove('hidden');
 
         await redirectToCareer()
       } else {
@@ -195,20 +179,18 @@ function bindButtons() {
       }
     })
   });
-
-  console.log("buttons started...")
 }
 
 async function requestAPI(answer) {
 
-  let myHeaders = new Headers();
+  const myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
 
-  let raw = JSON.stringify({
+  const raw = JSON.stringify({
     "answers": answer
   });
 
-  let requestOptions = {
+  const requestOptions = {
     method: 'POST',
     body: raw,
     redirect: 'follow'
