@@ -117,3 +117,45 @@ body {
     transform: rotate(360deg);
   }
 }
+
+#level-percentage {
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#percentage-bar {
+  display: flex;
+  width: 100%;
+  height: 8px;
+  align-self: flex-start;
+  border: 1px solid #838383;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 9px -2px white;
+}
+
+#percentage-bar--filled {
+  position: relative; 
+  display: inline-block;
+  width: 0%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 700ms ease-out;
+}
+
+#percentage-bar--filled::after {
+  content: '';
+  position: absolute;
+  width: min(100vw, 720px);
+  height: 100%;
+  left: 0;
+  background: linear-gradient(90deg, #E94D5F,  #6948D0, #18B0F4);
+}
+
+#percentage-current {
+  padding: 10px 5px;
+  font-size: 1.5rem;
+}
