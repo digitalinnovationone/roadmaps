@@ -98,6 +98,17 @@ function drawCounter() {
   counterDisplay.innerHTML = `${actualIndex} / ${maxItem}`
 }
 
+function updateBar() {
+  const percentageText = document.getElementById('percentage-current');
+  const percentageBar = document.getElementById('percentage-bar--filled');
+
+  const total = questionState.questionsList.length;
+  const percentage = (state.questionIndex + 1) / total * 100;
+
+  percentageBar.style.width = `${percentage}%`;
+  percentageText.innerText = `${percentage.toFixed(0)}%`;
+}
+
 function isCompleted() {
   if (
     state.questionIndex >
@@ -159,6 +170,8 @@ function bindButtons() {
 
   buttons.forEach(element => {
     element.addEventListener('click', async () => {
+
+      updateBar();
 
       if (state.responses.length < 16) {
         state.responses += element.innerHTML
