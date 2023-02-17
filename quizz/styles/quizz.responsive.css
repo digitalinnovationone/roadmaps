@@ -1,4 +1,8 @@
 @media (min-width: 576px) {
+    .container-quizz {
+        min-height: 90vh;
+      }
+
     #percentage-bar {
         width: 90%;
     }
