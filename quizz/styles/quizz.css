@@ -151,7 +151,7 @@
   width: min(100vw, 100%);
   height: 100%;
   left: 0;
-  background: linear-gradient(to left, var(--primary-color), var(--primary-color), var(--secondary-color));
+  background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
 }
 
 #percentage-current {
