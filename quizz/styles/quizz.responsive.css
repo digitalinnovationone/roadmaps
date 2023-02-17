@@ -1,7 +1,7 @@
 @media (min-width: 576px) {
     .container-quizz {
         min-height: 90vh;
-      }
+    }
 
     #percentage-bar {
         width: 90%;
@@ -83,6 +83,10 @@
         width: 93%;
     }
 
+    #level-header > span {
+        font-size: 1.2rem;
+    }
+
     #level-content {
         padding: 3rem 0;
     }
@@ -104,6 +108,10 @@
 
 
 @media (min-width: 1400px) {
+    #level-header > span {
+        font-size: 1.25rem;
+    }
+    
     #level-content {
         padding: 3.5rem 0;
     }
