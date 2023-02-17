@@ -148,7 +148,7 @@
 #percentage-bar--filled::after {
   content: '';
   position: absolute;
-  width: min(100vw, 720px);
+  width: min(100vw);
   height: 100%;
   left: 0;
   background: linear-gradient(to left, var(--primary-color), var(--primary-color), var(--secondary-color));
