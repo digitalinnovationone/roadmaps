@@ -19,7 +19,7 @@
   align-items: center;
   padding: 1rem 1.8rem;
   width: 100%;
-  min-height: 90vh;
+  min-height: 94vh;
 }
 
 .container>img {
@@ -160,4 +160,11 @@
   color: var(--gray-500);
   position: relative;
   right: 2.5rem;
+}
+
+footer,
+footer a {
+  font-size: 1rem;
+  text-align: center;
+  color: #696969;
 }
