@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap');
+
+
 :root {
     --primary-color: #F34C5D;
     --secondary-color: #6948D0;
@@ -22,7 +25,12 @@
 
 html {
     scroll-behavior: smooth;
-}  
+} 
+
+body {
+    background: var(--dark);
+    color: var(--white);
+}
 
 ::-webkit-scrollbar {
     width: 0.4rem;

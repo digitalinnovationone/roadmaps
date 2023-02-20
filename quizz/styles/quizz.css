@@ -1,60 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('./../../global.css');
 
-* {
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-
-body {
-  background: #000000;
-  color: white;
-}
 
 .container {
-  padding: 10px 5px;
-  max-width: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   width: 100%;
-  overflow: hidden;
-  margin: auto;
+  position: fixed;
+
+  z-index: -1;
+}
+
+.container-quizz {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 1.8rem;
+  width: 100%;
+  min-height: 85vh;
+}
+
+.container>img {
+  filter: brightness(35%);
+  pointer-events: none;
 }
 
 #level-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  margin-top: 4px;
+  width: 100%;
+  padding: 1.5rem 0 0;
 }
 
-#level-header>h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
+#level-header > span {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: -1rem;
+  min-width: 3.5rem;
 }
 
 #level-content {
-  font-size: 2.5rem;
-  height: 33px;
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 90px;
+  padding: 1rem 0;
 }
 
 #question {
   font-size: 1.5rem;
-}
-
-#level-picture {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 #level-buttons {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 160px;
+  flex-flow: row wrap;
+  gap: .5rem;
+  justify-content: center;
+  padding: 0;
 }
 
 #level-buttons.hidden {
@@ -62,28 +67,29 @@ body {
 }
 
 .rate-point {
-  height: 7.5rem;
-  width: 7.5rem;
-  font-size: 2.5rem;
-  color: white;
-  box-shadow: none;
-  background: #E94D5F;
-  font-weight: bolder;
+  min-width: 4rem;
+  min-height: 4rem;
+
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--white);
+
+  border: 0.2rem solid transparent;
+  border-radius: 50rem;
+  background-image: linear-gradient(#000000E1, #000000E1), radial-gradient(circle at top, var(--primary-color), var(--secondary-color));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
   transform-style: preserve-3d;
+  box-shadow: none;
   padding: 0;
-  letter-spacing: 1px;
-  border: none;
-  border-radius: 10px;
-  position: relative;
-  cursor: default;
 }
 
 .rate-point:hover {
-  background: white;
-  color: #E94D5F;
-  cursor: pointer;
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)); 
+  border: 0.2rem solid var(--white);
   transform: scale(1.075);
-  border: 0.2rem solid;
+  cursor: pointer;
 }
 
 #level-loader {
@@ -105,7 +111,7 @@ body {
   
   border: 5px solid;
   border-radius: 50%;
-  border-color: white transparent transparent transparent;
+  border-color: var(--white) transparent transparent transparent;
   animation: spin 1100ms linear infinite;
 }
 
@@ -118,22 +124,14 @@ body {
   }
 }
 
-#level-percentage {
-  margin-top: 15px;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
 #percentage-bar {
   display: flex;
-  width: 100%;
-  height: 8px;
-  align-self: flex-start;
-  border: 1px solid #838383;
-  border-radius: 15px;
+  width: 85%;
+  height: 1.15rem;
+  border: .125rem solid var(--gray-600);
+  border-radius: 50rem;
+  box-shadow: inset 0.01rem 0.07rem 0.2rem 0.001rem var(--dark);
   overflow: hidden;
-  box-shadow: 0 0 9px -2px white;
 }
 
 #percentage-bar--filled {
@@ -141,7 +139,8 @@ body {
   display: inline-block;
   width: 0%;
   height: 100%;
-  border-radius: 15px;
+  border: 0.2rem solid transparent;
+  border-radius: 50rem;
   overflow: hidden;
   transition: 700ms ease-out;
 }
@@ -149,13 +148,27 @@ body {
 #percentage-bar--filled::after {
   content: '';
   position: absolute;
-  width: min(100vw, 720px);
+  width: 100%;
   height: 100%;
   left: 0;
-  background: linear-gradient(90deg, #E94D5F,  #6948D0, #18B0F4);
+  background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
 }
 
 #percentage-current {
-  padding: 10px 5px;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray-500);
+  position: relative;
+  right: 2.5rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+footer,
+footer a {
+  font-size: 1rem;
+  text-align: center;
+  color: #696969;
 }

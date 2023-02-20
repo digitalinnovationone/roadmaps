@@ -1,29 +1,132 @@
-@media only screen and (max-device-width: 800px) {
+@media (min-width: 576px) {
+    .container-quizz {
+        min-height: 90vh;
+    }
 
-  #question {
-    font-size: 14px;
-    padding: 5px 10px;
-  }
+    #percentage-bar {
+        width: 90%;
+    }
 
-  .level-content {
-    margin-bottom: 40%;
-  }
+    #percentage-current {
+        right: 3rem;
+    }
 
-  .level-picture>img {
-    height: 150px;
-  }
+    #question {
+        font-size: 1.875rem;
+    }
 
-  .rate-point {
-    height: 80px;
-    width: 80px;
-    margin: 5px 5px;
-  }
+    #level-buttons {
+        display: grid;
+        grid-template-columns: repeat(5, 6rem);
+        grid-template-rows: 6rem;
+        grid-gap: 1rem;
+    }
 
-  .rate-point:hover {
-    color: white;
-    background: #E94D5F;
-    transform: scale(1);
-    border: none;
-  }
+    .rate-point {
+        width: 100%;
+        height: 100%;
+        font-size: 2.5rem;
+    }
+}
 
+
+@media (min-width: 768px) {
+    .container-quizz {
+        padding: 4rem 8rem;
+    }
+
+    #level-header {
+        padding: 0;
+    }
+
+    #level-content {
+        padding: 2rem 0;
+    }
+
+    #question {
+        font-size: 2rem;
+    }
+
+    #level-buttons {
+        grid-template-columns: repeat(5, 7rem);
+        grid-template-rows: 7rem;
+        grid-gap: 1.25rem;
+        padding: 0 2rem;
+    }
+
+    .rate-point {
+        font-size: 3rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    #percentage-current {
+        right: 3rem;
+    }
+
+    #level-buttons {
+        grid-template-columns: repeat(5, 8rem);
+        grid-template-rows: 8rem;
+        grid-gap: 1.875rem;
+        padding: 0 2.5rem;
+    }
+
+    .rate-point {
+        font-size: 3.5rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    #percentage-bar {
+        width: 93%;
+    }
+
+    #level-header > span {
+        font-size: 1.2rem;
+    }
+
+    #level-content {
+        padding: 3rem 0;
+    }
+
+    #question {
+        font-size: 2.35rem;
+    }
+
+    #level-buttons {
+        grid-template-columns: repeat(5, 10rem);
+        grid-template-rows: 10rem;
+        grid-gap: 2rem;
+    }
+
+    .rate-point {
+        font-size: 4rem;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    #level-header > span {
+        font-size: 1.25rem;
+    }
+    
+    #level-content {
+        padding: 3.5rem 0;
+    }
+
+    #question {
+        font-size: 3rem;
+    }
+
+    #level-buttons {
+        grid-template-columns: repeat(5, 12rem);
+        grid-template-rows: 12rem;
+        grid-gap: 2.5rem;
+    }
+
+    .rate-point {
+        font-size: 5rem;
+    }
 }

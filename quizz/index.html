@@ -11,18 +11,22 @@
   <link rel="stylesheet" href="./styles/quizz.responsive.css">
   <link rel="icon" href ="https://www.dio.me/favicon.ico" type = "image/x-icon">
 </head>
-<body>
+<body> 
+
   <div class="container">
+    <img src="../assets/bgdio.png" alt="dio logo" height="650px">
+  </div>
+
+  <main class="container-quizz">
+
     <div id="level-header">
-      <h1 id="counter">0/0</h1>
+      <div id="percentage-bar"><span id="percentage-bar--filled"></span></div>
+      <div id="percentage-current">0%</div>
+      <span id="counter">0/0</span>
     </div>
 
     <div id="level-content">
-      <h2 id="question">Carregando pergunta...</h2>
-    </div>
-
-    <div id="level-picture">
-      <img src="../assets/bgdio.png" alt="dio logo principal" height="230px">
+      <h1 id="question">Carregando pergunta...</h1>
     </div>
     
     <div id="level-buttons">
@@ -37,11 +41,14 @@
       <span class="spinner"></span>
     </div>
 
-    <div id="level-percentage">
-      <div id="percentage-bar"><span id="percentage-bar--filled"></span></div>
-      <div id="percentage-current">0%</div>
-    </div>
-  </div>
+  </main>
+
+  <footer>   
+      <span>    
+        2023. <a href="https://www.dio.me" target="_blank">Digital Innovation One</a>. 
+        Todos os direitos reservados.
+      </span>
+  </footer>
   
   <script src="scripts/quizz.setting.js"></script>
 </body>
