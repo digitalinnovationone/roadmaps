@@ -43,7 +43,7 @@ body {
   transform-origin: top;
 }
 
-.wrapper .row a {
+.wrapper .row p a {
   color: var(--dark-purple);
   text-decoration: underline;
 }
@@ -145,30 +145,6 @@ body {
   color: var(--dark);
 }
 
-.row section .bottom a {
-  text-decoration: none;
-  background: var(--primary-color);
-  color: var(--white);
-  padding: 7px 15px;
-  border-radius: 5px;
-  /* font-size: 17px; */
-  font-weight: 400;
-  transition: all 0.3s ease;
-}
-
-.row section .bottom a:hover {
-  transform: scale(0.97);
-}
-
-.container-info > a {
-  background: var(--primary-color); 
-  transition: all 0.3s ease;
-}
-
-.container-info > a:hover {
-  background: var(--primary-color); 
-  transform: scale(0.97);
-}
 
 @media(max-width: 790px) {
   .wrapper .center-line {
