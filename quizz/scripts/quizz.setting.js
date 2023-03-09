@@ -5,67 +5,67 @@ const CARRER_URL = "https://digitalinnovationone.github.io/roadmaps/"
 const questionState = {
   "questionsList": [
     {
-      "question": "O design das coisas é algo importante para você?",
+      "question": "Qual o seu nível de interesse na prototipação (design/desenho inicial) de um software?",
       "order": 1
     },
     {
-      "question": "Você se considera uma pessoa criativa?",
+      "question": "Qual o seu nível de interesse em atividades que favorecem a criatividade no desenvolvimento de um software?",
       "order": 2
     },
     {
-      "question": "Qual a importância da interface de um software para você?",
+      "question": "Qual o seu nível de interesse na interface (UI) e experiência (UX) proporcionadas por um software?",
       "order": 3
     },
     {
-      "question": "Qual a importância da rapidez de um software para você?",
+      "question": "Qual o seu nível de interesse em aspectos de performance em um software?",
       "order": 4
     },
     {
-      "question": "Você tem facilidade com raciocínio lógico?",
+      "question": "Qual o seu nível de interesse no desenvolvimento do raciocínio lógico como uma ferramenta para atuar na área de computação?",
       "order": 5
     },
     {
-      "question": "O quanto você gosta de matemática e estatística?",
+      "question": "Qual o seu nível de interesse em matemática e estatística como ferramentas para atuar na área de computação?",
       "order": 6
     },
     {
-      "question": "Você considera a Inteligência Artificial uma área interessante?",
+      "question": "Qual o seu nível de interesse em Inteligência Artificial (IA)?",
       "order": 7
     },
     {
-      "question": "Você se interessa pelo desenvolvimento de aplicativos para celulares?",
+      "question": "Qual o seu nível de interesse no desenvolvimento de aplicativos para celulares?",
       "order": 8
     },
     {
-      "question": "Desenvolver soluções de segurança para internet é algo que te motiva?",
+      "question": "Qual o seu nível de interesse em segurança da informação?",
       "order": 9
     },
     {
-      "question": "Desenvolver soluções de armazenamento em nuvem é algo que seria interessante para você?",
+      "question": "Qual o seu nível de interesse em computação em nuvem?",
       "order": 10
     },
     {
-      "question": "Trabalhar com a análise de grandes volumes de dados de forma inteligente é algo interessante para você?",
+      "question": "Qual o seu nível de interesse na análise de grandes volumes de dados para tomadas de decisão?",
       "order": 11
     },
     {
-      "question": "Analisar a qualidade das coisas é uma boa característica sua?",
+      "question": "Qual o seu nível de interesse na avaliação da qualidade como fator determinante no sucesso de projetos?",
       "order": 12
     },
     {
-      "question": "Você trabalharia como desenvolvedor de soluções de internet para casas inteligentes, indústrias e carros autônomos?",
+      "question": "Qual o seu nível de interesse no desenvolvimento de soluções de Internet para casas inteligentes, indústrias e carros autônomos na área de computação?",
       "order": 13
     },
     {
-      "question": "Você se considera um bom líder para agilizar os trabalhos em equipe?",
+      "question": "Qual o seu nível de interesse em habilidades de liderança e trabalho em equipe no contexto de gestão de projetos?",
       "order": 14
     },
     {
-      "question": "Você considera decisões gerenciais algo atrativo para trabalhar no dia-a-dia?",
+      "question": "Qual o seu nível de interesse na tomada de decisões gerenciais no contexto de gestão de projetos?",
       "order": 15
     },
     {
-      "question": "Você considera a carreira de desenvolvimento de games a mais motivadora para a área de TI?",
+      "question": "Qual o seu nível de interesse em tecnologias para o desenvolvimento de jogos?",
       "order": 16
     }
   ]
