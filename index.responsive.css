@@ -61,17 +61,6 @@
     font-size: 1.55rem;
   }
 
-  .button {
-    font-size: 1.75rem;
-    width: 11.75rem;
-    height: 3.75rem;
-    padding: .55rem .15rem .55rem 1.75rem;
-  }
-
-  .button .fa-circle-chevron-right {
-    font-size: 3.2rem;
-  }
-
   .track-careers > h2 {
     font-size: 3rem;
   }

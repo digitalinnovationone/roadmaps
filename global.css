@@ -2,9 +2,8 @@
 
 
 :root {
-    --primary-color: #F34C5D;
+    --primary-color: #E4105D;
     --secondary-color: #6948D0;
-    --tertiary-color: #18B0F4;
     --gray-600: #292929;
     --gray-500: #565656;
     --gray-100: #A1A1A1;
@@ -103,6 +102,40 @@ header {
     font-size: 1rem;
 }
 
+.button, 
+.bottom a {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+
+    min-width: 6rem;
+    height: 2.25rem;
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 50rem;
+    background: var(--primary-color); 
+    cursor: pointer;  
+    transition: all 0.3s ease;
+}
+
+.button:hover, 
+.bottom a:hover {
+    color: var(--white);
+    transform: scale(0.97);
+}
+
+.button .fa-angle-right {
+    font-size: 1rem;
+    color: var(--white);
+}
+
 .footer__content1 {
     display: flex;
     flex-direction: column;
@@ -139,7 +172,7 @@ header {
     font-weight: 600;
     word-break: break-all;
     border-radius: 50rem;
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); 
+    background: var(--primary-color); 
 
     display: flex;
     flex-direction: row;
@@ -148,10 +181,11 @@ header {
     gap: .5rem;
     padding: .25rem;
     margin: .25rem 0 0;
+    transition: all 0.3s ease;
 }
 
 .container-info > a:hover {
-    background: linear-gradient(to left, var(--primary-color), var(--secondary-color)); 
+    transform: scale(0.97);
 }
 
 .container-info > a i {
@@ -206,11 +240,7 @@ header {
 }
 
 .menu-social > ul li:hover {   
-    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent; 
+    color: var(--primary-color); 
 }
 
 .container-scrolldown {
@@ -283,6 +313,16 @@ header {
 
     .button-share {
         padding: .5rem 1.5rem;
+    }
+
+    .button {
+        font-size: 1.25rem;
+        width: 12rem;
+        height: 4rem;
+    }
+    
+    .button .fa-angle-right {
+        font-size: 1.25rem;
     }
 
     .container-info > p {
