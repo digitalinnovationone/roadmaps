@@ -31,6 +31,11 @@ body {
     color: var(--white);
 }
 
+::selection {
+    color: var(--white);
+    background: var(--dark-purple);
+}
+
 ::-webkit-scrollbar {
     width: 0.4rem;
 }
