@@ -5,11 +5,6 @@ body {
   background: var(--dark);
 }
 
-::selection {
-  color: var(--white);
-  background: var(--dark-purple);
-}
-
 .container {
   display: flex;
   justify-content: center;
