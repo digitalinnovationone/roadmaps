@@ -56,9 +56,10 @@
 
 #level-buttons {
   display: flex;
-  flex-flow: row wrap;
-  gap: .5rem;
-  justify-content: center;
+  flex-flow: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
   padding: 0;
 }
 
@@ -66,27 +67,47 @@
   display: none;
 }
 
-.rate-point {
-  min-width: 4rem;
-  min-height: 4rem;
-
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: var(--white);
+#level-buttons li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
 
   background: #000000AF;
   border: 0.2rem solid var(--primary-color);
   border-radius: 50rem;
 
+  padding: .563rem 2rem;
+  cursor: pointer;
+}
+
+.rate-point { 
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--white);
+
+  background: transparent;
+  border: none;
+
   box-shadow: none;
   padding: 0;
   transition: all 0.3s ease;
+  aspect-ratio: 1 / 1;
 }
 
 .rate-point:hover {
   background: var(--primary-color); 
   border: 0.2rem solid var(--white);
   transform: scale(1.075);
+  cursor: pointer;
+}
+
+#level-buttons li span {
+  color: var(--white);
+  font-size: 1.125rem;
+  text-align: center;
+  width: 100%;
   cursor: pointer;
 }
 

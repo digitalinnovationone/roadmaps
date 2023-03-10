@@ -1,5 +1,6 @@
 @media (min-width: 576px) {
     .container-quizz {
+        justify-content: center;
         min-height: 90vh;
     }
 
@@ -20,12 +21,25 @@
         grid-template-columns: repeat(5, 6rem);
         grid-template-rows: 6rem;
         grid-gap: 1rem;
+        justify-content: center;
+
+    }
+
+    #level-buttons li {
+        flex-direction: column;
+        background: transparent;
+        border: none;
+        padding: 0;
+        aspect-ratio: 1 / 1;
     }
 
     .rate-point {
+        font-size: 2.5rem;
         width: 100%;
         height: 100%;
-        font-size: 2.5rem;
+        background: #000000AF;
+        border: 0.2rem solid var(--primary-color);
+        border-radius: 50rem;
     }
 }
 
