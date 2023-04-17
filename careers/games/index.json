@@ -14,14 +14,14 @@
         "name": "Formação Unity 3D Game Developer",
         "description": "Nessa etapa você terá toda a base para o entendimento da plataforma Unity e suas ferramentas, dominará as mecânicas e os elementos para a criação de experiências jogáveis, bem como irá aprender na prática todos os detalhes das fases de planejamento, criação e publicação de jogos com Unity. Dentre os diversos projetos que serão desenvolvidos durante a jornada, destacamos o clone do famoso <em>Flappy Bird</em> e a criação de um clone inspirado no jogo <em>Zelda</em>, sendo este desenvolvido literalmente do zero até a construção de uma experiência completamente profissional com iluminação, mecânicas de ataque, interação com objetos, Inteligência Artificial e todos os elementos necessários para uma jogatina inesquecível.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-unity-3d-game-developer",
+        "link": "https://web.dio.me/track/formacao-unity-3d-game-developer",
         "iconClasses": "fa-brands fa-unity",
         "additionalContents": [
             {
                 "name": "Formação .NET Developer",
                 "description": "Opcionalmente, você pode evoluir seu conhecimento em C# (uma das principais linguagens exploradas na plataforma Unity). Com isso, você terá ainda mais ferramentas para criar games incríveis! Bora!?",
                 "type": "FORMACAO",
-                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-dotnet-developer"
+                "link": "https://web.dio.me/track/formacao-dotnet-developer"
               }
         ]
     },
@@ -29,7 +29,7 @@
         "name": "Formação Game Developer: Roblox & Metaverse",
         "description": "Entendemos que o Metaverso já é realidade. Nessa formação voce irá ter experiências em ambientes virtuais imersivos, que conectam os mundos real e virtual, já fazem parte do cotidiano das maiores empresas do mundo como Google, Facebook, Microsoft e muitas outras. Além disso, diversas plataformas de jogos proporcionam essa experiência para milhares de pessoas, uma delas é o Roblox. A plataforma do Roblox é alimentada por uma comunidade global com milhões de desenvolvedores que produzem suas próprias soluções multiplayer usando o Roblox Studio, uma ferramenta oficial incrível e gratuita. Segundo o site oficial do Roblox, já são mais de 11 milhões de experiências criadas na plataforma e mais de US$1 bilhão de ganhos acumulados de desenvolvedores. Empresas como Samsung, Spotify e Hyundai estão utilizando o Roblox para transcender as barreiras digitais e cultivar uma comunidade diversa com conexões reais no Metaverso. Nessa formação você irá se tornar um desenvolvedor que saberá tudo sobre o metaverso e a plataforma Roblox.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-game-developer-roblox",
+        "link": "https://web.dio.me/track/formacao-game-developer-roblox",
         "iconClasses": "fa-solid fa-moon"
     },
     {

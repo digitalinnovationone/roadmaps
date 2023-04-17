@@ -12,13 +12,13 @@
                 "description": "Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.",
                 "type": "FORMACAO",
                 "iconClasses": "fa-brands fa-python",
-                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-python-developer"
+                "link": "https://web.dio.me/track/formacao-python-developer"
             },
             {
                 "name": "Formação Java Developer",
                 "description": "O que acha de aprender Java do zero e com os melhores experts da DIO? Bora! Nesta formação você aprenderá desde os fundamentos dessa linguagem de programação até o uso de abstrações poderosas como o Spring Framework.",
                 "type": "FORMACAO",
-                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-java-developer",
+                "link": "https://web.dio.me/track/formacao-java-developer",
                 "iconClasses": "fa-brands fa-java"
             },
             {
@@ -86,7 +86,7 @@
                 "name": "Formação Docker Fundamentals",
                 "type": "FORMAÇÃO",
                 "description":" Você aprenderá Docker começando por entender o que é um contêiner e como é o seu funcionamento. Irá realizar atividades práticas em laboratórios virtuais para entender como os contêineres são criados e implementados em uma infraestrutura real.",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-docker-fundamentals"
+                "link":"https://web.dio.me/track/formacao-docker-fundamentals"
                 
             }
         ]
@@ -95,7 +95,7 @@
         "name": "Formação SQL Database Specialist",
         "description": "Desenvolva suas habilidades com banco de dados, aprenda como modelar uma base de dados de acordo com necessidades de negócios, aprenda a trabalhar com comandos Data Manipulation Language (DML) e Data Definition Language (DDL) para consultar e manipular seus dados. Crie projetos de soluções baseadas nas boas práticas das regras formais e explore técnicas de Recuperação e Controle de Concorrência em Banco de dados.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-sql-db-specialist",
+        "link": "https://web.dio.me/track/formacao-sql-db-specialist",
         "iconClasses": "fa-solid fa-database",
         "additionalContents": [
           {
@@ -107,7 +107,7 @@
             "name": "Live Banco de Dados: Quando e qual usar?",
             "description": "Fundamentos adquiridos, agora você precisa entender qual o papel de cada modelo dentro da área de banco de dados.",
             "type": "SERIE",
-            "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/banco-de-dados-qual-e-quando-usar-getting-started-25"
+            "link": "https://web.dio.me/lives/banco-de-dados-qual-e-quando-usar-getting-started-25"
           }
         ]
     },
@@ -140,15 +140,15 @@
         "additionalContents":[
             {
                 "description": "<strong>Curso DIO </strong>: Fundamentos de ETL com Python",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/course/fundamentos-de-etl-com-python/learning/ddec4a4a-3912-49b3-b368-36518802b9eb"
+                "link":"https://web.dio.me/course/fundamentos-de-etl-com-python/learning/ddec4a4a-3912-49b3-b368-36518802b9eb"
             },
             {
                 "description": "<strong>Curso DIO </strong>: Fundamentos de ETL/ELT",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/course/fundamentos-de-etl/learning/e4ad0ebd-d019-4332-9e79-f83a8dee11c2?back=/track/formacao-power-bi-analyst&tab=undefined&moduleId=undefined"
+                "link":"https://web.dio.me/course/fundamentos-de-etl/learning/e4ad0ebd-d019-4332-9e79-f83a8dee11c2?back=/track/formacao-power-bi-analyst&tab=undefined&moduleId=undefined"
             },
             {
                 "description": "<strong>Curso DIO </strong>: Fundamentos de Modelagem Dimensional",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/course/fundamentos-de-modelagem-dimensional/learning/cfd67c81-3158-4c81-a31f-0a338544aadc?back=/track/formacao-power-bi-analyst&tab=undefined&moduleId=undefined"
+                "link":"https://web.dio.me/course/fundamentos-de-modelagem-dimensional/learning/cfd67c81-3158-4c81-a31f-0a338544aadc?back=/track/formacao-power-bi-analyst&tab=undefined&moduleId=undefined"
             }
         ]
     }, 
@@ -170,7 +170,7 @@
       "name": "Formação Machine Learning Specialist",
       "description": "Análises mais complexas e aprofundadas (preditivas e prescritivas) frequentemente estão sendo criadas com IA e machine learning. Além disso, temas como: NPL, Visão computacional, Sistemas de recomendação, Machine Learning são frequentemente associados ao aspecto avançado dentro de Data Scientist. Tenha esse diferencial em seu currículo.",
       "type": "FORMACAO",
-      "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-machine-learning-specialist",
+      "link": "https://web.dio.me/track/formacao-machine-learning-specialist",
       "iconClasses": "fa-solid fa-brain-circuit",
       "additionalContents": [
         {
@@ -232,13 +232,13 @@
         {
             "name": "Testes",
             "description": "Conhecimento na execução de testes com sua aplicação são um diferencial. São diversos, tais como: Testes de integração, testes unitários, testes funcionais. Um bom começo está no curso Introdução a Testes de Software na plataforma DIO (link)!",
-            "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-a-testes-de-software/learning/0c6e3021-7351-4a64-8f69-3e8cebc221fa"
+            "link": "https://web.dio.me/course/introducao-a-testes-de-software/learning/0c6e3021-7351-4a64-8f69-3e8cebc221fa"
         },
         {
             "name": "Formação CI/CD Gitlab",
             "description": "Nos conceitos de Continuous Integration (CI) e Continuous Deploy (CD) vemos como lidar com as atualizações frequentes de software que são testadas imediatamente à medida que são adicionadas à base de código. Se curte essa pegada de DevOps, da uma olhadinha na nossa formação.",
             "type": "FORMACAO",
-            "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-gitlab-cicd"
+            "link": "https://web.dio.me/track/formacao-gitlab-cicd"
         },
         {
             "name": "Monitoramento e Análise de Logs",
@@ -257,19 +257,19 @@
         },
         {
             "description": "Curso <strong>Mensageria com Spring AMQP e RabbitMQ</strong>.",
-            "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/mensageria-com-spring-amqp-e-rabbitmq-1/learning/4c5a15d0-f42d-4301-9de0-55f5e152934e/?back=/home"
+            "link": "https://web.dio.me/course/mensageria-com-spring-amqp-e-rabbitmq-1/learning/4c5a15d0-f42d-4301-9de0-55f5e152934e/?back=/home"
         },
         {
             "description": "Curso <strong>Introdução a serviços de mensageria com RabbitMQ e Ruby</strong>",
-            "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-a-servicos-de-mensageria-com-rabbitmq-e-ruby/learning/a2517097-ee8c-47ed-8a6a-42c107015c28"
+            "link": "https://web.dio.me/course/introducao-a-servicos-de-mensageria-com-rabbitmq-e-ruby/learning/a2517097-ee8c-47ed-8a6a-42c107015c28"
         },
         {
             "description": "Curso <strong>Arquitetura Orientada a Eventos com Java, Spring Boot e Kafka</strong>",
-            "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/arquitetura-orientada-a-eventos-com-java-spring-boot-e-kafka/learning/2ca710ba-6a28-481c-a663-6f85aaec329b"
+            "link": "https://web.dio.me/course/arquitetura-orientada-a-eventos-com-java-spring-boot-e-kafka/learning/2ca710ba-6a28-481c-a663-6f85aaec329b"
         },
         {
             "description": "Curso <strong>Introdução à Mensageria na Nuvem Com Kafka e Python</strong>",
-            "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-mensageria-na-nuvem-com-kafka-e-python/learning/07402ee4-c99b-45b8-bdd4-808ad457a778"
+            "link": "https://web.dio.me/course/introducao-mensageria-na-nuvem-com-kafka-e-python/learning/07402ee4-c99b-45b8-bdd4-808ad457a778"
         }
         
       ]
@@ -293,14 +293,14 @@
         "name": "Formação Power BI Analyst",
         "description": "Através dos recursos visuais conseguimos absorver 80% de informação. Para otimizar processos podemos realizar o monitoramento dos sistemas a fim de detectar pontos de melhora. Essas análises são realizadas com auxilio de ferramentas como Power BI.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-power-bi-analyst",
+        "link": "https://web.dio.me/track/formacao-power-bi-analyst",
         "iconClasses": "fa-solid fa-business-time",
         "additionalContents": [
           {
             "name": "Série Hands ON - Power BI ",
             "description": "Venha criar um dashboard interativo no Power BI explorando e detectando os fatores de impacto nas vendas de Skateboards de uma empresa fictícia. Vamos explorar os dados através de diferentes perspectivas e fatores. Além disso, iremos criar uma estilização objetiva e elegante para impressionar seus clientes. ",
             "type": "SERIE",
-            "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/criando-um-dashboard-de-vendas-com-power-bi",
+            "link": "https://web.dio.me/lives/criando-um-dashboard-de-vendas-com-power-bi",
             "optional": true
           }
         ]

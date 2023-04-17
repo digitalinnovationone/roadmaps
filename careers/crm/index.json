@@ -8,7 +8,7 @@
                 "name": "Formação CRM Dynamics 365 Developer",
                 "description": "Para explorar esse universo de oportunidades, preparamos esta Formação incrível, onde você aprenderá desde os primeiros passos com o Dynamics 365 CE, passando pela Power Platform e concluindo com aspectos de desenvolvimento usando a linguagem C#.",
                 "type": "FORMACAO",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-dynamics-365"
+                "link":"https://web.dio.me/track/formacao-dynamics-365"
             },
             {
                 "name": "Formação Salesforce Developer (Em Breve)",
@@ -36,7 +36,7 @@
                 "name": "Formação Power BI Analyst",
                 "description": "As CRMs tools possuem um sistema de análises embutido. Contudo, há restrições quanto ao número de dados retornados. Além disso, conseguimos integrar o Power BI com diferentes sistemas relacionados ao relacionamento com cliente, marketing e outros. Além disso, o Power BI tem sido um diferencial para diversos profissionais!",
                 "type": "FORMACAO",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-power-bi-analyst"
+                "link":"https://web.dio.me/track/formacao-power-bi-analyst"
             }
         ]
     },

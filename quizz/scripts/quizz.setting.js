@@ -122,7 +122,7 @@ function isCompleted() {
 }
 
 async function redirectToCareer() {
-  
+
   // send responses to api
   const resultJSON = await requestAPI(state.responses)
   let careerPath = ""
@@ -171,10 +171,13 @@ function bindButtons() {
   buttons.forEach(element => {
     element.addEventListener('click', async () => {
 
+      let valueChoosed = element.innerText.charAt(0)
+      alert(valueChoosed)
+
       updateBar();
 
       if (state.responses.length < 16) {
-        state.responses += element.innerHTML
+        state.responses += valueChoosed
         state.questionIndex += 1
       }
 

@@ -3,14 +3,14 @@
         "name": "Lógica de Programação Essencial",
         "description": "Lógica de programação é a forma como o desenvolvedor entende a comunicação a fim de programar uma função de um programa. Faz uso de algoritmos, que são sequências de passos bem estabelecidos, como por exemplo, uma receita de bolo.",
         "type": "CURSO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/logica-de-programacao-essencial/learning/aea1ea26-fd56-417d-8272-6e15253f4405",
+        "link": "https://web.dio.me/course/logica-de-programacao-essencial/learning/aea1ea26-fd56-417d-8272-6e15253f4405",
         "iconClasses": "fa-solid fa-road",
         "additionalContents": [
             {
                 "name": "Pensamento Computacional",
                 "description": "Você conhecerá a habilidade inerente a área de ciência da computação, utilizada em diversos âmbitos do conhecimento, não se restringindo à computação. Aprenda os pilares, decomposição, padrões, abstração e algoritmos do Pensamento Computacional.",
                 "type": "CURSO",
-                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/course/pensamento-computacional/learning/050675c1-8a7f-476b-a778-9b1c7eb75744"
+                "link": "https://web.dio.me/course/pensamento-computacional/learning/050675c1-8a7f-476b-a778-9b1c7eb75744"
             }
         ]
     },
@@ -18,7 +18,7 @@
         "name": "Formação Quality Assurance (QA) Experience",
         "description": "Preparamos uma imersão com experts em Quality Assurance (QA), onde vamos apresentar desde as possibilidades de atuação mercado de qualidade de software até técnicas de automação e testes na prática. Sendo assim, nesta formação você terá uma visão geral do que é necessário para se tornar um(a) profissional de QA extremamente qualificado, o que inclui um Roadmap para uma das principais certificações desta área (CTFL). Por fim, caso se sinta preparado, conteúdos mais avançados também estão disponíveis (a partir do segundo Módulo) para que você conheça algumas abordagens de testes em diferentes stacks de desenvolvimento.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-quality-assurance-experience",
+        "link": "https://web.dio.me/track/formacao-quality-assurance-experience",
         "iconClasses": "fa-solid fa-bug"
     }
 ]

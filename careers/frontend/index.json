@@ -3,28 +3,28 @@
     "name": "Formação HTML Web Developer",
     "description": "Formação DIO com tudo o que você precisa saber sobre HTML para estruturar suas páginas Web. Para isso, você irá explorar as principais Tags e entender a importância semântica dos elementos HTML.",
     "type": "FORMACAO",
-    "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-html-web-developer",
+    "link": "https://web.dio.me/track/formacao-html-web-developer",
     "iconClasses": "fa-brands fa-html5"
   },
   {
     "name": "Formação UX Designer",
     "description": "Aqui você irá dominar desde os princípios básicos de UX/UI até a criação de protótipos navegáveis para Web e Mobile. Entendendo o que são Layouts, Grids, Wireframe, Usabilidade e muitos outros conceitos importantes nesta área. Depois, você irá mergulhar nas Leis e Elementos que fundamentam a Experiência do Usuário (UX). Por fim, você irá aprender, na prática, a criar protótipos navegáveis e funcionais do zero.",
     "type": "FORMACAO",
-    "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-ux-designer",
+    "link": "https://web.dio.me/track/formacao-ux-designer",
     "iconClasses": "fa-brands fa-figma"
   },
   {
     "name": "Formação CSS Web Developer",
     "description": "Agora que você já conhece o HTML e tem noções de UI/UX (o que é um grande diferencial), é hora de deixá-lo bonitão através do CSS! Para isso, nós da DIO preparamos uma Formação completa para que você possa criar páginas Web com visuais incríveis.",
     "type": "FORMACAO",
-    "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-css-web-developer",
+    "link": "https://web.dio.me/track/formacao-css-web-developer",
     "iconClasses": "fa-brands fa-css3-alt"
   },
   {
     "name": "Formação JavaScript Developer",
     "description": "Chegou a hora de dar dinamismo às suas páginas Web, bora dominar uma das linguagens de programação mais flexíveis e adoradas do mundo, o JavaScript (JS)!? Nesta Formação da DIO você terá uma dinâmica de ensino baseada em Pair Programming, onde dois desenvolvedores (um expert e um iniciante) te apresentarão tudo sobre JS.",
     "type": "FORMACAO",
-    "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-javascript-developer",
+    "link": "https://web.dio.me/track/formacao-javascript-developer",
     "iconClasses": "fa-brands fa-square-js"
   },
   {
@@ -35,21 +35,21 @@
       {
         "description": "<strong>Como Trabalhar com Box-Model Usando HTML e CSS Básicos</strong>: Crie na prática seu Cartão Dev, mostrando suas principais tecnologias em uma página HTML altamente compartilhável por meio do conceito de Box-Model!",
         "type": "LIVE",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/como-trabalhar-com-box-model-a-base-do-html5-getting-started-2",
+        "link": "https://web.dio.me/lives/como-trabalhar-com-box-model-a-base-do-html5-getting-started-2",
         "iconClasses": "fa-brands fa-youtube",
         "optional": true
       },
       {
         "description": "<strong>Construindo uma Landing Page no Mundo Invertido com HTML e CSS</strong>: Uma live incrível mostrando na prática como criar uma página Web profissional usando apenas HTML e CSS.",
         "type": "LIVE",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/semana-front-end-dia-01-html-e-css",
+        "link": "https://web.dio.me/lives/semana-front-end-dia-01-html-e-css",
         "iconClasses": "fa-brands fa-youtube",
         "optional": true
       },
       {
         "description": "<strong>Integrando com o Firebase Para Inscrição no Clube de D&D com JavaScript</strong>: Continuação da live anterior, que tem como foco o JavaScript e todo o dinamismo que ele pode dar a uma solução Web.",
         "type": "LIVE",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/semana-front-end-dia-02-javascript",
+        "link": "https://web.dio.me/lives/semana-front-end-dia-02-javascript",
         "iconClasses": "fa-brands fa-youtube",
         "optional": true
       }
@@ -64,7 +64,7 @@
         "name": "Formação React Developer",
         "description": "Nesta Formação, você irá explorar o poder de trabalhar com páginas componentizadas, irá aprender como trabalhar com gerenciamento de estados e como criar roteamento, além de compor layouts ricos e bem estruturados com a principal biblioteca utilizada pelo time do Facebook.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-react-developer",
+        "link": "https://web.dio.me/track/formacao-react-developer",
         "iconClasses": "fa-brands fa-react",
         "optional": true
       },
@@ -72,7 +72,7 @@
         "name": "Formação Angular Developer",
         "description": "Desenvolva-se em um dos frameworks mais requisitados no mercado quando o assunto é Single Page Application (SPA). Nesta formação, você irá criar projetos de grande escala com Angular, explorando o poder de se trabalhar com essa tecnologia incrível criada pelo Google.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-angular-developer",
+        "link": "https://web.dio.me/track/formacao-angular-developer",
         "iconClasses": "fa-brands fa-angular",
         "optional": true
       }

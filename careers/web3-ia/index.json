@@ -3,7 +3,7 @@
         "name": "JavaScript Developer",
         "description": "Aprenda JavaScript do zero, em uma abordagem de ensino totalmente imersiva e prática. Nesta formação você aprenderá desde os fundamentos desta linguagem de programação até o seu papel essencial na Web atualmente.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-javascript-developer",
+        "link": "https://web.dio.me/track/formacao-javascript-developer",
         "iconClasses": "fa-brands fa-js",
         "optional": false
     },
@@ -11,14 +11,14 @@
         "name": "Formação Game developer Roblox foco em Metaverso",
         "description": "Você pode escolher o viés de desenvolvimento. Contudo, o Metaverso pertence aos pilares da Web 3.0. Com a nossa formação você poderá ser capaz de desenvolver jogos voltados para o metaverso. Ainda assim, poderá utilizar a Blockchain para criar jogos descentralizados.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-game-developer-roblox",
+        "link": "https://web.dio.me/track/formacao-game-developer-roblox",
         "iconClasses": "fa-solid fa-moon"
     },
     {
         "name": "Formação Blockchain Specialist",
         "description": "Embarque conosco no futuro da tecnologia e entenda por que a Blockchain é tão disruptiva. A base da Web 3.0 está concentrado neste novo paradigma que é a Blockchain.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-game-developer-roblox",
+        "link": "https://web.dio.me/track/formacao-game-developer-roblox",
         "iconClasses": "fa-solid fa-link-horizontal",
         "optional": false,
         "additionalContents": [
@@ -26,19 +26,19 @@
                 "name": "Live <strong>Blockchain e o Mercado Internacional</strong>",
                 "description": "Mentoria para abordar um pouco mais sobre Blockchain pensando no mercado internacional.",
                 "type": "LIVE",
-                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/blockchain-e-mercado-internacional"
+                "link": "https://web.dio.me/lives/blockchain-e-mercado-internacional"
             },
             {
                 "name": "Live <strong>Criando seu primeiro NFT na prática</strong>",
                 "description": "Aprenda a criar seu primeiro NFT na prática e descubra os segredos por trás da Web3.",
                 "type": "LIVE",
-                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lives/criando-seu-primeiro-nft-na-pratica"
+                "link": "https://web.dio.me/lives/criando-seu-primeiro-nft-na-pratica"
             },
             {
                 "name": "Projeto Prático - Desenvolvendo um sistema de votação com Blockchain e Ethereum Smart Contracts",
                 "description": "Aprenda a criar uma aplicação de votação com foco em segurança utilizando Blockchain. ",
                 "type": "LAB",
-                "link": "https://dio.me/sign-in?redirect=https://web.dio.me/lab/desenvolvendo-um-sistema-de-votacao-com-blockchain-e-ethereum-smart-contracts/learning/c368866d-29a7-4ed0-b056-22a8deb7ff37"
+                "link": "https://web.dio.me/lab/desenvolvendo-um-sistema-de-votacao-com-blockchain-e-ethereum-smart-contracts/learning/c368866d-29a7-4ed0-b056-22a8deb7ff37"
             }
         ]
     },
@@ -46,14 +46,14 @@
         "name": "Formação Web 3.0 Fundamentals",
         "description": "Agora que você já tem a base, pode mergulhar no mundo da Web 3.0. Entenda como ela mudará a forma como nos relacionamos com a tecnologia.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-web3-fundamentals",
+        "link": "https://web.dio.me/track/formacao-web3-fundamentals",
         "iconClasses": "fa-brands fa-bitcoin"
     },
     {
         "name": "Formação Machine Learning Specialist",
         "description": "A Inteligência Artificial (IA) tem a capacidade de potencializar o uso da Web 3.0. O processamento das informações trafegadas na rede vai mudar com o uso da IA. Além disso, com ela e técnicas mais avançadas de machine learning poderemos fornecer um conteúdo personalizado a cada usuário.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-machine-learning-specialist",
+        "link": "https://web.dio.me/track/formacao-machine-learning-specialist",
         "iconClasses": "fa-solid fa-brain"
     }
 ]

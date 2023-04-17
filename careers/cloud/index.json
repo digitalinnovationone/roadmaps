@@ -8,7 +8,7 @@
         "name": "Google Cloud Platform (GCP)",
         "description": "Sabendo das vantagens de utilizar a computação na nuvem (Cloud), podemos começar a dar os primeiros passos na área utilizando o GCP (Google Cloud Platform) plataforma da google para a computação na nuvem, crie e gerencie máquinas virtuais com o Compute Engine, domine a gestão de acessos com o Identity and Access Management (IAM), crie uma Infraestrutura totalmente Native Cloud, faça Deploys de aplicação utilizando container no Cloud Run e entenda boas práticas na hora de organizar e gerir projetos clouds a nível corporativo.",
         "type": "FORMACAO",
-        "link": "https://dio.me/sign-in?redirect=https://web.dio.me/track/formacao-gcp-specialist",
+        "link": "https://web.dio.me/track/formacao-gcp-specialist",
         "iconClasses": "fa-brands fa-google",
         "additionalContents":[
             {
@@ -37,7 +37,7 @@
             {
                 "description": "Curso DIO - <strong>Fundamentos do Azure</strong>",
                 "type": "CURSO",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/course/fundamentos-do-azure/learning/14bfe457-2223-4baa-bb9e-9869149a732b"                
+                "link":"https://web.dio.me/course/fundamentos-do-azure/learning/14bfe457-2223-4baa-bb9e-9869149a732b"                
             },
             {
                 "description": "Curso Azure - <em>Azure Fundamentals: Describe Azure architecture and services</em>",
@@ -77,22 +77,22 @@
             {
                 "description": "Curso DIO - <strong>Introdução Prática a Computação em Nuvem Usando AWS</strong> ",
                 "type": "CURSO",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/course/Introducao-pratica-a-computacao-em-nuvem-usando-AWS/learning/e5310041-3a80-44d5-bd22-ebc4ff548c67"
+                "link":"https://web.dio.me/course/Introducao-pratica-a-computacao-em-nuvem-usando-AWS/learning/e5310041-3a80-44d5-bd22-ebc4ff548c67"
             },
             {
                 "description": "Curso DIO - <strong>Introdução a Engenharia de Dados na AWS</strong> ",
                 "type": "CURSO",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/course/introducao-engenharia-de-dados-na-aws/learning/55291f79-ab8f-4dfa-9ea9-4d64e03032d3"
+                "link":"https://web.dio.me/course/introducao-engenharia-de-dados-na-aws/learning/55291f79-ab8f-4dfa-9ea9-4d64e03032d3"
             },
             {
                 "description": "Curso DIO - <strong>Criando uma API REST Conectada ao Amazon RDS com Java</strong> ",
                 "type": "CURSO",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/course/criando-uma-api-rest-conectada-ao-amazon-rds-com-java/learning/16ea8b83-292e-4aec-b4ad-7c0429829770"
+                "link":"https://web.dio.me/course/criando-uma-api-rest-conectada-ao-amazon-rds-com-java/learning/16ea8b83-292e-4aec-b4ad-7c0429829770"
             },
             {
                 "description": "Curso DIO - <strong>Criando um Microsserviço de Upload de Imagens com o Amazon S3</strong> ",
                 "type": "CURSO",
-                "link":"https://dio.me/sign-in?redirect=https://web.dio.me/course/criando-um-microsservico-de-upload-de-imagens-com-o-amazon-s3/learning/8af1955a-ee36-4ec8-b14d-746ab8fb849e"
+                "link":"https://web.dio.me/course/criando-um-microsservico-de-upload-de-imagens-com-o-amazon-s3/learning/8af1955a-ee36-4ec8-b14d-746ab8fb849e"
             }
         ]
     },
