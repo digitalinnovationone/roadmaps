@@ -172,7 +172,7 @@ function bindButtons() {
     element.addEventListener('click', async () => {
 
       let valueChoosed = element.innerText.charAt(0)
-      alert(valueChoosed)
+
 
       updateBar();
 
