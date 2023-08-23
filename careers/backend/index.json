@@ -178,6 +178,14 @@
             {
                 "description": "<strong>Arquitetura Limpa</strong>: As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software.",
                 "link": "https://www.amazon.com.br/Arquitetura-Limpa-Artesão-Estrutura-Software/dp/8550804606/"
+            },
+            {
+                "description": "<strong>Engenharia de Software Moderna</strong>: Engenharia de Software Moderna é um livro-texto que cobre um amplo conjunto de princípios e práticas para desenvolvimento de software com produtividade e qualidade. ",
+                "link": "https://engsoftmoderna.info/"
+            },
+            {
+                "description": "<strong>Entendendo Algoritmos - Um guia ilustrado para programadores e outros curiosos</strong>: Um guia dos algoritmos que você mais utilizar-a como uma pessoa programadora. Se você quer entendê-los, este é o livro certo.",
+                "link": "https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634"
             }
         ]
     }
