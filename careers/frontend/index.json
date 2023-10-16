@@ -3,28 +3,28 @@
     "name": "Formação HTML Web Developer",
     "description": "Formação DIO com tudo o que você precisa saber sobre HTML para estruturar suas páginas Web. Para isso, você irá explorar as principais Tags e entender a importância semântica dos elementos HTML.",
     "type": "FORMACAO",
-    "link": "https://web.dio.me/track/formacao-html-web-developer",
+    "link": "https://www.dio.me/curso-html",
     "iconClasses": "fa-brands fa-html5"
   },
   {
     "name": "Formação UX Designer",
     "description": "Aqui você irá dominar desde os princípios básicos de UX/UI até a criação de protótipos navegáveis para Web e Mobile. Entendendo o que são Layouts, Grids, Wireframe, Usabilidade e muitos outros conceitos importantes nesta área. Depois, você irá mergulhar nas Leis e Elementos que fundamentam a Experiência do Usuário (UX). Por fim, você irá aprender, na prática, a criar protótipos navegáveis e funcionais do zero.",
     "type": "FORMACAO",
-    "link": "https://web.dio.me/track/formacao-ux-designer",
+    "link": "https://www.dio.me/curso-ux-design",
     "iconClasses": "fa-brands fa-figma"
   },
   {
     "name": "Formação CSS Web Developer",
     "description": "Agora que você já conhece o HTML e tem noções de UI/UX (o que é um grande diferencial), é hora de deixá-lo bonitão através do CSS! Para isso, nós da DIO preparamos uma Formação completa para que você possa criar páginas Web com visuais incríveis.",
     "type": "FORMACAO",
-    "link": "https://web.dio.me/track/formacao-css-web-developer",
+    "link": "https://www.dio.me/curso-css",
     "iconClasses": "fa-brands fa-css3-alt"
   },
   {
     "name": "Formação JavaScript Developer",
     "description": "Chegou a hora de dar dinamismo às suas páginas Web, bora dominar uma das linguagens de programação mais flexíveis e adoradas do mundo, o JavaScript (JS)!? Nesta Formação da DIO você terá uma dinâmica de ensino baseada em Pair Programming, onde dois desenvolvedores (um expert e um iniciante) te apresentarão tudo sobre JS.",
     "type": "FORMACAO",
-    "link": "https://web.dio.me/track/formacao-javascript-developer",
+    "link": "https://www.dio.me/curso-javascript",
     "iconClasses": "fa-brands fa-square-js"
   },
   {
@@ -64,7 +64,7 @@
         "name": "Formação React Developer",
         "description": "Nesta Formação, você irá explorar o poder de trabalhar com páginas componentizadas, irá aprender como trabalhar com gerenciamento de estados e como criar roteamento, além de compor layouts ricos e bem estruturados com a principal biblioteca utilizada pelo time do Facebook.",
         "type": "FORMACAO",
-        "link": "https://web.dio.me/track/formacao-react-developer",
+        "link": "https://www.dio.me/curso-react",
         "iconClasses": "fa-brands fa-react",
         "optional": true
       },
@@ -72,10 +72,37 @@
         "name": "Formação Angular Developer",
         "description": "Desenvolva-se em um dos frameworks mais requisitados no mercado quando o assunto é Single Page Application (SPA). Nesta formação, você irá criar projetos de grande escala com Angular, explorando o poder de se trabalhar com essa tecnologia incrível criada pelo Google.",
         "type": "FORMACAO",
-        "link": "https://web.dio.me/track/formacao-angular-developer",
+        "link": "https://www.dio.me/curso-angular",
         "iconClasses": "fa-brands fa-angular",
         "optional": true
       }
     ]
+  },
+  {
+    "name": "Sugestões de Bons Livros 🤓📘",
+    "description": "Seguem algumas sugestões de livros com temáticas interessantes para quem está engajado em dominar uma base sólida de Front-end.",
+    "iconClasses": "fa-solid fa-book",
+    "additionalContents": [
+      {
+        "description": "<strong>HTML & CSS: Um guia prático e visual</strong>: Um guia bem amigável com vários exemplos de código e explicações para quem está dando seus primeiros passos em front-end.",
+        "link": "https://www.amazon.com.br/Html-CSS-guia-pr%C3%A1tico-visual/dp/8576088037"
+      },
+      {
+        "description": "<strong>HTML e CSS: Projete websites</strong>: Livro com foco em construção em websites com foco no bom uso de cada tag e propriedade css.",
+        "link": "https://www.amazon.com.br/HTML-CSS-projete-construa-Websites/dp/8576089394"
+      },
+      {
+        "description": "<strong>Javascript: O Guia definitivo</strong>: O conteúdo mais completo quando o assunto é Javascript, excelente para se ter como guia de cabeceira antes de ir para qualquer framework. ",
+        "link": "https://www.amazon.com.br/JavaScript-Guia-Definitivo-David-Flanagan/dp/856583719X"
+      }
+    ]
+  },
+  {
+    "name": "Formação Typescript Fullstack Developer",
+    "description": "No curso de Typescript Fullstack Developer da DIO você vai aprender, do zero, o desenvolvimento com Typescript e suas aplicações em front-end com React e back-end com Node, além disso,você vai entender os conceitos de Orientação a Objetos, como criar servidor com Express e como desenvolver uma API Rest na prática.",
+    "type": "FORMACAO",
+    "link": "https://www.dio.me/curso-typescript",
+    "iconClasses": "fa-brands fa-codepen",
+    "optional": true
   }
 ]
