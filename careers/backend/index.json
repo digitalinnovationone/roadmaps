@@ -152,8 +152,16 @@
         "iconClasses": "fa-solid fa-book",
         "additionalContents": [
             {
+                "description": "<strong>Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos</strong>: Um guia dos algoritmos que você mais utilizar-a como uma pessoa programadora. Se você quer entendê-los, este é o livro certo.",
+                "link": "https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634"
+            },
+            {
                 "description": "<strong>Fundamentos de Sistemas Operacionais</strong>: SOs são a base que fundamental de conhecimento para que você possa implementar desde sistemas monolíticos até microsserviços.",
-                "link": "https://www.amazon.com.br/Sistemas-operacionais-modernos-Andrew-Tanenbaum/dp/8543005671/"
+                "link": "https://www.amazon.com.br/Sistemas-operacionais-modernos-Andrew-Tanenbaum/dp/8543005671"
+            },
+            {
+                "description": "<strong>Engenharia de Software Moderna</strong>: Engenharia de Software Moderna é um livro-texto que cobre um amplo conjunto de princípios e práticas para desenvolvimento de software com produtividade e qualidade. ",
+                "link": "https://engsoftmoderna.info/"
             },
             {
                 "description": "<strong>Criando Microsserviços</strong: Ótimo livro sobre a criação de microsserviços",
