@@ -7,8 +7,8 @@
     "iconClasses": "fa-solid fa-file-csv"
   },
   {
-    "name": "Estatística e Matemática Básica",
-    "description": "Estatística, probabilidade, matemática básica são temas necessários para qualquer analista ou cientista dentro da área de dados. Livro: Estatística: O que é, para que serve, como funciona.",
+    "name": "Estatística e Matemática aplicada",
+    "description": "Estatística, probabilidade, modelagem matemática, álgebra linear e cálculo são temas necessários para qualquer analista ou cientista dentro da área de dados. Livro: Estatística: O que é, para que serve, como funciona.",
     "type": "LIVRO",
     "link": "https://www.amazon.com.br/gp/product/8537815128/ref=ox_sc_saved_image_2?smid=A1ZZFT5FULY4LN&psc=1",
     "iconClasses": "fa-solid fa-calculator"
