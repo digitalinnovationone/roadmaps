@@ -6,7 +6,7 @@ Porém, entenda que nossos Roadmaps não são uma resposta definitiva, você dev
 
 > Ninguém te conhece melhor do que você mesmo 😉 
 
-Por isso, todos os nossos Roadmaps estão disponíveis para que você tome uma decisão em sua carreira, com um emporrãozinho (ou não) da nossa IA 👊😎
+Por isso, todos os nossos Roadmaps estão disponíveis para que você tome uma decisão em sua carreira, com um empurrãozinho (ou não) da nossa IA 👊😎
 
 **[Clique aqui](https://digitalinnovationone.github.io/roadmaps/) e descubra o Roadmap de Carreira ideal.**
 
