@@ -17,7 +17,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-    
     scrollbar-width: thin;
     scrollbar-color: var(--gray-500) transparent;
 }
@@ -56,6 +55,8 @@ a {
   
 a:hover {
     color: var(--primary-color);
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
 }
 
 header {
@@ -133,7 +134,8 @@ header {
 .button:hover, 
 .bottom a:hover {
     color: var(--white);
-    transform: scale(0.97);
+    transform: scale(1.08);
+    opacity: 90%;
 }
 
 .button .fa-angle-right {
@@ -190,7 +192,8 @@ header {
 }
 
 .container-info > a:hover {
-    transform: scale(0.97);
+    transform: scale(1.04);
+    transition: transform 0.2s ease;
 }
 
 .container-info > a i {
